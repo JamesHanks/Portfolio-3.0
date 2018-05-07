@@ -1,7 +1,7 @@
-<?php include "includes/header.php" ?>
+<?php include "inc/header.php" ?>
 
 		<section>
 			<p>Let the games begin.</p>
 		</section>
 
-<?php include "includes/footer.php" ?>
+<?php include "inc/footer.php" ?>
