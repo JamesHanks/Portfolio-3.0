@@ -14,7 +14,6 @@
 	<meta name="language" content="English">
 	<meta name="robot" content="index,follow">
 	<meta name="url" content="www.jameshanks.net">
-	<meta name="google-site-verification" content="googlea91780bc9e6ce521.html">
 
 	<!-- Sharing -->
 	<meta itemprop="name" content="James Hanks">
