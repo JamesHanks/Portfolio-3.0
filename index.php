@@ -8,7 +8,7 @@
 	<!-- Meta Info -->
 	<title>James Hanks</title>
 	<meta name="author" content="James Hanks">
-	<meta name="description" content="Designer &amp; Developer">
+	<meta name="description" content="Designer and developer based in London.">
 	<meta name="keywords" content="designer, developer, web, interface, interaction, experience, UI, UX, front-end, JavaScript">
 	<meta name="distribution" content="Global">
 	<meta name="language" content="English">
@@ -18,18 +18,18 @@
 
 	<!-- Sharing -->
 	<meta itemprop="name" content="James Hanks">
-	<meta itemprop="description" content="Designer &amp; Developer">
+	<meta itemprop="description" content="Designer and developer based in London.">
 	<meta itemprop="image" content="images/image.png">
 
 	<meta name="twitter:title" content="James Hanks">
-	<meta name="twitter:description" content="Designer &amp; Developer">
+	<meta name="twitter:description" content="Designer and developer based in London.">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@jameshanks_">
 	<meta name="twitter:creator" content="@jameshanks_">
 	<meta name="twitter:image" content="images/image.png">
 
 	<meta property="og:title" content="James Hanks">
-	<meta property="og:description" content="Designer &amp;& Developer">
+	<meta property="og:description" content="Designer and developer based in London.">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="http://jameshanks.net">
 	<meta property="og:image" content="images/image.png">
