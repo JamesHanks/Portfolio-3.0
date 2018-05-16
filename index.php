@@ -1,40 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=yes">
 
 	<!-- Meta Info -->
 	<title>James Hanks</title>
 	<meta name="author" content="James Hanks">
 	<meta name="description" content="Designer and developer based in London.">
-	<meta name="keywords" content="designer, developer, web, interface, interaction, experience, UI, UX, front-end, JavaScript">
+	<meta name="keywords" content="designer, design, developer, digital, front-end, interaction, interface, JavaScript, software, UI, UX, web">
 	<meta name="distribution" content="Global">
 	<meta name="language" content="English">
 	<meta name="robot" content="index,follow">
-	<meta name="url" content="www.jameshanks.net">
+	<meta name="url" content="http://www.jameshanks.net">
 
 	<!-- Sharing -->
 	<meta itemprop="name" content="James Hanks">
 	<meta itemprop="description" content="Designer and developer based in London.">
-	<meta itemprop="image" content="images/image.png">
+	<meta itemprop="image" content="images/thumbnail.png">
 
 	<meta name="twitter:title" content="James Hanks">
 	<meta name="twitter:description" content="Designer and developer based in London.">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@jameshanks_">
 	<meta name="twitter:creator" content="@jameshanks_">
-	<meta name="twitter:image" content="images/image.png">
+	<meta name="twitter:image" content="images/thumbnail.png">
 
-	<meta property="og:title" content="James Hanks">
-	<meta property="og:description" content="Designer and developer based in London.">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="http://jameshanks.net">
-	<meta property="og:image" content="images/image.png">
+	<meta property="og:title" content="James Hanks" />
+	<meta property="og:description" content="Designer and developer based in London." />
+	<meta property="og:url" content="http://www.jameshanks.net/index.php" />
+	<meta property="og:image" content="http://www.jameshanks.net/images/thumbnail.png" />
+	<meta property="og:type" content="website" />
+	<meta property="fb:app_id" content="" />
 
 	<!-- Icons -->
-	<link rel="icon" href="images/logo.svg">
+	<link rel="icon" href="images/logo.png">
 	<link rel="apple-touch-icon" href="images/touch-icon.png">
 
 	<!-- Styles -->
@@ -52,7 +53,9 @@
 			<img src="images/james-hanks.svg" alt="James Hanks">
 		</div>
 		<nav>
-			<a href="#">About</a>
+			<ul>
+				<li><a href="#">About</a></li>
+			</ul>
 		</nav>
 	</header>
 
@@ -65,6 +68,7 @@
 			</div>
 			<img src="images/project.jpg" alt="💔">
 		</div>
+		
 	</section>
 
 	<footer>
