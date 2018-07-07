@@ -126,6 +126,48 @@
 			</span>
 		</a>
 
+		<a href="#" class="project-link">
+			<div class="project-container">
+				<img src="images/project-image-large.jpg" class="project-image">
+				<div class="project-overlay">
+					<div class="project-overlay-summary"></div>
+					<div class="project-overlay-colour"></div>
+				</div>
+			</div>
+			<span class="project-details">
+				<h4>Sketchbook</h4>
+				<h5>Process</h5>
+			</span>
+		</a>
+
+		<a href="#" class="project-link">
+			<div class="project-container">
+				<img src="images/project-image-small.jpg" class="project-image">
+				<div class="project-overlay">
+					<div class="project-overlay-summary"></div>
+					<div class="project-overlay-colour"></div>
+				</div>
+			</div>
+			<span class="project-details">
+				<h4>Shuttle</h4>
+				<h5>Digital Product Design, UI/UX</h5>
+			</span>
+		</a>
+
+		<a href="#" class="project-link">
+			<div class="project-container">
+				<img src="images/project-image-small.jpg" class="project-image">
+				<div class="project-overlay">
+					<div class="project-overlay-summary"></div>
+					<div class="project-overlay-colour"></div>
+				</div>
+			</div>
+			<span class="project-details">
+				<h4>Hello Lamp Post</h4>
+				<h5>Web Development, Information Design, Graphic Design</h5>
+			</span>
+		</a>
+
 	</section>
 
 

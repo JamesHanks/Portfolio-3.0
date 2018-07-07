@@ -1,13 +1,38 @@
-// GENERAL
+/* ==================== GENERAL ==================== */
 
 body{
 	background: $white;
+	max-width: 1440px;
+	margin: 0 auto;
+
+/*
+	@media only screen and (min-width: $large){
+		background: red;
+	}
+
+	@media only screen and (max-width: $large){
+		background: orange;
+	}
+
+	@media only screen and (max-width: $medium){
+		background: yellow;
+	}
+
+	@media only screen and (max-width: $small){
+		background: green;
+	}
+
+	@media only screen and (max-width: $extra-small){
+		background: blue;
+	}
+	*/
+
 }
 
-// HEADER
+/* ==================== HEADER ==================== */
+
 header{
 	display: block;
-	padding: 100px 100px 25px 100px;
 
 	.header{
 		display: flex;
@@ -61,32 +86,50 @@ header{
 		max-width: 575px;
 		margin-bottom: 25px;
 	}
+
+	@media only screen and (min-width: $large){
+		padding: 100px 100px 25px 100px;
+	}
+
+	@media only screen and (max-width: $large){
+		padding: 100px 50px 25px 50px;
+	}
 }
 
 .border{
+	align-items: flex-start;
 	background-color: $light;
 	content: "";
 	display: block;
 	height: 2px;
-	width: 50px;
 	margin-left: 100px;
+	width: 50px;
+
+	@media only screen and (max-width: $large){
+		margin-left: 50px;
+	}
 }
 
-// CONTENT
+/* ==================== CONTENT ==================== */
 
 .content{
+	align-content: flex-start;
 	background: $midtone-05;
-	padding: 0 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 50px 100px;
 }
 
 
-// PROJECTS
+/* ==================== PROJECTS ==================== */
 
 .project-link{
+	height: auto;
+	max-width: 378px;
 
 	.project-container{
 		position: relative;
-		width: 378px;
 
 
 		img{
@@ -148,14 +191,42 @@ header{
 	}
 }
 
-// FOOTER
+/* ==================== FOOTER ==================== */
 
 footer{
-	padding: 50px 100px;
-
 	.footer{
 		display: flex;
+	}
 
+	.footer-social{
+		.footer-social-link{
+			.footer-logo{
+				fill: $dark;
+				height: 36px;
+				-webkit-transition: $link;
+				transition: $link;
+				width: 36px;
+
+				&:hover{
+					fill: $midtone;
+				}
+
+				&:active{
+					fill: $light;
+				}
+			}
+		}
+	}
+
+	@media only screen and (min-width: $large){
+		padding: 50px 100px;
+	}
+
+	@media only screen and (max-width: $large){
+		padding: 50px;
+	}
+
+	@media only screen and (min-width: $medium){
 		.footer-copyright{
 			width: 50%;
 		}
@@ -165,24 +236,32 @@ footer{
 
 			.footer-social-link{
 				float: right;
-				margin-left: 25px;
+				margin-left: 20px;
 
-				.footer-logo{
-					fill: $dark;
-					height: 36px;
-					-webkit-transition: $link;
-					transition: $link;
-					width: 36px;
+			}
+		}
+	}
 
-					&:hover{
-						fill: $midtone;
-					}
+	@media only screen and (max-width: $medium){
+		.footer{
+			display: inline-block;
 
-					&:active{
-						fill: $light;
-					}
+			.footer-copyright{
+				margin-bottom: 25px;
+			}
+
+			.footer-social{
+				.footer-social-link{
+					float: left;
+					margin-right: 20px;
 				}
 			}
+		}
+	}
+
+	@media only screen and (max-width: $small){
+		.footer-social{
+			display: none;
 		}
 	}
 }
