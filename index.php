@@ -62,7 +62,7 @@
 				</a>
 				<span class="header-brand-name">
 					<h1>James Hanks</h1>
-					<h2>Designer & Developer</h2>
+					<h2>Designer &amp Developer</h2>
 				</span>
 			</div>
 			<nav class="header-nav">
@@ -135,7 +135,7 @@
 
 		<div class="footer">
 			<div class="footer-copyright">
-				<small>Built by James Hanks © <?php echo date("Y");?></small>
+				<small>Built by James Hanks &copy <?php echo date("Y");?></small>
 			</div>
 
 			<div class="footer-social">
