@@ -1,0 +1,188 @@
+// GENERAL
+
+body{
+	background: $white;
+}
+
+// HEADER
+header{
+	display: block;
+	padding: 100px 100px 25px 100px;
+
+	.header{
+		display: flex;
+		margin-bottom: 25px;
+
+		.header-brand{
+			float: left;
+			width: 50%;
+
+			.header-brand-logo{
+				fill: $dark;
+				float: left;
+				height: 75px;
+				-webkit-transition: $link;
+				transition: $link;
+				width: 75px;
+
+				&:hover{
+					fill: $midtone;
+				}
+
+				&:active{
+					fill: $light;
+				}
+			}
+
+			.header-brand-name{
+				float: left;
+				margin: 0 0 0 10px;
+
+				h1, h2{
+					line-height: 1.2;
+					margin: 0;
+					padding: 0;
+				}
+			}
+		}
+
+		.header-nav{
+			float: left;
+			width: 50%;
+
+			span{
+				float: right;
+				margin-left: 25px;
+			}
+		}
+	}
+
+	.introduction{
+		max-width: 575px;
+		margin-bottom: 25px;
+	}
+}
+
+.border{
+	background-color: $light;
+	content: "";
+	display: block;
+	height: 2px;
+	width: 50px;
+	margin-left: 100px;
+}
+
+// CONTENT
+
+.content{
+	background: $midtone-05;
+	padding: 0 100px;
+}
+
+
+// PROJECTS
+
+.project-link{
+
+	.project-container{
+		position: relative;
+		width: 378px;
+
+
+		img{
+			display: block;
+			height: auto;
+			width: 100%;
+		}
+
+		.project-overlay {
+			opacity: 0;
+			transition: $link;
+
+			.project-overlay-summary {
+				color: $white;
+				font-size: 20px;
+				left: 15%;
+				left: 15%;
+				position: absolute;
+				right: 15%;
+				top: 15%;
+				z-index: 1;
+			}
+
+			.project-overlay-colour{
+				background: $midtone;
+				bottom: 0;
+				height: 100%;
+				left: 0;
+				opacity: 0.5;
+				position: absolute;
+				right: 0;
+				top: 0;
+				transition: $link;
+				width: 100%;
+			}
+		}
+	}
+
+	&:hover{
+		h4{ color: $midtone; }
+		h5{	color: $light; }
+
+		.project-overlay{
+			opacity: 1;
+		}
+	}
+
+	&:active{
+		h4{ color: $light; }
+		h5{	color: $midtone-25; }
+
+		.project-overlay{
+			opacity: 1;
+
+			.project-overlay-colour{
+				background: $light;
+			}
+		}
+	}
+}
+
+// FOOTER
+
+footer{
+	padding: 50px 100px;
+
+	.footer{
+		display: flex;
+
+		.footer-copyright{
+			width: 50%;
+		}
+
+		.footer-social{
+			width: 50%;
+
+			.footer-social-link{
+				float: right;
+				margin-left: 25px;
+
+				.footer-logo{
+					fill: $dark;
+					height: 36px;
+					-webkit-transition: $link;
+					transition: $link;
+					width: 36px;
+
+					&:hover{
+						fill: $midtone;
+					}
+
+					&:active{
+						fill: $light;
+					}
+				}
+			}
+		}
+	}
+}
