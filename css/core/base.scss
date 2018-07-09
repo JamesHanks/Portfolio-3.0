@@ -2,10 +2,10 @@
 
 body{
 	background: $white;
-	max-width: 1440px;
 	margin: 0 auto;
+	max-width: 1440px;
 
-/* 
+	/*
 	@media only screen and (min-width: $large){
 		background: red;
 	}
@@ -21,10 +21,11 @@ body{
 	@media only screen and (max-width: $small){
 		background: green;
 	}
-	*/
+	
 	@media only screen and (max-width: $extra-small){
 		background: blue;
 	}
+	*/
 
 }
 
@@ -36,19 +37,18 @@ header{
 	.header{
 		display: flex;
 		justify-content: space-between;
-		margin-bottom: 25px;
 
 		.header-brand{
 			float: left;
 			width: 50%;
 
 			.header-brand-logo-container{
-				-webkit-transition: $link;
-				transition: $link;
 				display: inline-block;
 				float: left;
 				height: 75px; // <--- This is what you modify for the size of SVG
 				width: 75px; // <--- This is what you modify for the size of SVG
+				-webkit-transition: $link;
+				transition: $link;
 
 				.header-brand-logo{
 					fill: $dark;
@@ -67,7 +67,7 @@ header{
 
 			.header-brand-name{
 				float: left;
-				margin: 0 0 0 10px;
+				margin-left: 10px;
 
 				h1, h2{
 					line-height: 1.2;
@@ -89,8 +89,10 @@ header{
 	}
 
 	.introduction{
+		margin: 40px 0 25px 0;
 		max-width: 575px;
-		margin-bottom: 25px;
+		-webkit-transition: $link;
+		transition: $link;
 	}
 
 	@media only screen and (min-width: $large){
@@ -105,13 +107,13 @@ header{
 		padding: 50px 50px 25px 50px;
 
 		.header{
-			margin-bottom: 0;
 			display: inline-block;
+			margin-bottom: 0;
 
 			.header-brand{
+				margin-bottom: 25px;
 				min-width: 252px;
 				width: 100%;
-				margin-bottom: 25px;
 
 				.header-brand-logo-container{
 					height: 60px;
@@ -119,8 +121,6 @@ header{
 				}
 
 				.header-brand-name{
-					margin: 0 0 0 10px;
-
 					h1{
 						font-size: 28px;
 					}
@@ -132,14 +132,13 @@ header{
 			}
 
 			.header-nav{
-				width: 100%;
 				font-size: 18px;
-				margin-bottom: 15px;
+				width: 100%;
 
 				span{
 					float: left;
-					margin-right: 25px;
 					margin-left: 0;
+					margin-right: 25px;
 				}
 
 				a{
@@ -150,12 +149,17 @@ header{
 
 		.introduction{
 			display: inline-block;
-			margin-bottom: 10px;
+			margin: 25px 0 25px 0;
 		}
 	}
 
 	@media only screen and (max-width: $small){
 		padding: 50px 25px 25px 25px;
+
+		.introduction{
+			display: inline-block;
+			margin: 15px 0;
+		}
 	}
 
 }
@@ -213,31 +217,34 @@ header{
 	.project-container{
 		position: relative;
 
-
 		img{
 			display: block;
 			height: auto;
 			width: 100%;
+			-webkit-transition: $link;
+			transition: $link;
 		}
 
 		.project-overlay {
-			opacity: 0;
-			transition: $project;
 			h4, p{ color: $white; margin-bottom: 20px; }
 			h5{ color: $white; opacity: 0.7 }
+			opacity: 0;
+			-webkit-transition: $link;
+			transition: $link;
 
 			.project-overlay-summary {
 				left: 25px;
 				position: absolute;
 				right: 25px;
-				top: 25px;
-				z-index: 1;
+				top: 30px;
 				-webkit-transition: $link;
 				transition: $link;
+				z-index: 1;
 			}
 
 			.project-overlay-colour{
 				background: $midtone;
+				background: linear-gradient($midtone-50, $midtone-10);
 				bottom: 0;
 				height: 100%;
 				left: 0;
@@ -249,32 +256,55 @@ header{
 				transition: $link;
 				width: 100%;
 			}
+
+			.view-project::after{
+				content: "";
+				background-image: url("../images/arrow-right-white.svg");
+				background-repeat: no-repeat;
+				position: absolute;
+				width: 35px;
+				height: 20px;
+				left: 100px;
+				padding-top: 5px;
+				-webkit-transition: $project;
+				transition: $project;
+			}
 		}
+	}
+
+	&:hover{
+		h4{ color: $midtone; }
+		h5{	color: $light; }
+	}
+
+	&:active{
+		h4{ color: $light; }
+		h5{	color: $midtone-25; }
 	}
 
 	.project-details{
 		display: none;
 	}
 
-	&:hover{
-		h4{ color: $midtone; }
-		h5{	color: $light; }
+	@media only screen and (min-width: $medium){
+		&:hover{
+			.project-overlay{
+				opacity: 1;
 
-		.project-overlay{
-			opacity: 1;
+				.project-overlay-summary {
+					top: 28px;
+				}
+
+				.view-project::after{
+					left: 105px;
+				}
+			}
 		}
 	}
 
-	&:active{
-		h4{ color: $light; }
-		h5{	color: $midtone-25; }
-
-		.project-overlay{
-			opacity: 1;
-
-			.project-overlay-colour{
-				background: $light;
-			}
+	@media only screen and (max-width: $medium){
+		.project-details{
+			display: inline;
 		}
 	}
 }
@@ -283,8 +313,8 @@ header{
 
 footer{
 	.footer{
-		display: flex;
 		align-items: center;
+		display: flex;
 
 		.footer-copyright{
 			cursor: default;
@@ -293,13 +323,18 @@ footer{
 		.footer-social{
 			-webkit-transition: $link;
 			transition: $link;
+
 			.footer-social-link{
+				display: inline-block;
+				height: 38px;
+				-webkit-transition: $link;
+				transition: $link;
+				width: 38px;
+
 				.footer-logo{
 					fill: $dark;
-					height: 36px;
 					-webkit-transition: $link;
 					transition: $link;
-					width: 36px;
 
 					&:hover{
 						fill: $midtone;
@@ -332,7 +367,6 @@ footer{
 			.footer-social-link{
 				float: right;
 				margin-left: 20px;
-
 			}
 		}
 	}
@@ -342,7 +376,7 @@ footer{
 			display: inline-block;
 
 			.footer-copyright{
-				margin-bottom: 25px;
+				margin-bottom: 15px;
 			}
 
 			.footer-social{
@@ -359,11 +393,14 @@ footer{
 
 		.footer{
 			.footer-copyright{
-				margin-bottom: 0;
+				margin-bottom: 20;
 			}
-			
+
 			.footer-social{
-				display: none;
+				.footer-social-link{
+					height: 30px;
+					width: 30px;
+				}
 			}
 		}
 	}

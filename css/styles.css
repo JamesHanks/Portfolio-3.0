@@ -164,9 +164,9 @@ small {
 /* ==================== GENERAL ==================== */
 body {
   background: #FFFFFF;
-  max-width: 1440px;
   margin: 0 auto;
-  /* 
+  max-width: 1440px;
+  	/*
   	@media only screen and (min-width: $large){
   		background: red;
   	}
@@ -182,28 +182,28 @@ body {
   	@media only screen and (max-width: $small){
   		background: green;
   	}
+  	
+  	@media only screen and (max-width: $extra-small){
+  		background: blue;
+  	}
   	*/ }
-  @media only screen and (max-width: 320px) {
-    body {
-      background: blue; } }
 
 /* ==================== HEADER ==================== */
 header {
   display: block; }
   header .header {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 25px; }
+    justify-content: space-between; }
     header .header .header-brand {
       float: left;
       width: 50%; }
       header .header .header-brand .header-brand-logo-container {
-        -webkit-transition: all ease-in-out 0.3s;
-        transition: all ease-in-out 0.3s;
         display: inline-block;
         float: left;
         height: 75px;
-        width: 75px; }
+        width: 75px;
+        -webkit-transition: all ease-in-out 0.3s;
+        transition: all ease-in-out 0.3s; }
         header .header .header-brand .header-brand-logo-container .header-brand-logo {
           fill: #191947;
           -webkit-transition: all ease-in-out 0.3s;
@@ -214,7 +214,7 @@ header {
             fill: #B8B6FF; }
       header .header .header-brand .header-brand-name {
         float: left;
-        margin: 0 0 0 10px; }
+        margin-left: 10px; }
         header .header .header-brand .header-brand-name h1, header .header .header-brand .header-brand-name h2 {
           line-height: 1.2;
           margin: 0;
@@ -226,8 +226,10 @@ header {
         float: right;
         margin-left: 25px; }
   header .introduction {
+    margin: 40px 0 25px 0;
     max-width: 575px;
-    margin-bottom: 25px; }
+    -webkit-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s; }
   @media only screen and (min-width: 940px) {
     header {
       padding: 100px 100px 25px 100px; } }
@@ -238,37 +240,37 @@ header {
     header {
       padding: 50px 50px 25px 50px; }
       header .header {
-        margin-bottom: 0;
-        display: inline-block; }
+        display: inline-block;
+        margin-bottom: 0; }
         header .header .header-brand {
+          margin-bottom: 25px;
           min-width: 252px;
-          width: 100%;
-          margin-bottom: 25px; }
+          width: 100%; }
           header .header .header-brand .header-brand-logo-container {
             height: 60px;
             width: 60px; }
-          header .header .header-brand .header-brand-name {
-            margin: 0 0 0 10px; }
-            header .header .header-brand .header-brand-name h1 {
-              font-size: 28px; }
-            header .header .header-brand .header-brand-name h2 {
-              font-size: 18px; }
+          header .header .header-brand .header-brand-name h1 {
+            font-size: 28px; }
+          header .header .header-brand .header-brand-name h2 {
+            font-size: 18px; }
         header .header .header-nav {
-          width: 100%;
           font-size: 18px;
-          margin-bottom: 15px; }
+          width: 100%; }
           header .header .header-nav span {
             float: left;
-            margin-right: 25px;
-            margin-left: 0; }
+            margin-left: 0;
+            margin-right: 25px; }
           header .header .header-nav a {
             font-size: 18px; }
       header .introduction {
         display: inline-block;
-        margin-bottom: 10px; } }
+        margin: 25px 0 25px 0; } }
   @media only screen and (max-width: 420px) {
     header {
-      padding: 50px 25px 25px 25px; } }
+      padding: 50px 25px 25px 25px; }
+      header .introduction {
+        display: inline-block;
+        margin: 15px 0; } }
 
 .border {
   align-items: flex-start;
@@ -313,10 +315,13 @@ header {
     .project-link .project-container img {
       display: block;
       height: auto;
-      width: 100%; }
+      width: 100%;
+      -webkit-transition: all ease-in-out 0.3s;
+      transition: all ease-in-out 0.3s; }
     .project-link .project-container .project-overlay {
       opacity: 0;
-      transition: all ease-in-out 0.4s; }
+      -webkit-transition: all ease-in-out 0.3s;
+      transition: all ease-in-out 0.3s; }
       .project-link .project-container .project-overlay h4, .project-link .project-container .project-overlay p {
         color: #FFFFFF;
         margin-bottom: 20px; }
@@ -327,12 +332,13 @@ header {
         left: 25px;
         position: absolute;
         right: 25px;
-        top: 25px;
-        z-index: 1;
+        top: 30px;
         -webkit-transition: all ease-in-out 0.3s;
-        transition: all ease-in-out 0.3s; }
+        transition: all ease-in-out 0.3s;
+        z-index: 1; }
       .project-link .project-container .project-overlay .project-overlay-colour {
         background: #5452C1;
+        background: linear-gradient(rgba(84, 82, 193, 0.5), #5452c1);
         bottom: 0;
         height: 100%;
         left: 0;
@@ -343,42 +349,61 @@ header {
         -webkit-transition: all ease-in-out 0.3s;
         transition: all ease-in-out 0.3s;
         width: 100%; }
-  .project-link .project-details {
-    display: none; }
+      .project-link .project-container .project-overlay .view-project::after {
+        content: "";
+        background-image: url("../images/arrow-right-white.svg");
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 35px;
+        height: 20px;
+        left: 100px;
+        padding-top: 5px;
+        -webkit-transition: all ease-in-out 0.4s;
+        transition: all ease-in-out 0.4s; }
   .project-link:hover h4 {
     color: #5452C1; }
   .project-link:hover h5 {
     color: #B8B6FF; }
-  .project-link:hover .project-overlay {
-    opacity: 1; }
   .project-link:active h4 {
     color: #B8B6FF; }
   .project-link:active h5 {
     color: rgba(84, 82, 193, 0.25); }
-  .project-link:active .project-overlay {
-    opacity: 1; }
-    .project-link:active .project-overlay .project-overlay-colour {
-      background: #B8B6FF; }
+  .project-link .project-details {
+    display: none; }
+  @media only screen and (min-width: 781px) {
+    .project-link:hover .project-overlay {
+      opacity: 1; }
+      .project-link:hover .project-overlay .project-overlay-summary {
+        top: 28px; }
+      .project-link:hover .project-overlay .view-project::after {
+        left: 105px; } }
+  @media only screen and (max-width: 781px) {
+    .project-link .project-details {
+      display: inline; } }
 
 /* ==================== FOOTER ==================== */
 footer .footer {
-  display: flex;
-  align-items: center; }
+  align-items: center;
+  display: flex; }
   footer .footer .footer-copyright {
     cursor: default; }
   footer .footer .footer-social {
     -webkit-transition: all ease-in-out 0.3s;
     transition: all ease-in-out 0.3s; }
-    footer .footer .footer-social .footer-social-link .footer-logo {
-      fill: #191947;
-      height: 36px;
+    footer .footer .footer-social .footer-social-link {
+      display: inline-block;
+      height: 38px;
       -webkit-transition: all ease-in-out 0.3s;
       transition: all ease-in-out 0.3s;
-      width: 36px; }
-      footer .footer .footer-social .footer-social-link .footer-logo:hover {
-        fill: #5452C1; }
-      footer .footer .footer-social .footer-social-link .footer-logo:active {
-        fill: #B8B6FF; }
+      width: 38px; }
+      footer .footer .footer-social .footer-social-link .footer-logo {
+        fill: #191947;
+        -webkit-transition: all ease-in-out 0.3s;
+        transition: all ease-in-out 0.3s; }
+        footer .footer .footer-social .footer-social-link .footer-logo:hover {
+          fill: #5452C1; }
+        footer .footer .footer-social .footer-social-link .footer-logo:active {
+          fill: #B8B6FF; }
 @media only screen and (min-width: 940px) {
   footer {
     padding: 50px 100px; } }
@@ -397,7 +422,7 @@ footer .footer {
   footer .footer {
     display: inline-block; }
     footer .footer .footer-copyright {
-      margin-bottom: 25px; }
+      margin-bottom: 15px; }
     footer .footer .footer-social .footer-social-link {
       float: left;
       margin-right: 20px; } }
@@ -405,8 +430,9 @@ footer .footer {
   footer {
     padding: 25px; }
     footer .footer .footer-copyright {
-      margin-bottom: 0; }
-    footer .footer .footer-social {
-      display: none; } }
+      margin-bottom: 20; }
+    footer .footer .footer-social .footer-social-link {
+      height: 30px;
+      width: 30px; } }
 
 /*# sourceMappingURL=styles.css.map */
