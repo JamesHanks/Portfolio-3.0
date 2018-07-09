@@ -24,12 +24,16 @@ h1{
 	font-size: 36px; // 2.26rem
 	font-weight: 700;
 	letter-spacing: 0;
+	-webkit-transition: $link;
+	transition: $link;
 }
 
 h2{
 	color: $midtone;
 	font-size: 22px;
 	font-weight: 200;
+	-webkit-transition: $link;
+	transition: $link;
 }
 
 h3{
@@ -43,6 +47,7 @@ h4{
 	color: $dark;
 	font-size: 22px;
 	font-weight: 700;
+	-webkit-transition: $link;
 	transition: $link;
 }
 
@@ -51,6 +56,7 @@ h5{
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
+	-webkit-transition: $link;
 	transition: $link;
 }
 
@@ -64,6 +70,7 @@ nav{
 		color: $dark;
 		font-size: 22px;
 		text-transform: uppercase;
+		-webkit-transition: $link;
 		transition: $link;
 		position: relative;
 		
@@ -82,6 +89,7 @@ nav{
 			height: 2px;
 			position: absolute;
 			transform: scaleX(0);
+			-webkit-transition: $link;
 			transition: $link;
 			width: 100%;
 			} */
@@ -96,16 +104,19 @@ nav{
 	p{
 		color: $dark;
 		font-size: 17px;
+		-webkit-transition: $link;
+		transition: $link;
 
 		a{
 			border-bottom: solid 1px $midtone-25;
 			font-weight: 700;
 			padding-bottom: 2px;
+			-webkit-transition: $link;
 			transition: $link;
 
 			&:hover{
 				border-bottom: solid 1px $midtone-50;
-				padding-bottom: 1px;
+				padding-bottom: 0;
 				color: $midtone;
 			}
 
@@ -114,6 +125,10 @@ nav{
 				padding-bottom: 0;
 				color: $light;
 			}
+		}
+
+		@media only screen and (max-width: $medium){
+			font-size: 16px;
 		}
 	}
 

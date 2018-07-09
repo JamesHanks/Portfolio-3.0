@@ -5,7 +5,7 @@ body{
 	max-width: 1440px;
 	margin: 0 auto;
 
-/*
+/* 
 	@media only screen and (min-width: $large){
 		background: red;
 	}
@@ -13,19 +13,18 @@ body{
 	@media only screen and (max-width: $large){
 		background: orange;
 	}
-
+	
 	@media only screen and (max-width: $medium){
-		background: yellow;
+		background: white;
 	}
 
 	@media only screen and (max-width: $small){
 		background: green;
 	}
-
+	*/
 	@media only screen and (max-width: $extra-small){
 		background: blue;
 	}
-	*/
 
 }
 
@@ -36,26 +35,33 @@ header{
 
 	.header{
 		display: flex;
+		justify-content: space-between;
 		margin-bottom: 25px;
 
 		.header-brand{
 			float: left;
 			width: 50%;
 
-			.header-brand-logo{
-				fill: $dark;
-				float: left;
-				height: 75px;
+			.header-brand-logo-container{
 				-webkit-transition: $link;
 				transition: $link;
-				width: 75px;
+				display: inline-block;
+				float: left;
+				height: 75px; // <--- This is what you modify for the size of SVG
+				width: 75px; // <--- This is what you modify for the size of SVG
 
-				&:hover{
-					fill: $midtone;
-				}
+				.header-brand-logo{
+					fill: $dark;
+					-webkit-transition: $link;
+					transition: $link;
 
-				&:active{
-					fill: $light;
+					&:hover{
+						fill: $midtone;
+					}
+
+					&:active{
+						fill: $light;
+					}
 				}
 			}
 
@@ -94,6 +100,64 @@ header{
 	@media only screen and (max-width: $large){
 		padding: 100px 50px 25px 50px;
 	}
+
+	@media only screen and (max-width: $medium){
+		padding: 50px 50px 25px 50px;
+
+		.header{
+			margin-bottom: 0;
+			display: inline-block;
+
+			.header-brand{
+				min-width: 252px;
+				width: 100%;
+				margin-bottom: 25px;
+
+				.header-brand-logo-container{
+					height: 60px;
+					width: 60px; // <--- This is what you modify for the size of SVG
+				}
+
+				.header-brand-name{
+					margin: 0 0 0 10px;
+
+					h1{
+						font-size: 28px;
+					}
+
+					h2{
+						font-size: 18px;
+					}
+				}
+			}
+
+			.header-nav{
+				width: 100%;
+				font-size: 18px;
+				margin-bottom: 15px;
+
+				span{
+					float: left;
+					margin-right: 25px;
+					margin-left: 0;
+				}
+
+				a{
+					font-size: 18px;
+				}
+			}
+		}
+
+		.introduction{
+			display: inline-block;
+			margin-bottom: 10px;
+		}
+	}
+
+	@media only screen and (max-width: $small){
+		padding: 50px 25px 25px 25px;
+	}
+
 }
 
 .border{
@@ -102,11 +166,18 @@ header{
 	content: "";
 	display: block;
 	height: 2px;
-	margin-left: 100px;
 	width: 50px;
+
+	@media only screen and (min-width: $large){
+		margin-left: 100px;
+	}
 
 	@media only screen and (max-width: $large){
 		margin-left: 50px;
+	}
+
+	@media only screen and (max-width: $small){
+		margin-left: 25px;
 	}
 }
 
@@ -118,7 +189,18 @@ header{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	padding: 50px 100px;
+
+	@media only screen and (min-width: $large){
+		padding: 50px 100px;
+	}
+
+	@media only screen and (max-width: $large){
+		padding: 50px;
+	}
+
+	@media only screen and (max-width: $small){
+		padding: 25px;
+	}
 }
 
 
@@ -140,17 +222,18 @@ header{
 
 		.project-overlay {
 			opacity: 0;
-			transition: $link;
+			transition: $project;
+			h4, p{ color: $white; margin-bottom: 20px; }
+			h5{ color: $white; opacity: 0.7 }
 
 			.project-overlay-summary {
-				color: $white;
-				font-size: 20px;
-				left: 15%;
-				left: 15%;
+				left: 25px;
 				position: absolute;
-				right: 15%;
-				top: 15%;
+				right: 25px;
+				top: 25px;
 				z-index: 1;
+				-webkit-transition: $link;
+				transition: $link;
 			}
 
 			.project-overlay-colour{
@@ -158,14 +241,19 @@ header{
 				bottom: 0;
 				height: 100%;
 				left: 0;
-				opacity: 0.5;
+				opacity: 0.8;
 				position: absolute;
 				right: 0;
 				top: 0;
+				-webkit-transition: $link;
 				transition: $link;
 				width: 100%;
 			}
 		}
+	}
+
+	.project-details{
+		display: none;
 	}
 
 	&:hover{
@@ -196,23 +284,30 @@ header{
 footer{
 	.footer{
 		display: flex;
-	}
+		align-items: center;
 
-	.footer-social{
-		.footer-social-link{
-			.footer-logo{
-				fill: $dark;
-				height: 36px;
-				-webkit-transition: $link;
-				transition: $link;
-				width: 36px;
+		.footer-copyright{
+			cursor: default;
+		}
 
-				&:hover{
-					fill: $midtone;
-				}
+		.footer-social{
+			-webkit-transition: $link;
+			transition: $link;
+			.footer-social-link{
+				.footer-logo{
+					fill: $dark;
+					height: 36px;
+					-webkit-transition: $link;
+					transition: $link;
+					width: 36px;
 
-				&:active{
-					fill: $light;
+					&:hover{
+						fill: $midtone;
+					}
+
+					&:active{
+						fill: $light;
+					}
 				}
 			}
 		}
@@ -223,7 +318,7 @@ footer{
 	}
 
 	@media only screen and (max-width: $large){
-		padding: 50px;
+		padding: 25px 50px;
 	}
 
 	@media only screen and (min-width: $medium){
@@ -260,8 +355,16 @@ footer{
 	}
 
 	@media only screen and (max-width: $small){
-		.footer-social{
-			display: none;
+		padding: 25px;
+
+		.footer{
+			.footer-copyright{
+				margin-bottom: 0;
+			}
+			
+			.footer-social{
+				display: none;
+			}
 		}
 	}
 }

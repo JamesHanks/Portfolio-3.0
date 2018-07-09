@@ -13,7 +13,8 @@ $dark: #191947;
 $dark-50: rgba(25, 25, 71, 0.50);
 
 /* ==================== TRANSITIONS ==================== */
-$link: ease-in-out 0.3s;
+$link: all ease-in-out 0.3s;
+$project: all ease-in-out 0.4s;
 
 /* ==================== BREAKPOINTS ==================== */
 $extra-small: 320px;

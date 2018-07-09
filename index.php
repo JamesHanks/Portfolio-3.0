@@ -40,7 +40,7 @@
 	<link rel="apple-touch-icon" href="images/touch-icon.png">
 
 	<!-- Styles -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla">
+	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
 	<link rel="stylesheet" href="css/styles.css">
 
 	<!-- Scripts -->
@@ -52,12 +52,26 @@
 	<header>
 		<div class="header">
 			<div class="header-brand">
-				<a href="#">
-					<svg class="header-brand-logo">
-						<path id="left-eye" d="M24.6,30.6L24.6,30.6c-2.7,0-4.9,2.2-4.9,4.9c0,2.7,2.2,4.9,4.9,4.9h0c2.7,0,4.9-2.2,4.9-4.9C29.5,32.8,27.3,30.6,24.6,30.6z"/>
-						<path id="right-eye" d="M50.4,30.6L50.4,30.6c-2.7,0-4.9,2.2-4.9,4.9c0,2.7,2.2,4.9,4.9,4.9h0c2.7,0,4.9-2.2,4.9-4.9C55.4,32.8,53.2,30.6,50.4,30.6z"/>
-						<path id="body" d="M58.9,54.5h-2.7c-2.8,0-5.1-2-5.7-4.6c-0.1-0.3,0-0.6,0.2-0.9c0.3-0.3,0.6-0.4,1.1-0.4 c6.5-0.7,11.7-6.3,11.7-13c0-14.3-11.6-25.9-25.9-25.9h0c-14.3,0-25.9,11.6-25.9,25.9c0,6.7,5.2,12.3,11.7,13 c0.4,0,0.8,0.1,1.1,0.4c0.2,0.3,0.2,0.6,0.2,0.9c-0.6,2.6-2.9,4.6-5.7,4.6h-2.7c-1.2,0-2.2,0.9-2.3,2c-0.1,1.3,0.9,2.3,2.2,2.3h2.7c5.2,0,9.6-3.9,10.2-9c0-0.8,0.6-1.4,1.4-1.4h0c0.8,0,1.4,0.6,1.4,1.4v14.8c0,1.2,1,2.2,2.2,2.2s2.2-1,2.2-2.2V49.9c0-0.8,0.6-1.4,1.4-1.4h0c0.8,0,1.4,0.6,1.4,1.4v14.8c0,1.2,1,2.2,2.2,2.2s2.2-1,2.2-2.2V49.9c0-0.8,0.6-1.4,1.4-1.4h0c0.8,0,1.4,0.6,1.4,1.4c0.6,5,5,9,10.2,9H59c1.3,0,2.3-1.1,2.2-2.3C61.1,55.4,60.1,54.5,58.9,54.5z M32.6,35.6c0,4.4-3.6,8.1-8.1,8.1h0c-4.4,0-8.1-3.6-8.1-8.1v0c0-4.4,3.6-8.1,8.1-8.1h0C29,27.5,32.6,31.1,32.6,35.6L32.6,35.6z M50.4,43.6c-4.4,0-8.1-3.6-8.1-8.1v0c0-4.4,3.6-8.1,8.1-8.1h0c4.4,0,8.1,3.6,8.1,8.1v0C58.5,40,54.9,43.6,50.4,43.6L50.4,43.6z"/>
-						<path id="ring" d="M37.5,2.2c9.4,0,18.3,3.7,25,10.3c6.7,6.7,10.3,15.5,10.3,25s-3.7,18.3-10.3,25c-6.7,6.7-15.5,10.3-25,10.3c-9.4,0-18.3-3.7-25-10.3c-6.7-6.7-10.3-15.5-10.3-25s3.7-18.3,10.3-25C19.2,5.9,28.1,2.2,37.5,2.2 M37.5,0L37.5,0C16.8,0,0,16.8,0,37.5v0C0,58.2,16.8,75,37.5,75h0C58.2,75,75,58.2,75,37.5v0C75,16.8,58.2,0,37.5,0L37.5,0z"/>
+				<a class="header-brand-logo-container" href="#">
+					<svg class="header-brand-logo"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+
+						<path id="left-eye" d="M32.8,40.8c-3.6,0-6.5,2.9-6.5,6.5s2.9,6.5,6.5,6.5s6.5-2.9,6.5-6.5S36.4,40.8,32.8,40.8z"/>
+
+						<path id="right-eye" d="M67.2,40.8c-3.6,0-6.5,2.9-6.5,6.5s2.9,6.5,6.5,6.5c3.6,0,6.5-2.9,6.5-6.5C73.9,43.7,70.9,40.8,67.2,40.8z"/>
+
+						<path id="body" d="M78.5,72.7h-3.6c-3.7,0-6.8-2.7-7.6-6.1c-0.1-0.4,0-0.8,0.3-1.2c0.4-0.4,0.8-0.5,1.5-0.5
+						c8.7-0.9,15.6-8.4,15.6-17.3c0-19.1-15.5-34.5-34.5-34.5S15.6,28.4,15.6,47.5c0,8.9,6.9,16.4,15.6,17.3c0.5,0,1.1,0.1,1.5,0.5
+						c0.3,0.4,0.3,0.8,0.3,1.2c-0.8,3.5-3.9,6.1-7.6,6.1h-3.6c-1.6,0-2.9,1.2-3.1,2.7c-0.1,1.7,1.2,3.1,2.9,3.1h3.6
+						c6.9,0,12.8-5.2,13.6-12c0-1.1,0.8-1.9,1.9-1.9s1.9,0.8,1.9,1.9v19.7c0,1.6,1.3,2.9,2.9,2.9s2.9-1.3,2.9-2.9V66.5
+						c0-1.1,0.8-1.9,1.9-1.9s1.9,0.8,1.9,1.9v19.7c0,1.6,1.3,2.9,2.9,2.9c1.6,0,2.9-1.3,2.9-2.9V66.5c0-1.1,0.8-1.9,1.9-1.9
+						c1.1,0,1.9,0.8,1.9,1.9c0.8,6.7,6.7,12,13.6,12h3.3c1.7,0,3.1-1.5,2.9-3.1C81.5,73.9,80.1,72.7,78.5,72.7z M43.5,47.5
+						c0,5.9-4.8,10.8-10.8,10.8c-5.9,0-10.8-4.8-10.8-10.8c0-5.9,4.8-10.8,10.8-10.8S43.5,41.5,43.5,47.5z M67.2,58.1
+						c-5.9,0-10.8-4.8-10.8-10.8c0-5.9,4.8-10.8,10.8-10.8c5.9,0,10.8,4.8,10.8,10.8S73.2,58.1,67.2,58.1z"/>
+
+						<path id="ring" d="M50,2.9c12.5,0,24.4,4.9,33.3,13.7c8.9,8.9,13.7,20.7,13.7,33.3s-4.9,24.4-13.7,33.3C74.4,92.3,62.7,97.1,50,97.1
+						c-12.5,0-24.4-4.9-33.3-13.7C7.7,74.4,2.9,62.7,2.9,50s4.9-24.4,13.7-33.3C25.6,7.9,37.5,2.9,50,2.9 M50,0C22.4,0,0,22.4,0,50
+						s22.4,50,50,50s50-22.4,50-50S77.6,0,50,0z"/>
+
 					</svg>
 				</a>
 				<span class="header-brand-name">
@@ -86,9 +100,13 @@
 		<!-- PROJECTS -->
 		<a href="#" class="project-link">
 			<div class="project-container">
-				<img src="images/project-image-small.jpg" class="project-image">
+				<img src="images/somnus-tile.png" class="project-image">
 				<div class="project-overlay">
-					<div class="project-overlay-summary"></div>
+					<div class="project-overlay-summary">
+						<h4>Somnus</h4>
+						<p>The 'sleep-friendly' network, designed to tackle electronic insomnia.</p>
+						<p>View project →</p>
+					</div>
 					<div class="project-overlay-colour"></div>
 				</div>
 			</div>
@@ -100,9 +118,13 @@
 
 		<a href="#" class="project-link">
 			<div class="project-container">
-				<img src="images/project-image-large.jpg" class="project-image">
+				<img src="images/espia-tile.jpg" class="project-image">
 				<div class="project-overlay">
-					<div class="project-overlay-summary"></div>
+					<div class="project-overlay-summary">
+						<h4>Espia</h4>
+						<p>A ubiquitous robot proposed to keep its user safe in a future connected environment.</p>
+						<p>View project →</p>
+					</div>
 					<div class="project-overlay-colour"></div>
 				</div>
 			</div>
@@ -114,9 +136,13 @@
 
 		<a href="#" class="project-link">
 			<div class="project-container">
-				<img src="images/project-image-small.jpg" class="project-image">
+				<img src="images/apto-tile.jpg" class="project-image">
 				<div class="project-overlay">
-					<div class="project-overlay-summary"></div>
+					<div class="project-overlay-summary">
+						<h4>Apto Hotels</h4>
+						<p>New brand responding to the growing dissatisfaction with economy hotel chains.</p>
+						<p>View project →</p>
+					</div>
 					<div class="project-overlay-colour"></div>
 				</div>
 			</div>
