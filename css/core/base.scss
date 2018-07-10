@@ -89,22 +89,22 @@ header{
 	}
 
 	.introduction{
-		margin: 40px 0 25px 0;
+		margin: 40px 0 0 0;
 		max-width: 575px;
 		-webkit-transition: $link;
 		transition: $link;
 	}
 
 	@media only screen and (min-width: $large){
-		padding: 100px 100px 25px 100px;
+		padding: 100px 100px 50px 100px;
 	}
 
 	@media only screen and (max-width: $large){
-		padding: 100px 50px 25px 50px;
+		padding: 100px 50px 50px 50px;
 	}
 
 	@media only screen and (max-width: $medium){
-		padding: 50px 50px 25px 50px;
+		padding: 50px 50px 40px 50px;
 
 		.header{
 			display: inline-block;
@@ -149,7 +149,7 @@ header{
 
 		.introduction{
 			display: inline-block;
-			margin: 25px 0 25px 0;
+			margin: 15px 0 0 0;
 		}
 	}
 
@@ -252,8 +252,8 @@ header{
 				position: absolute;
 				right: 0;
 				top: 0;
-				-webkit-transition: $link;
-				transition: $link;
+				-webkit-transition: $project;
+				transition: $project;
 				width: 100%;
 			}
 
@@ -330,7 +330,7 @@ footer{
 				-webkit-transition: $link;
 				transition: $link;
 				width: 38px;
-
+				
 				.footer-logo{
 					fill: $dark;
 					-webkit-transition: $link;
