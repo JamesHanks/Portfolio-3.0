@@ -97,6 +97,7 @@ h5 {
   color: rgba(25, 25, 71, 0.5);
   font-size: 14px;
   font-weight: 700;
+  letter-spacing: 1px;
   text-transform: uppercase;
   -webkit-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s; }
@@ -105,7 +106,8 @@ nav {
   color: #B8B6FF;
   cursor: default;
   font-size: 24px;
-  font-weight: 700; }
+  font-weight: 700;
+  letter-spacing: 3px; }
   nav a {
     color: #191947;
     font-size: 22px;
@@ -165,7 +167,6 @@ small {
 body {
   background: #FFFFFF;
   margin: 0 auto;
-  max-width: 1440px;
   	/*
   	@media only screen and (min-width: $large){
   		background: red;
