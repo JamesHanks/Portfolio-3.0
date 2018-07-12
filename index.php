@@ -48,7 +48,7 @@
 </head>
 <body>
 
-	<!-- HEADER -->
+	<!-- Header -->
 	<header>
 		<div class="header">
 			<div class="header-brand">
@@ -86,7 +86,7 @@
 			</nav>
 		</div>
 
-		<!-- INTRO -->
+		<!-- Intro -->
 		<div class="introduction">
 			<p>I’m an interactive designer and developer based in London. I strive to build elegant, user-centred and meaningful digital experiences.<br><br>You can view some examples of my work <a href="#">below</a>.</p>
 		</div>
@@ -94,10 +94,10 @@
 	</header>
 	<span class="border"></span>
 
-	<!-- CONTENT -->
+	<!-- Contnt -->
 	<section class="content">
 
-		<!-- PROJECTS -->
+		<!-- Projects -->
 		<a href="#" class="project-link">
 			<div class="project-container">
 				<img src="images/somnus-tile.png" class="project-image">
@@ -197,7 +197,7 @@
 	</section>
 
 
-	<!-- FOOTER -->
+	<!-- Footer -->
 	<span class="border"></span>
 	<footer>
 

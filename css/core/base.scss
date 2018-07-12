@@ -330,6 +330,12 @@ footer{
 				-webkit-transition: $link;
 				transition: $link;
 				width: 38px;
+				position: relative;
+				top: 0;
+
+				&:hover{
+					top: -4px;
+				}
 				
 				.footer-logo{
 					fill: $dark;
