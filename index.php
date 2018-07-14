@@ -105,7 +105,7 @@
 				</span>
 			</a>
 
-			<a href="#" class="project-link grid-item">
+			<a href="project.php" class="project-link grid-item">
 				<div class="project-container">
 					<img src="images/espia-tile.jpg" class="project-image" alt="Espia">
 					<div class="project-overlay">
@@ -199,7 +199,7 @@
 			</div>
 
 			<div class="footer-social">
-				<span class="footer-social-link"> <a href="https://www.behance.net/jameshanks">
+				<span class="footer-social-link"> <a href="https://www.behance.net/jameshanks" target="blank">
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve" class="footer-logo">
 						<title>Behance</title>
 						<path d="M50,2.9A47.24,47.24,0,0,1,83.3,16.6a47.32,47.32,0,0,1,0,66.6A45.86,45.86,0,0,1,50,97.1,47.24,47.24,0,0,1,16.7,83.4a47.32,47.32,0,0,1-.1-66.7A47.75,47.75,0,0,1,50,2.9M50,0a50,50,0,1,0,50,50A50,50,0,0,0,50,0Z"/>
@@ -209,7 +209,7 @@
 					</svg>
 				</a></span>
 
-				<span class="footer-social-link"> <a href="https://www.github.com/jameshanks">
+				<span class="footer-social-link"> <a href="https://www.github.com/jameshanks" target="blank">
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve" class="footer-logo">
 						<title>GitHub</title>
 						<path d="M50,2.9A47.24,47.24,0,0,1,83.3,16.6a47.32,47.32,0,0,1,0,66.6A45.86,45.86,0,0,1,50,97.1,47.24,47.24,0,0,1,16.7,83.4a47.32,47.32,0,0,1-.1-66.7A47.75,47.75,0,0,1,50,2.9M50,0a50,50,0,1,0,50,50A50,50,0,0,0,50,0Z"/>
@@ -217,7 +217,7 @@
 					</svg>
 				</a></span>
 
-				<span class="footer-social-link"> <a href="https://www.linkedin.com/in/jameshanks">
+				<span class="footer-social-link"> <a href="https://www.linkedin.com/in/jameshanks" target="blank">
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve" class="footer-logo">
 						<title>LinkedIn</title>
 						<path d="M50,2.9A47.24,47.24,0,0,1,83.3,16.6a47.32,47.32,0,0,1,0,66.6A45.86,45.86,0,0,1,50,97.1,47.24,47.24,0,0,1,16.7,83.4a47.32,47.32,0,0,1-.1-66.7A47.75,47.75,0,0,1,50,2.9M50,0a50,50,0,1,0,50,50A50,50,0,0,0,50,0Z"/>
@@ -225,7 +225,7 @@
 					</svg>
 				</a></span>
 
-				<span class="footer-social-link"> <a href="https://www.instagram.com/jameshanks_">
+				<span class="footer-social-link"> <a href="https://www.instagram.com/jameshanks_" target="blank">
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve" class="footer-logo">
 						<title>Instagram</title>
 						<path d="M50,2.9A47.24,47.24,0,0,1,83.3,16.6a47.32,47.32,0,0,1,0,66.6A45.86,45.86,0,0,1,50,97.1,47.24,47.24,0,0,1,16.7,83.4a47.32,47.32,0,0,1-.1-66.7A47.75,47.75,0,0,1,50,2.9M50,0a50,50,0,1,0,50,50A50,50,0,0,0,50,0Z"/>
@@ -235,7 +235,7 @@
 					</svg>
 				</a></span>
 
-				<span class="footer-social-link"> <a href="https://www.twitter.com/jameshanks_">
+				<span class="footer-social-link"> <a href="https://www.twitter.com/jameshanks_" target="blank">
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve" class="footer-logo">
 						<title>Twitter</title>
 						<path d="M50,2.9A47.24,47.24,0,0,1,83.3,16.6a47.32,47.32,0,0,1,0,66.6A45.86,45.86,0,0,1,50,97.1,47.24,47.24,0,0,1,16.7,83.4a47.32,47.32,0,0,1-.1-66.7A47.75,47.75,0,0,1,50,2.9M50,0a50,50,0,1,0,50,50A50,50,0,0,0,50,0Z"/>

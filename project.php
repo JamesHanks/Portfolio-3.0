@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=yes">
 
 	<!-- Meta Info -->
-	<title>James Hanks</title>
+	<title>Espia | James Hanks</title>
 	<meta name="author" content="James Hanks">
 	<meta name="robots" content="index, follow">
 	<meta name="description" content="James Hanks is an interactive designer and developer based in London.">
@@ -75,30 +75,59 @@
 
 	<span class="border"></span>
 	
-	<!-- About Me -->
+	<!-- Project -->
 
 	<section class="content">
-		<div class="about-container">
-			<div class="about">
-				<span class="heading-small">About</span>
+		<div class="case-study-container">
 
-				<h2>Hello! My name is James and I’m a designer and developer based in London.</h2>
-
-				<p>I’m a final year BSc Digital Design student at <a href="https://www.brunel.ac.uk/" target="blank">Brunel University London</a>, having just completed my placement year working at <a href="http://panstudio.co.uk/" target="blank">PAN Studio</a>. I enjoy crafting elegant, user-centric and robust applications.</p>
-
-				<p>A firm believer in the value of empathy, I believe that when applied to design and technology, it can form incredible things that make a genuinely positive impact on the world we live in.</p>
-
-				<p>If you would like to collaborate in some way or simply chat, please email me at <a href="mailto:james.ra.hanks@gmail.com">james.ra.hanks@gmail.com</a>. I’ll do my best to respond as quickly as possible!</p>
-
-				<p>I can also be found on: <a href="https://www.linkedin.com/in/jameshanks" target="blank">LinkedIn</a> - <a href="https://www.twitter.com/jameshanks_" target="blank">Twitter</a> - <a href="https://www.instagram.com/jameshanks_" target="blank">Instagram</a> - <a href="https://www.behance.net/jameshanks" target="blank">Behance</a></p>
-
-				<p>You can download my CV <a href="james-hanks-cv_2018">here</a>.</p>
+			<div class="case-study-intro">
+				<h1>Espia</h1>
+				<h2>A ubiquitous robot designed to keep the user safe from violations of privacy and unethical surveillance in a future connected environment.</h2>
+				<img src="#">
 			</div>
-		</div>
-		<div class="portrait-container">
-			<div class="portrait">
-				<img src="images/project-image-large.jpg" alt="Portrait">
+
+			<div class="case-study-text-wrap">
+				<div class="case-study-brief">
+					<span class="heading-small">Brief</span>
+					<p>Research an emerging technology and design a new product exploiting it.</p>
+				</div>
+
+				<div class="case-study-details">
+					<div class="case-study-role">
+						<span class="heading-small">Role</span>
+						<p>Research - Design</p>
+					</div>
+					<div class="case-study-client">
+						<span class="heading-small">Client</span>
+						<p>N/A</p>
+					</div>
+					<div class="case-study-category">
+						<span class="heading-small">Category</span>
+						<p>Interaction Design, Robotics, UI/UX</p>
+					</div>
+				</div>	
 			</div>
+			
+			<span class="heading-small">Explanation</span>
+
+			<div class="case-study-text-wrap">
+				<div class="column-1">
+					<p>The emerging technology that I chose to research was ubiquitous robotics. This is the concept of robotic systems that in future, will be ever-present and ever-accessible due to the advent of Internet of Things technology and connected embedded devices becoming commonplace.</p>
+
+					<p>During my research, I noticed that the main commercial uses for machine learning in virtual personal assistants involve heavy monitoring and interpretation of personal user data. I even found most physical robots’ ability to record information on the user impressive, but in an unsettling way.</p>
+
+					<p>Because of this, I felt that I should consider how the technology could be used to oppose certain sorts of potentially unfair surveillance, even if this would just involve a system that warns users of how they are being covertly monitored.</p>
+				</div>
+
+				<div class="column-2">
+					<p>The purpose of Espia is to protect everyday people in the fully connected age; assuming that the digital world has become far more implemented within the physical world than it is currently.</p>
+
+					<p>Complex technology has become so commonplace that the vast majority of consumers are not aware of how their devices truly function. As more objects become connected to the internet, it will become increasingly easy for individuals with a lack of advanced knowledge in computing to be exploited by hackers, greedy corporations and corrupt, controlling governments.</p>
+
+					<p>Espia is a conceptual solution to the problem and primarily designed only to highlight the need to make the current situation a lot fairer. A research document discussing the project in more detail can be found <a href="espia.pdf">here</a>.</p>
+				</div>	
+			</div>
+
 		</div>
 	</section>
 

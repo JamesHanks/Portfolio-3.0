@@ -424,6 +424,69 @@ header{
 	}
 }
 
+/* ==================== CASE STUDY ==================== */
+
+.case-study-container{
+	.heading-small{
+		padding-bottom: 2px;
+		border-bottom: solid 1px;
+		border-color: $light;
+		display: block;
+		margin-bottom: 5px;
+
+		@media only screen and (min-width: $large){
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.case-study-text-wrap{
+	display: flex;
+
+	p{
+		margin-bottom: 20px;
+	}
+
+	@media only screen and (min-width: $large){
+		.case-study-brief{
+			padding-right: 25px;
+			width: 50%;
+		}
+
+		.case-study-details{
+			padding-left: 25px;
+			width: 50%;
+
+			div{
+				width: 31%;
+				float: left;
+			}
+
+			.case-study-role{
+				padding-right: 3%;
+			}
+
+			.case-study-client{
+				padding-right: 3%;
+			}
+		}
+
+		.column-1{
+			padding-right: 25px;
+			width: 50%;
+		}
+
+		.column-2{
+			padding-left: 25px;
+			width: 50%;
+		}
+	}
+
+	@media only screen and (max-width: $large){
+		display: block;
+	}
+}
+
 /* ==================== FOOTER ==================== */
 
 footer{
