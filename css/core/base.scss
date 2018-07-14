@@ -26,7 +26,6 @@ body{
 		background: blue;
 	}
 	*/
-
 }
 
 /* ==================== HEADER ==================== */
@@ -188,11 +187,11 @@ header{
 /* ==================== CONTENT ==================== */
 
 .content{
-	align-content: flex-start;
+	// align-content: flex-start;
 	background: $midtone-05;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	// display: flex;
+	// flex-wrap: wrap;
+	// justify-content: space-between;
 
 	@media only screen and (min-width: $large){
 		padding: 50px 100px;
@@ -210,103 +209,139 @@ header{
 
 /* ==================== PROJECTS ==================== */
 
-.project-link{
-	height: auto;
-	max-width: 378px;
+.grid{
+	overflow: auto;
 
-	.project-container{
-		position: relative;
+	.project-link{
+		float: left;
+		height: auto;
+		// max-width: 378px;
+		//width: 33.3%;
 
-		img{
-			display: block;
-			height: auto;
-			width: 100%;
-			-webkit-transition: $link;
-			transition: $link;
-		}
+		.project-container{
+			position: relative;
 
-		.project-overlay {
-			h4, p{ color: $white; margin-bottom: 20px; }
-			h5{ color: $white; opacity: 0.7 }
-			opacity: 0;
-			-webkit-transition: $link;
-			transition: $link;
-
-			.project-overlay-summary {
-				left: 25px;
-				position: absolute;
-				right: 25px;
-				top: 30px;
+			img{
+				display: block;
+				height: auto;
+				width: 100%;
 				-webkit-transition: $link;
 				transition: $link;
-				z-index: 1;
 			}
 
-			.project-overlay-colour{
-				background: $midtone;
-				background: linear-gradient($midtone-50, $midtone-10);
-				bottom: 0;
-				height: 100%;
-				left: 0;
-				opacity: 0.8;
-				position: absolute;
-				right: 0;
-				top: 0;
-				-webkit-transition: $project;
-				transition: $project;
-				width: 100%;
-			}
+			.project-overlay {
+				h3, p{ color: $white; margin-bottom: 20px; }
+				h4{ color: $white; opacity: 0.7 }
+				opacity: 0;
+				-webkit-transition: $link;
+				transition: $link;
 
-			.view-project::after{
-				content: "";
-				background-image: url("../images/arrow-right-white.svg");
-				background-repeat: no-repeat;
-				position: absolute;
-				width: 35px;
-				height: 20px;
-				left: 100px;
-				padding-top: 5px;
-				-webkit-transition: $project;
-				transition: $project;
-			}
-		}
-	}
+				.project-overlay-details {
+					left: 25px;
+					position: absolute;
+					right: 25px;
+					top: 30px;
+					-webkit-transition: $link;
+					transition: $link;
+					z-index: 1;
+				}
 
-	&:hover{
-		h4{ color: $midtone; }
-		h5{	color: $light; }
-	}
-
-	&:active{
-		h4{ color: $light; }
-		h5{	color: $midtone-25; }
-	}
-
-	.project-details{
-		display: none;
-	}
-
-	@media only screen and (min-width: $medium){
-		&:hover{
-			.project-overlay{
-				opacity: 1;
-
-				.project-overlay-summary {
-					top: 28px;
+				.project-overlay-colour{
+					background: $midtone;
+					background: linear-gradient($midtone-50, $midtone-10);
+					bottom: 0;
+					height: 100%;
+					left: 0;
+					opacity: 0.8;
+					position: absolute;
+					right: 0;
+					top: 0;
+					-webkit-transition: $project;
+					transition: $project;
+					width: 100%;
 				}
 
 				.view-project::after{
-					left: 105px;
+					content: "";
+					background-image: url("../images/arrow-right-white.svg");
+					background-repeat: no-repeat;
+					position: absolute;
+					width: 35px;
+					height: 20px;
+					left: 100px;
+					padding-top: 5px;
+					-webkit-transition: $project;
+					transition: $project;
+				}
+			}
+		}
+
+		&:hover{
+			h3{ color: $midtone; }
+			h4{	color: $light; }
+		}
+
+		&:active{
+			h3{ color: $light; }
+			h4{	color: $midtone-25; }
+		}
+
+		.project-details{
+			display: none;
+		}
+	}
+
+	@media only screen and (min-width: $extra-large){
+		.project-link{
+			width: 32%;
+			margin-bottom: 2%;
+		}
+
+		.project-gutter{ width: 2%}
+	}
+
+	@media only screen and (max-width: $extra-large){
+		.project-link{
+			width: 48.5%;
+			margin-bottom: 3%;
+		}
+
+		.project-gutter{ width: 3%}
+	}
+
+	@media only screen and (max-width: $medium){
+		.project-link{
+			.project-details{
+				display: inline;
+			}
+		}
+	}
+
+	@media only screen and (min-width: $medium){
+		.project-link{
+			&:hover{
+				.project-overlay{
+					opacity: 1;
+
+					.project-overlay-details {
+						top: 28px;
+					}
+
+					.view-project::after{
+						left: 105px;
+					}
 				}
 			}
 		}
 	}
 
-	@media only screen and (max-width: $medium){
-		.project-details{
-			display: inline;
+	@media only screen and (max-width: $small){
+		.project-link{
+			width: 100%;
+			margin-bottom: 25px;
 		}
 	}
+
 }
 
 /* ==================== FOOTER ==================== */

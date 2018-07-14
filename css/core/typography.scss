@@ -38,27 +38,27 @@ h2{
 
 h3{
 	color: $dark;
-	font-size: 16px;
-	font-weight: 700;
-	text-transform: uppercase;
-}
-
-h4{
-	color: $dark;
 	font-size: 22px;
 	font-weight: 700;
 	-webkit-transition: $link;
 	transition: $link;
 }
 
-h5{
+h4{
 	color: $dark-50;
 	font-size: 14px;
 	font-weight: 700;
-	letter-spacing: 1px;
+	// letter-spacing: 1px;
 	text-transform: uppercase;
 	-webkit-transition: $link;
 	transition: $link;
+}
+
+h5{
+	color: $dark;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 nav{
@@ -66,7 +66,7 @@ nav{
 	cursor: default;
 	font-size: 24px;
 	font-weight: 700;
-	letter-spacing: 3px;
+	letter-spacing: 1px;
 
 	a{
 		color: $dark;
