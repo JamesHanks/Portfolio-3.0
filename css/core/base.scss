@@ -187,11 +187,8 @@ header{
 /* ==================== CONTENT ==================== */
 
 .content{
-	// align-content: flex-start;
 	background: $midtone-05;
-	// display: flex;
-	// flex-wrap: wrap;
-	// justify-content: space-between;
+	overflow: auto;
 
 	@media only screen and (min-width: $large){
 		padding: 50px 100px;
@@ -313,6 +310,8 @@ header{
 		.project-link{
 			.project-details{
 				display: inline;
+
+				h3{ margin-top: 5px;}
 			}
 		}
 	}
@@ -337,17 +336,98 @@ header{
 
 	@media only screen and (max-width: $small){
 		.project-link{
-			width: 100%;
 			margin-bottom: 25px;
+			width: 100%;
 		}
 	}
+}
 
+/* ==================== ABOUT ==================== */
+
+.about-container{
+	display: block;
+
+	.about{
+		@media only screen and (min-width: $large){
+			float: left;
+			width: 47%;
+			margin-right: 3%;
+
+			h2{
+				margin-top: 25px;
+			}
+
+			p{
+				margin-top: 25px;
+			}
+		}
+
+		@media only screen and (max-width: $large){
+			width: 100%;
+			margin-bottom: 25px;
+
+			h2{
+				margin-top: 15px;
+			}
+
+			p{
+				margin-top: 15px;
+			}
+		}
+
+		@media only screen and (max-width: $small){
+			.heading-small{
+				display:none;
+			}
+		}
+	}
+}
+
+.portrait-container{
+	display: block;
+
+	.portrait{
+		@media only screen and (min-width: $large){
+			float: right;
+			width: 47%;
+			margin-left: 3%;
+			max-width: 495px;
+
+			img{
+				width: 100%;
+			}
+		}
+
+		@media only screen and (max-width: $large){
+			text-align: center;
+
+			img{
+				width: 100%;
+			}
+		}
+
+		@media only screen and (max-width: $large){
+			text-align: center;
+
+			img{
+				max-width: 495px;
+			}
+		}
+
+		@media only screen and (max-width: $medium){
+			text-align: center;
+			
+			img{
+				max-width: 450px;
+			}
+		}
+	}
 }
 
 /* ==================== FOOTER ==================== */
 
 footer{
-	.footer{
+	.footer-content{
 		align-items: center;
 		display: flex;
 
@@ -413,7 +493,7 @@ footer{
 	}
 
 	@media only screen and (max-width: $medium){
-		.footer{
+		.footer-content{
 			display: inline-block;
 
 			.footer-copyright{
@@ -432,7 +512,7 @@ footer{
 	@media only screen and (max-width: $small){
 		padding: 25px;
 
-		.footer{
+		.footer-content{
 			.footer-copyright{
 				margin-bottom: 20;
 			}

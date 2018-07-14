@@ -71,118 +71,34 @@
 				<span><a href="index.php">Work</a></span>
 			</nav>
 		</div>
-
-		<!-- Introduction -->
-		<div class="introduction">
-			<p>Hello! I’m an interactive designer and developer based in London. I strive to build elegant, user-centred and meaningful digital experiences.<br><br>You can view some examples of my work <a href="#" onclick="scrollDown(document.getElementById('projects'))">below</a>.</p>
-		</div>
-
 	</header>
 
 	<span class="border"></span>
+	
+	<!-- About Me -->
 
-	<!-- Projects -->
-	<section class="content" id="projects">
-		<div class="grid">
-			
-			<div class="project-gutter"></div>
+	<section class="content">
+		<div class="about-container">
+			<div class="about">
+				<span class="heading-small">About</span>
 
-			<a href="#" class="project-link grid-item">
-				<div class="project-container">
-					<img src="images/somnus-tile.png" class="project-image" alt="Somnus">
-					<div class="project-overlay">
-						<div class="project-overlay-details">
-							<h3>Somnus</h3>
-							<p>The 'sleep-friendly' network, designed to tackle electronic insomnia.</p>
-							<p class="view-project">View project</p>
-						</div>
-						<div class="project-overlay-colour"></div>
-					</div>
-				</div>
-				<span class="project-details">
-					<h3>Somnus</h3>
-					<h4>Product Design, UI/UX</h4>
-				</span>
-			</a>
+				<h2>Hello! My name is James and I’m a designer and developer based in London.</h2>
 
-			<a href="#" class="project-link grid-item">
-				<div class="project-container">
-					<img src="images/espia-tile.jpg" class="project-image" alt="Espia">
-					<div class="project-overlay">
-						<div class="project-overlay-details">
-							<h3>Espia</h3>
-							<p>A ubiquitous robot proposed to keep its user safe in a future connected environment.</p>
-							<p class="view-project">View project</p>
-						</div>
-						<div class="project-overlay-colour"></div>
-					</div>
-				</div>
-				<span class="project-details">
-					<h3>Espia</h3>
-					<h4>Interaction Design, Robotics, UI/UX</h4>
-				</span>
-			</a>
+				<p>I’m a final year BSc Digital Design student at <a href="https://www.brunel.ac.uk/">Brunel University London</a>, having just completed my placement year working at <a href="http://panstudio.co.uk/">PAN Studio</a>. I enjoy crafting elegant, user-centric and robust applications.</p>
 
-			<a href="#" class="project-link grid-item">
-				<div class="project-container">
-					<img src="images/apto-tile.jpg" class="project-image" alt="Apto Hotels">
-					<div class="project-overlay">
-						<div class="project-overlay-details">
-							<h3>Apto Hotels</h3>
-							<p>New brand responding to the growing dissatisfaction with economy hotel chains.</p>
-							<p class="view-project">View project</p>
-						</div>
-						<div class="project-overlay-colour"></div>
-					</div>
-				</div>
-				<span class="project-details">
-					<h3>Apto Hotels</h3>
-					<h4>Branding, Service Design, UI/UX</h4>
-				</span>
-			</a>
+				<p>A firm believer in the value of empathy, I believe that when applied to design and technology, it can form incredible things that make a genuinely positive impact on the world we live in.</p>
 
-			<a href="#" class="project-link grid-item">
-				<div class="project-container">
-					<img src="images/project-image-large.jpg" class="project-image" alt="Sketchbook">
-					<div class="project-overlay">
-						<div class="project-overlay-details"></div>
-						<div class="project-overlay-colour"></div>
-					</div>
-				</div>
-				<span class="project-details">
-					<h3>Sketchbook</h3>
-					<h4>Process</h4>
-				</span>
-			</a>
+				<p>If you would like to collaborate in some way or simply chat, please email me at <a href="mailto:james.ra.hanks@gmail.com">james.ra.hanks@gmail.com</a>. I’ll do my best to respond as quickly as possible!</p>
 
-			<a href="#" class="project-link grid-item">
-				<div class="project-container">
-					<img src="images/project-image-small.jpg" class="project-image" alt="Sainsbury's Shuttle">
-					<div class="project-overlay">
-						<div class="project-overlay-details"></div>
-						<div class="project-overlay-colour"></div>
-					</div>
-				</div>
-				<span class="project-details">
-					<h3>Shuttle</h3>
-					<h4>Digital Product Design, UI/UX</h4>
-				</span>
-			</a>
+				<p>I can also be found on: <a href="https://www.linkedin.com/in/jameshanks">LinkedIn</a> - <a href="https://www.twitter.com/jameshanks_">Twitter</a> - <a href="https://www.instagram.com/jameshanks_">Instagram</a> - <a href="https://www.behance.net/jameshanks">Behance</a></p>
 
-			<a href="#" class="project-link grid-item">
-				<div class="project-container">
-					<img src="images/project-image-small.jpg" class="project-image" alt="Hello Lamp Post">
-					<div class="project-overlay">
-						<div class="project-overlay-details"></div>
-						<div class="project-overlay-colour"></div>
-					</div>
-				</div>
-				<span class="project-details">
-					<h3>Hello Lamp Post</h3>
-					<h4>Web Development, Information Design, Graphic Design</h4>
-				</span>
-			</a>
-
+				<p>You can download my CV <a href="james-hanks-cv_2018">here</a>.</p>
+			</div>
+		</div>
+		<div class="portrait-container">
+			<div class="portrait">
+				<img src="images/project-image-large.jpg" alt="Portrait">
+			</div>
 		</div>
 	</section>
 
@@ -199,6 +115,7 @@
 			</div>
 
 			<div class="footer-social">
+
 				<span class="footer-social-link"> <a href="https://www.behance.net/jameshanks">
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve" class="footer-logo">
 						<title>Behance</title>
@@ -242,6 +159,7 @@
 						<path d="M77.84,32.81A28.25,28.25,0,0,1,75.25,36a22.45,22.45,0,0,1-2.73,2.32.76.76,0,0,0-.41.69A33.17,33.17,0,0,1,61.33,64.34a30.89,30.89,0,0,1-14.88,7.51,30.37,30.37,0,0,1-8.6.54,31.15,31.15,0,0,1-12.14-3c-1.23-.55-2.32-1.23-3.55-1.91A23.5,23.5,0,0,0,38.81,62.7c-.82-.13-1.78-.27-2.59-.41a11.29,11.29,0,0,1-7.92-7.37c-.14-.41,0-.27.27-.27a12.45,12.45,0,0,0,4.51-.14c0-.13-.41-.13-.55-.13a11.13,11.13,0,0,1-8.19-9,7,7,0,0,1-.13-1.64c0-.41,0-.41.41-.27a12.3,12.3,0,0,0,4.5,1.23c0-.14,0-.14-.14-.28a11,11,0,0,1-4.5-7.91,11.38,11.38,0,0,1,1.23-6.69c0-.27.13-.41.54,0a32.51,32.51,0,0,0,13.92,9.83,33.94,33.94,0,0,0,8.19,1.77c.28,0,.68.28,1,0s0-.54,0-.82A11.48,11.48,0,0,1,68.7,30.77a.64.64,0,0,0,.82.13,28.13,28.13,0,0,0,6.41-2.45l.41-.14a11.71,11.71,0,0,1-4.78,6.14.41.41,0,0,0,.55,0,37.14,37.14,0,0,0,5.19-1.36h.41Z"/>
 					</svg>
 				</a></span>
+
 			</div>
 		</div>
 	</footer>
