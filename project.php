@@ -9,7 +9,7 @@
 	<title>Espia | James Hanks</title>
 	<meta name="author" content="James Hanks">
 	<meta name="robots" content="index, follow">
-	<meta name="description" content="James Hanks is an interactive designer and developer based in London.">
+	<meta name="description" content="James Hanks is an interaction designer and developer based in London.">
 	<meta name="keywords" content="designer, design, developer, digital, front-end, interaction, interface, javascript, software, UI, UX, web">
 	<meta name="distribution" content="Global">
 	<meta name="language" content="English">
@@ -19,12 +19,12 @@
 
 	<!-- Sharing -->
 	<meta itemprop="name" content="James Hanks">
-	<meta itemprop="description" content="James Hanks is an interactive designer and developer based in London">
+	<meta itemprop="description" content="James Hanks is an interaction designer and developer based in London">
 	<meta itemprop="image" content="images/thumbnail.png">
 
 	<!-- Twitter -->
 	<meta name="twitter:title" content="James Hanks">
-	<meta name="twitter:description" content="James Hanks is an interactive designer and developer based in London">
+	<meta name="twitter:description" content="James Hanks is an interaction designer and developer based in London">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@jameshanks_">
 	<meta name="twitter:creator" content="@jameshanks_">
@@ -32,7 +32,7 @@
 
 	<!-- Open Graph -->
 	<meta property="og:title" content="James Hanks" />
-	<meta property="og:description" content="James Hanks is an interactive designer and developer based in London" />
+	<meta property="og:description" content="James Hanks is an interaction designer and developer based in London" />
 	<meta property="og:url" content="http://www.jameshanks.net/index.php" />
 	<meta property="og:image" content="http://www.jameshanks.net/images/thumbnail.png" />
 	<meta property="og:type" content="website" />
@@ -83,7 +83,6 @@
 			<div class="case-study-intro">
 				<h1>Espia</h1>
 				<h2>A ubiquitous robot designed to keep the user safe from violations of privacy and unethical surveillance in a future connected environment.</h2>
-				<img src="#">
 			</div>
 
 			<div class="case-study-text-wrap">
@@ -95,7 +94,7 @@
 				<div class="case-study-details">
 					<div class="case-study-role">
 						<span class="heading-small">Role</span>
-						<p>Research - Design</p>
+						<p>Design - Research</p>
 					</div>
 					<div class="case-study-client">
 						<span class="heading-small">Client</span>

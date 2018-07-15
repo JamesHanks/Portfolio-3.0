@@ -9,7 +9,7 @@
 	<title>James Hanks</title>
 	<meta name="author" content="James Hanks">
 	<meta name="robots" content="index, follow">
-	<meta name="description" content="James Hanks is an interactive designer and developer based in London.">
+	<meta name="description" content="James Hanks is an interaction designer and developer based in London.">
 	<meta name="keywords" content="designer, design, developer, digital, front-end, interaction, interface, javascript, software, UI, UX, web">
 	<meta name="distribution" content="Global">
 	<meta name="language" content="English">
@@ -19,12 +19,12 @@
 
 	<!-- Sharing -->
 	<meta itemprop="name" content="James Hanks">
-	<meta itemprop="description" content="James Hanks is an interactive designer and developer based in London">
+	<meta itemprop="description" content="James Hanks is an interaction designer and developer based in London">
 	<meta itemprop="image" content="images/thumbnail.png">
 
 	<!-- Twitter -->
 	<meta name="twitter:title" content="James Hanks">
-	<meta name="twitter:description" content="James Hanks is an interactive designer and developer based in London">
+	<meta name="twitter:description" content="James Hanks is an interaction designer and developer based in London">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@jameshanks_">
 	<meta name="twitter:creator" content="@jameshanks_">
@@ -32,7 +32,7 @@
 
 	<!-- Open Graph -->
 	<meta property="og:title" content="James Hanks" />
-	<meta property="og:description" content="James Hanks is an interactive designer and developer based in London" />
+	<meta property="og:description" content="James Hanks is an interaction designer and developer based in London" />
 	<meta property="og:url" content="http://www.jameshanks.net/index.php" />
 	<meta property="og:image" content="http://www.jameshanks.net/images/thumbnail.png" />
 	<meta property="og:type" content="website" />
@@ -54,9 +54,13 @@
 			<div class="header-brand">
 				<a class="header-brand-logo-container" href="index.php">
 					<svg class="header-brand-logo"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+
 						<path id="left-eye" d="M32.8,40.8c-3.6,0-6.5,2.9-6.5,6.5s2.9,6.5,6.5,6.5s6.5-2.9,6.5-6.5S36.4,40.8,32.8,40.8z"/>
+						
 						<path id="right-eye" d="M67.2,40.8c-3.6,0-6.5,2.9-6.5,6.5s2.9,6.5,6.5,6.5c3.6,0,6.5-2.9,6.5-6.5C73.9,43.7,70.9,40.8,67.2,40.8z"/>
-						<path id="body" d="M78.5,72.7h-3.6c-3.7,0-6.8-2.7-7.6-6.1c-0.1-0.4,0-0.8,0.3-1.2c0.4-0.4,0.8-0.5,1.5-0.5c8.7-0.9,15.6-8.4,15.6-17.3c0-19.1-15.5-34.5-34.5-34.5S15.6,28.4,15.6,47.5c0,8.9,6.9,16.4,15.6,17.3c0.5,0,1.1,0.1,1.5,0.5c0.3,0.4,0.3,0.8,0.3,1.2c-0.8,3.5-3.9,6.1-7.6,6.1h-3.6c-1.6,0-2.9,1.2-3.1,2.7c-0.1,1.7,1.2,3.1,2.9,3.1h3.6c6.9,0,12.8-5.2,13.6-12c0-1.1,0.8-1.9,1.9-1.9s1.9,0.8,1.9,1.9v19.7c0,1.6,1.3,2.9,2.9,2.9s2.9-1.3,2.9-2.9V66.5c0-1.1,0.8-1.9,1.9-1.9s1.9,0.8,1.9,1.9v19.7c0,1.6,1.3,2.9,2.9,2.9c1.6,0,2.9-1.3,2.9-2.9V66.5c0-1.1,0.8-1.9,1.9-1.9c1.1,0,1.9,0.8,1.9,1.9c0.8,6.7,6.7,12,13.6,12h3.3c1.7,0,3.1-1.5,2.9-3.1C81.5,73.9,80.1,72.7,78.5,72.7z M43.5,47.5c0,5.9-4.8,10.8-10.8,10.8c-5.9,0-10.8-4.8-10.8-10.8c0-5.9,4.8-10.8,10.8-10.8S43.5,41.5,43.5,47.5z M67.2,58.1c-5.9,0-10.8-4.8-10.8-10.8c0-5.9,4.8-10.8,10.8-10.8c5.9,0,10.8,4.8,10.8,10.8S73.2,58.1,67.2,58.1z"/>
+						
+						<path id="body" d="M78.5,72.7h-3.6c-3.7,0-6.8-2.7-7.6-6.1c-0.1-0.4,0-0.8,0.3-1.2c0.4-0.4,0.8-0.5,1.5-0.5c8.7-0.9,15.6-8.4,15.6-17.3c0-19.1-15.5-34.5-34.5-34.5S15.6,28.4,15.6,47.5c0,8.9,6.9,16.4,15.6,17.3c0.5,0,1.1,0.1,1.5,0.5c0.3,0.4,0.3,0.8,0.3,1.2c-0.8,3.5-3.9,6.1-7.6,6.1h-3.6c-1.6,0-2.9,1.2-3.1,2.7c-0.1,1.7,1.2,3.1,2.9,3.1h3.6c6.9,0,12.8-5.2,13.6-12c0-1.1,0.8-1.9,1.9-1.9s1.9,0.8,1.9,1.9v19.7c0,1.6,1.3,2.9,2.9,2.9s2.9-1.3,2.9-2.9V66.5c0-1.1,0.8-1.9,1.9-1.9s1.9,0.8,1.9,1.9v19.7c0,1.6,1.3,2.9,2.9,2.9c1.6,0,2.9-1.3,2.9-2.9V66.5c0-1.1,0.8-1.9,1.9-1.9c1.1,0,1.9,0.8,1.9,1.9c0.8,6.7,6.7,12,13.6,12h3.3c1.7,0,3.1-1.5,2.9-3.1C81.5,73.9,80.1,72.7,78.5,72.7zM43.5,47.5c0,5.9-4.8,10.8-10.8,10.8c-5.9,0-10.8-4.8-10.8-10.8c0-5.9,4.8-10.8,10.8-10.8S43.5,41.5,43.5,47.5zM67.2,58.1c-5.9,0-10.8-4.8-10.8-10.8c0-5.9,4.8-10.8,10.8-10.8c5.9,0,10.8,4.8,10.8,10.8S73.2,58.1,67.2,58.1z"/>
+						
 						<path id="ring" d="M50,2.9c12.5,0,24.4,4.9,33.3,13.7c8.9,8.9,13.7,20.7,13.7,33.3s-4.9,24.4-13.7,33.3C74.4,92.3,62.7,97.1,50,97.1c-12.5,0-24.4-4.9-33.3-13.7C7.7,74.4,2.9,62.7,2.9,50s4.9-24.4,13.7-33.3C25.6,7.9,37.5,2.9,50,2.9 M50,0C22.4,0,0,22.4,0,50s22.4,50,50,50s50-22.4,50-50S77.6,0,50,0z"/>
 					</svg>
 				</a>
@@ -74,7 +78,7 @@
 
 		<!-- Introduction -->
 		<div class="introduction">
-			<p>Hello! I’m an interactive designer and developer based in London. I strive to build elegant, user-centred and meaningful digital experiences.<br><br>You can view some examples of my work <a href="#" onclick="scrollDown(document.getElementById('projects'))">below</a>.</p>
+			<p>Hello! I’m an interaction designer and developer based in London. I strive to build elegant, user-centred and meaningful digital experiences.<br><br>You can view some examples of my work <a href="#" onclick="scrollDown(document.getElementById('projects'))">below</a>.</p>
 		</div>
 
 	</header>
@@ -137,7 +141,7 @@
 				</div>
 				<span class="project-details">
 					<h3>Apto Hotels</h3>
-					<h4>Branding, Service Design, UI/UX</h4>
+					<h4>Branding, Digital Strategy, UI/UX</h4>
 				</span>
 			</a>
 
@@ -145,7 +149,11 @@
 				<div class="project-container">
 					<img src="images/project-image-large.jpg" class="project-image" alt="Sketchbook">
 					<div class="project-overlay">
-						<div class="project-overlay-details"></div>
+						<div class="project-overlay-details">
+							<h3>Sketchbook</h3>
+							<p>Selected pages from my sketchbooks.</p>
+							<p class="view-project">View project</p>
+						</div>
 						<div class="project-overlay-colour"></div>
 					</div>
 				</div>
@@ -159,7 +167,11 @@
 				<div class="project-container">
 					<img src="images/project-image-small.jpg" class="project-image" alt="Sainsbury's Shuttle">
 					<div class="project-overlay">
-						<div class="project-overlay-details"></div>
+						<div class="project-overlay-details">
+							<h3>Shuttle</h3>
+							<p>Mobile application pitched to expand a randomly selected brand’s customer outreach.</p>
+							<p class="view-project">View project</p>
+						</div>
 						<div class="project-overlay-colour"></div>
 					</div>
 				</div>
@@ -171,15 +183,37 @@
 
 			<a href="#" class="project-link grid-item">
 				<div class="project-container">
-					<img src="images/project-image-small.jpg" class="project-image" alt="Hello Lamp Post">
+					<img src="images/project-image-large.jpg" class="project-image" alt="Hello Lamp Post">
 					<div class="project-overlay">
-						<div class="project-overlay-details"></div>
+						<div class="project-overlay-details">
+							<h3>Hello Lamp Post</h3>
+							<p>Design and development for the playful, city-wide system that lets people speak to street furniture.</p>
+							<p class="view-project">View project</p>
+						</div>
 						<div class="project-overlay-colour"></div>
 					</div>
 				</div>
 				<span class="project-details">
 					<h3>Hello Lamp Post</h3>
-					<h4>Web Development, Information Design, Graphic Design</h4>
+					<h4>Front-end Development, Graphic Design, Information Design</h4>
+				</span>
+			</a>
+
+			<a href="#" class="project-link grid-item">
+				<div class="project-container">
+					<img src="images/project-image-small.jpg" class="project-image" alt="What Are Mental Health Problems?">
+					<div class="project-overlay">
+						<div class="project-overlay-details">
+							<h3>What Are Mental Health Problems?</h3>
+							<p>Informational animation made for a mental health charity.</p>
+							<p class="view-project">View project</p>
+						</div>
+						<div class="project-overlay-colour"></div>
+					</div>
+				</div>
+				<span class="project-details">
+					<h3>What Are Mental Health Problems?</h3>
+					<h4>Animation, Illustration</h4>
 				</span>
 			</a>
 

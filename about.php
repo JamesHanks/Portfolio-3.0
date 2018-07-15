@@ -9,7 +9,7 @@
 	<title>James Hanks</title>
 	<meta name="author" content="James Hanks">
 	<meta name="robots" content="index, follow">
-	<meta name="description" content="James Hanks is an interactive designer and developer based in London.">
+	<meta name="description" content="James Hanks is an interaction designer and developer based in London.">
 	<meta name="keywords" content="designer, design, developer, digital, front-end, interaction, interface, javascript, software, UI, UX, web">
 	<meta name="distribution" content="Global">
 	<meta name="language" content="English">
@@ -19,12 +19,12 @@
 
 	<!-- Sharing -->
 	<meta itemprop="name" content="James Hanks">
-	<meta itemprop="description" content="James Hanks is an interactive designer and developer based in London">
+	<meta itemprop="description" content="James Hanks is an interaction designer and developer based in London">
 	<meta itemprop="image" content="images/thumbnail.png">
 
 	<!-- Twitter -->
 	<meta name="twitter:title" content="James Hanks">
-	<meta name="twitter:description" content="James Hanks is an interactive designer and developer based in London">
+	<meta name="twitter:description" content="James Hanks is an interaction designer and developer based in London">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@jameshanks_">
 	<meta name="twitter:creator" content="@jameshanks_">
@@ -32,7 +32,7 @@
 
 	<!-- Open Graph -->
 	<meta property="og:title" content="James Hanks" />
-	<meta property="og:description" content="James Hanks is an interactive designer and developer based in London" />
+	<meta property="og:description" content="James Hanks is an interaction designer and developer based in London" />
 	<meta property="og:url" content="http://www.jameshanks.net/index.php" />
 	<meta property="og:image" content="http://www.jameshanks.net/images/thumbnail.png" />
 	<meta property="og:type" content="website" />
@@ -88,9 +88,9 @@
 
 				<p>A firm believer in the value of empathy, I believe that when applied to design and technology, it can form incredible things that make a genuinely positive impact on the world we live in.</p>
 
-				<p>If you would like to collaborate in some way or simply chat, please email me at <a href="mailto:james.ra.hanks@gmail.com">james.ra.hanks@gmail.com</a>. I’ll do my best to respond as quickly as possible!</p>
+				<p>If you would like to collaborate in some way or just chat, please email me at <a href="mailto:james.ra.hanks@gmail.com">james.ra.hanks@gmail.com</a>. I’ll do my best to respond as quickly as possible!</p>
 
-				<p>I can also be found on: <a href="https://www.linkedin.com/in/jameshanks" target="blank">LinkedIn</a> - <a href="https://www.twitter.com/jameshanks_" target="blank">Twitter</a> - <a href="https://www.instagram.com/jameshanks_" target="blank">Instagram</a> - <a href="https://www.behance.net/jameshanks" target="blank">Behance</a></p>
+				<p>I can also be found on: <a href="https://www.linkedin.com/in/jameshanks" target="blank">LinkedIn</a> - <a href="https://www.twitter.com/jameshanks_" target="blank">Twitter</a> - <a href="https://www.instagram.com/jameshanks_" target="blank">Instagram</a>
 
 				<p>You can download my CV <a href="james-hanks-cv_2018">here</a>.</p>
 			</div>
