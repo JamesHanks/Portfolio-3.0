@@ -49,7 +49,7 @@
 <body>
 
 	<!-- Header -->
-	<header>
+	<header id="top">
 		<div class="header">
 			<div class="header-brand">
 				<a class="header-brand-logo-container" href="index.php">
@@ -155,10 +155,17 @@
 				</div>
 			</a>
 
-			<a href="#">
+			<a href="#" onclick="scrollDown(document.getElementById('top'))">
 				<div class="case-study-arrow-top">
-					<img src="up-arrow">
-					<h4>To Top</h4>
+					<span class="arrow-top-container">
+						<svg class="arrow-top" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+							<title>Arrow Top</title>
+							<path class="a" d="M2.9,50A47.1,47.1,0,0,1,83.3,16.7,47.1,47.1,0,1,1,16.7,83.3,46.7,46.7,0,0,1,2.9,50M0,50H0a50,50,0,0,0,50,50h0a50,50,0,0,0,50-50h0A50,50,0,0,0,50,0h0A50,50,0,0,0,0,50Z"/>
+							<path class="a" d="M52.9,21.7V81.1a2.9,2.9,0,0,1-5.8,0V21.7a2.9,2.9,0,0,1,5.8,0Z"/>
+							<path class="a" d="M74.3,41.7a2.9,2.9,0,0,1-.9,2.1,3,3,0,0,1-4.1-.1L50,23,30.7,43.7a3,3,0,0,1-4.1.1,2.8,2.8,0,0,1-.1-4L47.9,16.9a2.9,2.9,0,0,1,4.2,0L73.5,39.8A2.7,2.7,0,0,1,74.3,41.7Z"/>
+						</svg>
+					</span>
+					<h4>Back to Top</h4>
 				</div>
 			</a>
 

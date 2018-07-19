@@ -533,6 +533,11 @@ header{
 				fill: $midtone;
 			}
 		}
+		.arrow-top-container{
+			.arrow-top{
+				fill: $midtone;
+			}
+		}
 		.arrow-right-container{
 			.arrow-right{
 				fill: $midtone;
@@ -548,6 +553,11 @@ header{
 				fill: $light;
 			}
 		}
+		.arrow-top-container{
+			.arrow-top{
+				fill: $light;
+			}
+		}
 		.arrow-right-container{
 			.arrow-right{
 				fill: $light;
@@ -556,7 +566,7 @@ header{
 	}
 }
 
-@media only screen and (min-width: $large){
+@media only screen and (min-width: $medium){
 	.case-study-arrows-container{
 		display: flex;
 		justify-content: space-between;
@@ -567,6 +577,8 @@ header{
 	.case-study-arrow-1{
 		min-width: 250px;
 		text-align: left;
+		-webkit-transition: $link;
+		transition: $link;
 
 		.arrow-left-container{
 			display: inline-block;
@@ -588,12 +600,14 @@ header{
 	}
 
 	.case-study-arrow-top{
-		text-align: center;
+		display: none;
 	}
 
 	.case-study-arrow-2{
 		min-width: 250px;
 		text-align: right;
+		-webkit-transition: $link;
+		transition: $link;
 
 		.arrow-right-container{
 			display: inline-block;
@@ -613,6 +627,37 @@ header{
 			margin-right: 10px;
 		}
 	}
+}
+
+@media only screen and (max-width: $medium){
+
+	.case-study-arrows-container{
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 25px;
+	}
+
+	.case-study-arrow-1, .case-study-arrow-2{
+		display: none;
+	}
+
+	.case-study-arrow-top{
+		text-align: center;
+
+		.arrow-top-container{
+			display: inline-block;
+			height: 50px;
+			width: 50px;
+
+			.arrow-top{
+				-webkit-transition: $link;
+				fill: $dark;
+				transition: $link;
+			}
+
+		}
+	}
+
 }
 
 /* ==================== FOOTER ==================== */
