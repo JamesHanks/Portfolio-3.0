@@ -84,11 +84,11 @@
 
 				<h2>Hello! My name is James and I’m a designer and developer based in London.</h2>
 
-				<p>I’m a final year BSc Digital Design student at <a href="https://www.brunel.ac.uk/" target="blank">Brunel University London</a>, having just completed my placement year working at <a href="http://panstudio.co.uk/" target="blank">PAN Studio</a>. I enjoy crafting elegant, user-centric and robust applications.</p>
+				<p>I’m a final year BSc Digital Design student at <a href="https://www.brunel.ac.uk/" target="blank">Brunel University London</a>, having just completed my placement year working at <a href="http://panstudio.co.uk/" target="blank">PAN Studio</a>. I enjoy crafting elegant, user-centric and robust digital products.</p>
 
 				<p>A firm believer in the value of empathy, I believe that when applied to design and technology, it can form incredible things that make a genuinely positive impact on the world we live in.</p>
 
-				<p>If you would like to collaborate in some way or just chat, please email me at <a href="mailto:james.ra.hanks@gmail.com">james.ra.hanks@gmail.com</a>. I’ll do my best to respond as quickly as possible!</p>
+				<p>If you would like to collaborate in some way or just chat, please email me at <a href="mailto:contact@jameshanks.net">contact@jameshanks.net</a>. I’ll do my best to respond as quickly as possible!</p>
 
 				<p>I can also be found on: <a href="https://www.linkedin.com/in/jameshanks" target="blank">LinkedIn</a> - <a href="https://www.twitter.com/jameshanks_" target="blank">Twitter</a> - <a href="https://www.instagram.com/jameshanks_" target="blank">Instagram</a>
 

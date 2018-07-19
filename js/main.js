@@ -12,7 +12,7 @@ var msnry = new Masonry( grid, {
 // Activate below button
 window.scrollDown = function(target) {
 	var scrollContainer = target;
-		do { // Locate the scroll container
+		do { // Find scrollContainer
 			scrollContainer = scrollContainer.parentNode;
 			if (!scrollContainer) return;
 			scrollContainer.scrollTop += 1;
@@ -29,6 +29,7 @@ window.scrollDown = function(target) {
 			c.scrollTop = a + (b - a) / 30 * i;
 			setTimeout(function(){ scroll(c, a, b, i); }, 17);
 		}
+
 		// Start scrolling
 		scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
 	}

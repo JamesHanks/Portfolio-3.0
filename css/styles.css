@@ -447,14 +447,19 @@ header {
 
 /* ==================== CASE STUDY ==================== */
 .case-study-container .heading-small {
-  padding-bottom: 2px;
   border-bottom: solid 1px;
   border-color: #B8B6FF;
   display: block;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  padding-bottom: 2px; }
   @media only screen and (min-width: 940px) {
     .case-study-container .heading-small {
       margin-bottom: 10px; } }
+
+.case-study-intro h1 {
+  margin-bottom: 10px; }
+.case-study-intro h2 {
+  margin-bottom: 20px; }
 
 .case-study-text-wrap {
   display: flex; }
@@ -482,8 +487,49 @@ header {
       width: 50%; } }
   @media only screen and (max-width: 940px) {
     .case-study-text-wrap {
-      display: block; } }
+      display: block; }
+      .case-study-text-wrap .case-study-details div {
+        float: left;
+        width: 31%; }
+      .case-study-text-wrap .case-study-details .case-study-role {
+        padding-right: 3%; }
+      .case-study-text-wrap .case-study-details .case-study-client {
+        padding-right: 3%; } }
+  @media only screen and (max-width: 625px) {
+    .case-study-text-wrap .case-study-details div {
+      width: 100%; } }
 
+.case-study-arrow-1 img, .case-study-arrow-2 img, .case-study-arrow-top img {
+  width: 50px; }
+.case-study-arrow-1:hover h3, .case-study-arrow-2:hover h3, .case-study-arrow-top:hover h3 {
+  color: #5452C1; }
+.case-study-arrow-1:hover h4, .case-study-arrow-2:hover h4, .case-study-arrow-top:hover h4 {
+  color: #B8B6FF; }
+.case-study-arrow-1:active h3, .case-study-arrow-2:active h3, .case-study-arrow-top:active h3 {
+  color: #B8B6FF; }
+.case-study-arrow-1:active h4, .case-study-arrow-2:active h4, .case-study-arrow-top:active h4 {
+  color: rgba(84, 82, 193, 0.25); }
+
+@media only screen and (min-width: 940px) {
+  .case-study-arrows-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px; }
+
+  .case-study-arrow-1 {
+    min-width: 250px;
+    text-align: left; }
+    .case-study-arrow-1 .left-arrow {
+      float: left; }
+
+  .case-study-arrow-top {
+    text-align: center; }
+
+  .case-study-arrow-2 {
+    min-width: 200px;
+    text-align: right; }
+    .case-study-arrow-2 .right-arrow {
+      float: right; } }
 /* ==================== FOOTER ==================== */
 footer .footer-content {
   align-items: center;

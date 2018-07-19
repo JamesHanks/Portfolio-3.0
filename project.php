@@ -136,6 +136,32 @@
 	<footer>
 
 		<!-- Next, to-top and previous arrows will go here -->
+		<div class="case-study-arrows-container">
+
+			<a href="#">
+				<div class="case-study-arrow-1">
+					<img src="left-arrow" class="left-arrow">
+					<h3>Hello Lamp Post</h3>
+					<h4>Previous</h4>
+				</div>
+			</a>
+
+			<a href="#">
+				<div class="case-study-arrow-top">
+					<img src="up-arrow">
+					<h4>To Top</h4>
+				</div>
+			</a>
+
+			<a href="#">
+				<div class="case-study-arrow-2 project-details">
+					<img src="right-arrow" class="right-arrow">
+					<h3>Apto Hotels</h3>
+					<h4>Next</h4>
+				</div>
+			</a>
+
+		</div>
 		
 		<div class="footer-content">
 			<div class="footer-copyright">

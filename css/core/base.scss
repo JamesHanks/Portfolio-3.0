@@ -428,15 +428,25 @@ header{
 
 .case-study-container{
 	.heading-small{
-		padding-bottom: 2px;
 		border-bottom: solid 1px;
 		border-color: $light;
 		display: block;
 		margin-bottom: 5px;
+		padding-bottom: 2px;
 
 		@media only screen and (min-width: $large){
 			margin-bottom: 10px;
 		}
+	}
+}
+
+.case-study-intro{
+	h1 {
+		margin-bottom: 10px;
+	}
+
+	h2{
+		margin-bottom: 20px;
 	}
 }
 
@@ -484,6 +494,75 @@ header{
 
 	@media only screen and (max-width: $large){
 		display: block;
+
+		.case-study-details{
+			div{
+				float: left;
+				width: 31%;
+			}
+
+			.case-study-role{
+				padding-right: 3%;
+			}
+
+			.case-study-client{
+				padding-right: 3%;
+			}
+		}
+	}
+
+	@media only screen and (max-width: $small){
+		.case-study-details{
+			div{
+				width: 100%;
+			}
+		}
+	}
+}
+
+.case-study-arrow-1, .case-study-arrow-2, .case-study-arrow-top{
+	img{
+		width: 50px;
+	}
+
+	&:hover{
+		h3{ color: $midtone; }
+		h4{	color: $light; }
+	}
+
+	&:active{
+		h3{ color: $light; }
+		h4{	color: $midtone-25; }
+	}
+}
+
+@media only screen and (min-width: $large){
+	.case-study-arrows-container{
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 50px;
+	}
+
+	.case-study-arrow-1{
+		min-width: 250px;
+		text-align: left;
+
+		.left-arrow{
+			float: left;
+		}
+	}
+
+	.case-study-arrow-top{
+		text-align: center;
+	}
+
+	.case-study-arrow-2{
+		min-width: 200px;
+		text-align: right;
+
+		.right-arrow{
+			float: right;
+		}
 	}
 }
 
@@ -515,7 +594,7 @@ footer{
 					top: -4px;
 				}
 				
-				/* .footer-logo{
+				.footer-logo{
 					fill: $dark;
 					-webkit-transition: $link;
 					transition: $link;
@@ -527,7 +606,7 @@ footer{
 					&:active{
 						fill: $light;
 					}
-				} */
+				}
 			}
 		}
 	}
