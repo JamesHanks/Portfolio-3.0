@@ -528,11 +528,31 @@ header{
 	&:hover{
 		h3{ color: $midtone; }
 		h4{	color: $light; }
+		.arrow-left-container{
+			.arrow-left{
+				fill: $midtone;
+			}
+		}
+		.arrow-right-container{
+			.arrow-right{
+				fill: $midtone;
+			}
+		}
 	}
 
 	&:active{
 		h3{ color: $light; }
 		h4{	color: $midtone-25; }
+		.arrow-left-container{
+			.arrow-left{
+				fill: $light;
+			}
+		}
+		.arrow-right-container{
+			.arrow-right{
+				fill: $light;
+			}
+		}
 	}
 }
 
@@ -541,14 +561,29 @@ header{
 		display: flex;
 		justify-content: space-between;
 		margin-bottom: 50px;
+		height: 52px;
 	}
 
 	.case-study-arrow-1{
 		min-width: 250px;
 		text-align: left;
 
-		.left-arrow{
+		.arrow-left-container{
+			display: inline-block;
 			float: left;
+			height: 50px;
+			width: 50px;
+
+			.arrow-left{
+				fill: $dark;
+				-webkit-transition: $link;
+				transition: $link;
+			}
+		}
+
+		.arrow-left-text{
+			display: inline-block;
+			margin-left: 10px;
 		}
 	}
 
@@ -557,11 +592,25 @@ header{
 	}
 
 	.case-study-arrow-2{
-		min-width: 200px;
+		min-width: 250px;
 		text-align: right;
 
-		.right-arrow{
+		.arrow-right-container{
+			display: inline-block;
 			float: right;
+			height: 50px;
+			width: 50px;
+
+			.arrow-right{
+				-webkit-transition: $link;
+				fill: $dark;
+				transition: $link;
+			}
+		}
+
+		.arrow-right-text{
+			display: inline-block;
+			margin-right: 10px;
 		}
 	}
 }

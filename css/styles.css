@@ -505,31 +505,60 @@ header {
   color: #5452C1; }
 .case-study-arrow-1:hover h4, .case-study-arrow-2:hover h4, .case-study-arrow-top:hover h4 {
   color: #B8B6FF; }
+.case-study-arrow-1:hover .arrow-left-container .arrow-left, .case-study-arrow-2:hover .arrow-left-container .arrow-left, .case-study-arrow-top:hover .arrow-left-container .arrow-left {
+  fill: #5452C1; }
+.case-study-arrow-1:hover .arrow-right-container .arrow-right, .case-study-arrow-2:hover .arrow-right-container .arrow-right, .case-study-arrow-top:hover .arrow-right-container .arrow-right {
+  fill: #5452C1; }
 .case-study-arrow-1:active h3, .case-study-arrow-2:active h3, .case-study-arrow-top:active h3 {
   color: #B8B6FF; }
 .case-study-arrow-1:active h4, .case-study-arrow-2:active h4, .case-study-arrow-top:active h4 {
   color: rgba(84, 82, 193, 0.25); }
+.case-study-arrow-1:active .arrow-left-container .arrow-left, .case-study-arrow-2:active .arrow-left-container .arrow-left, .case-study-arrow-top:active .arrow-left-container .arrow-left {
+  fill: #B8B6FF; }
+.case-study-arrow-1:active .arrow-right-container .arrow-right, .case-study-arrow-2:active .arrow-right-container .arrow-right, .case-study-arrow-top:active .arrow-right-container .arrow-right {
+  fill: #B8B6FF; }
 
 @media only screen and (min-width: 940px) {
   .case-study-arrows-container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    height: 52px; }
 
   .case-study-arrow-1 {
     min-width: 250px;
     text-align: left; }
-    .case-study-arrow-1 .left-arrow {
-      float: left; }
+    .case-study-arrow-1 .arrow-left-container {
+      display: inline-block;
+      float: left;
+      height: 50px;
+      width: 50px; }
+      .case-study-arrow-1 .arrow-left-container .arrow-left {
+        fill: #191947;
+        -webkit-transition: all ease-in-out 0.2s;
+        transition: all ease-in-out 0.2s; }
+    .case-study-arrow-1 .arrow-left-text {
+      display: inline-block;
+      margin-left: 10px; }
 
   .case-study-arrow-top {
     text-align: center; }
 
   .case-study-arrow-2 {
-    min-width: 200px;
+    min-width: 250px;
     text-align: right; }
-    .case-study-arrow-2 .right-arrow {
-      float: right; } }
+    .case-study-arrow-2 .arrow-right-container {
+      display: inline-block;
+      float: right;
+      height: 50px;
+      width: 50px; }
+      .case-study-arrow-2 .arrow-right-container .arrow-right {
+        -webkit-transition: all ease-in-out 0.2s;
+        fill: #191947;
+        transition: all ease-in-out 0.2s; }
+    .case-study-arrow-2 .arrow-right-text {
+      display: inline-block;
+      margin-right: 10px; } }
 /* ==================== FOOTER ==================== */
 footer .footer-content {
   align-items: center;
