@@ -84,8 +84,9 @@ nav{
 			color: $light;
 		}
 
-		/* &:before{
-			background-color: $midtone;
+		/*
+		&:before{
+			background-color: $light;
 			bottom: -2px;
 			content: "";
 			height: 2px;
@@ -94,20 +95,24 @@ nav{
 			-webkit-transition: $link;
 			transition: $link;
 			width: 100%;
-			} */
+			}
 
-		/* &:hover:before {
+		&:hover:before {
 			transform: scaleX(1);
 			visibility: visible;
-			} */
 		}
+		
+		*/
+
+		} 
 	}
 
 	p{
 		color: $dark;
 		font-size: 17px;
-		-webkit-transition: $link;
+		line-height: 1.5;
 		transition: $link;
+		-webkit-transition: $link;
 
 		a{
 			border-bottom: solid 1px $midtone-25;

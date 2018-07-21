@@ -44,23 +44,35 @@ header{
 			.header-brand-logo-container{
 				display: inline-block;
 				float: left;
-				height: 75px; // <--- This is what you modify for the size of SVG
-				width: 75px; // <--- This is what you modify for the size of SVG
+				height: 75px;
+				width: 75px;
 				-webkit-transition: $link;
 				transition: $link;
+
+				&:hover{
+					.header-brand-logo{
+						fill: $midtone;
+
+						#eyelid-1, #eyelid-2{
+							fill: $midtone;
+						}
+					}
+				}
+
+				&:active{
+					.header-brand-logo{
+						fill: $light;
+					}
+
+					#eyelid-1, #eyelid-2{
+						fill: $light;
+					}
+				}
 
 				.header-brand-logo{
 					fill: $dark;
 					-webkit-transition: $link;
 					transition: $link;
-
-					&:hover{
-						fill: $midtone;
-					}
-
-					&:active{
-						fill: $light;
-					}
 				}
 			}
 
@@ -116,7 +128,7 @@ header{
 
 				.header-brand-logo-container{
 					height: 60px;
-					width: 60px; // <--- This is what you modify for the size of SVG
+					width: 60px;
 				}
 
 				.header-brand-name{
@@ -427,6 +439,8 @@ header{
 /* ==================== CASE STUDY ==================== */
 
 .case-study-container{
+	overflow: hidden;
+
 	.heading-small{
 		border-bottom: solid 1px;
 		border-color: $light;
@@ -515,6 +529,61 @@ header{
 		.case-study-details{
 			div{
 				width: 100%;
+			}
+		}
+	}
+}
+
+.case-study-image-wrap{
+	display: block;
+	margin-top: 20px;
+
+	.image-container{
+		img{
+			max-width: 100%;
+		}
+
+		margin-bottom: 20px;
+
+		@media only screen and (min-width: $large){
+			.image-1{
+				float: left;
+				max-width: 49%;
+				padding-right: 1%;
+			}
+
+			.image-2{
+				float: left;
+				max-width: 49%;
+				padding-left: 1%;
+			}
+		}
+
+		@media only screen and (max-width: $large){
+			.image-1{
+				float: left;
+				max-width: 48%;
+				padding-right: 2%;
+			}
+
+			.image-2{
+				float: left;
+				max-width: 48%;
+				padding-left: 2%;
+			}
+		}
+
+		@media only screen and (max-width: $medium){
+			.image-1{
+				margin-bottom: 20px;
+				max-width: 100%;
+				padding: 0;
+			}
+
+			.image-2{
+				margin-bottom: 20px;
+				max-width: 100%;
+				padding: 0;
 			}
 		}
 	}

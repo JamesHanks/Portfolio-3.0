@@ -111,21 +111,25 @@ nav {
     -webkit-transition: all ease-in-out 0.2s;
     transition: all ease-in-out 0.2s;
     position: relative;
-    /* &:before{
-    	background-color: $midtone;
-    	bottom: -2px;
-    	content: "";
-    	height: 2px;
-    	position: absolute;
-    	transform: scaleX(0);
-    	-webkit-transition: $link;
-    	transition: $link;
-    	width: 100%;
-    	} */
-    /* &:hover:before {
-    	transform: scaleX(1);
-    	visibility: visible;
-    	} */ }
+    		/*
+    		&:before{
+    			background-color: $light;
+    			bottom: -2px;
+    			content: "";
+    			height: 2px;
+    			position: absolute;
+    			transform: scaleX(0);
+    			-webkit-transition: $link;
+    			transition: $link;
+    			width: 100%;
+    			}
+    
+    		&:hover:before {
+    			transform: scaleX(1);
+    			visibility: visible;
+    		}
+    		
+    		*/ }
     nav a:hover {
       color: #5452C1; }
     nav a:active {
@@ -134,8 +138,9 @@ nav {
 p {
   color: #191947;
   font-size: 17px;
-  -webkit-transition: all ease-in-out 0.2s;
-  transition: all ease-in-out 0.2s; }
+  line-height: 1.5;
+  transition: all ease-in-out 0.2s;
+  -webkit-transition: all ease-in-out 0.2s; }
   p a {
     border-bottom: solid 1px rgba(84, 82, 193, 0.25);
     font-weight: 700;
@@ -201,14 +206,18 @@ header {
         width: 75px;
         -webkit-transition: all ease-in-out 0.2s;
         transition: all ease-in-out 0.2s; }
+        header .header .header-brand .header-brand-logo-container:hover .header-brand-logo {
+          fill: #5452C1; }
+          header .header .header-brand .header-brand-logo-container:hover .header-brand-logo #eyelid-1, header .header .header-brand .header-brand-logo-container:hover .header-brand-logo #eyelid-2 {
+            fill: #5452C1; }
+        header .header .header-brand .header-brand-logo-container:active .header-brand-logo {
+          fill: #B8B6FF; }
+        header .header .header-brand .header-brand-logo-container:active #eyelid-1, header .header .header-brand .header-brand-logo-container:active #eyelid-2 {
+          fill: #B8B6FF; }
         header .header .header-brand .header-brand-logo-container .header-brand-logo {
           fill: #191947;
           -webkit-transition: all ease-in-out 0.2s;
           transition: all ease-in-out 0.2s; }
-          header .header .header-brand .header-brand-logo-container .header-brand-logo:hover {
-            fill: #5452C1; }
-          header .header .header-brand .header-brand-logo-container .header-brand-logo:active {
-            fill: #B8B6FF; }
       header .header .header-brand .header-brand-name {
         float: left;
         margin-left: 10px; }
@@ -446,15 +455,17 @@ header {
         max-width: 450px; } }
 
 /* ==================== CASE STUDY ==================== */
-.case-study-container .heading-small {
-  border-bottom: solid 1px;
-  border-color: #B8B6FF;
-  display: block;
-  margin-bottom: 5px;
-  padding-bottom: 2px; }
-  @media only screen and (min-width: 940px) {
-    .case-study-container .heading-small {
-      margin-bottom: 10px; } }
+.case-study-container {
+  overflow: hidden; }
+  .case-study-container .heading-small {
+    border-bottom: solid 1px;
+    border-color: #B8B6FF;
+    display: block;
+    margin-bottom: 5px;
+    padding-bottom: 2px; }
+    @media only screen and (min-width: 940px) {
+      .case-study-container .heading-small {
+        margin-bottom: 10px; } }
 
 .case-study-intro h1 {
   margin-bottom: 10px; }
@@ -498,6 +509,41 @@ header {
   @media only screen and (max-width: 625px) {
     .case-study-text-wrap .case-study-details div {
       width: 100%; } }
+
+.case-study-image-wrap {
+  display: block;
+  margin-top: 20px; }
+  .case-study-image-wrap .image-container {
+    margin-bottom: 20px; }
+    .case-study-image-wrap .image-container img {
+      max-width: 100%; }
+    @media only screen and (min-width: 940px) {
+      .case-study-image-wrap .image-container .image-1 {
+        float: left;
+        max-width: 49%;
+        padding-right: 1%; }
+      .case-study-image-wrap .image-container .image-2 {
+        float: left;
+        max-width: 49%;
+        padding-left: 1%; } }
+    @media only screen and (max-width: 940px) {
+      .case-study-image-wrap .image-container .image-1 {
+        float: left;
+        max-width: 48%;
+        padding-right: 2%; }
+      .case-study-image-wrap .image-container .image-2 {
+        float: left;
+        max-width: 48%;
+        padding-left: 2%; } }
+    @media only screen and (max-width: 781px) {
+      .case-study-image-wrap .image-container .image-1 {
+        margin-bottom: 20px;
+        max-width: 100%;
+        padding: 0; }
+      .case-study-image-wrap .image-container .image-2 {
+        margin-bottom: 20px;
+        max-width: 100%;
+        padding: 0; } }
 
 .case-study-arrow-1 img, .case-study-arrow-2 img, .case-study-arrow-top img {
   width: 50px; }
