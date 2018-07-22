@@ -21,7 +21,7 @@ body{
 
 h1{
 	color: $dark;
-	font-size: 36px; // 2.26rem
+	font-size: 36px;
 	font-weight: 700;
 	letter-spacing: 0;
 	-webkit-transition: $link;
@@ -48,7 +48,6 @@ h4{
 	color: $dark-50;
 	font-size: 14px;
 	font-weight: 700;
-	// letter-spacing: 1px;
 	text-transform: uppercase;
 	-webkit-transition: $link;
 	transition: $link;
@@ -61,7 +60,7 @@ h4{
 	text-transform: uppercase;
 }
 
-nav{
+.header-nav{
 	color: $light;
 	cursor: default;
 	font-size: 24px;
@@ -71,11 +70,11 @@ nav{
 	a{
 		color: $dark;
 		font-size: 22px;
-		text-transform: uppercase;
-		-webkit-transition: $link;
-		transition: $link;
 		position: relative;
-		
+		text-transform: uppercase;
+		transition: $link;
+		-webkit-transition: $link;
+
 		&:hover{
 			color: $midtone;
 		}
@@ -84,7 +83,7 @@ nav{
 			color: $light;
 		}
 
-		/*
+		
 		&:before{
 			background-color: $light;
 			bottom: -2px;
@@ -92,19 +91,59 @@ nav{
 			height: 2px;
 			position: absolute;
 			transform: scaleX(0);
-			-webkit-transition: $link;
 			transition: $link;
+			-webkit-transition: $link;
 			width: 100%;
-			}
+		}
 
 		&:hover:before {
 			transform: scaleX(1);
 			visibility: visible;
 		}
-		
-		*/
 
 	} 
+}
+
+.case-study-nav{
+	color: $white;
+	cursor: default;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	transition: $link;
+	-webkit-transition: $link;
+
+	span a{
+		position: relative;
+		text-transform: uppercase;
+
+		&:before{
+			background-color: $white;
+			bottom: -2px;
+			content: "";
+			height: 2px;
+			position: absolute;
+			transform: scaleX(0);
+			transition: $link;
+			-webkit-transition: $link;
+			width: 100%;
+		}
+
+		&:hover:before {
+			transform: scaleX(1);
+			visibility: visible;
+		}
+	}
+}
+
+.case-study-exit{
+	color: $white;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: $link;
+	-webkit-transition: $link;
 }
 
 p{
@@ -123,14 +162,14 @@ p{
 
 		&:hover{
 			border-bottom: solid 1px $midtone-50;
-			padding-bottom: 0;
 			color: $midtone;
+			padding-bottom: 0;
 		}
 
 		&:active{
 			border-bottom: solid 1px $light;
-			padding-bottom: 0;
 			color: $light;
+			padding-bottom: 0;
 		}
 	}
 

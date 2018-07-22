@@ -50,11 +50,11 @@
 
 	<!-- Header -->
 	<header>
-		<div class="header">
+		<div class="header-container">
 			<div class="header-brand">
 				<a class="header-brand-logo-container" href="index.php">
 					<svg class="header-brand-logo"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-					<style>
+						<style>
 						#eyelid-1{animation: blink 5s infinite;} #eyelid-2{animation: blink 5s infinite;}
 						@keyframes blink{0%, 30%, 40%, 100% {opacity: 0; transform:scaleY(0.62);} 31% {opacity: 1;} 35% {opacity: 1;transform:scaleY(1.06);} 37% {opacity: 1;}}
 					</style>
@@ -225,9 +225,6 @@
 <span class="border"></span>
 
 <footer>
-
-	<!-- Next, to-top and previous arrows will go here -->
-
 	<div class="footer-content">
 		<div class="footer-copyright">
 			<small>Built by James Hanks &copy <?php echo date("Y");?></small>

@@ -3,7 +3,7 @@
 body{
 	background: $white;
 	margin: 0 auto;
-	//max-width: 1440px;
+	max-width: 2048px;
 
 	/*
 	@media only screen and (min-width: $large){
@@ -33,7 +33,7 @@ body{
 header{
 	display: block;
 
-	.header{
+	.header-container{
 		display: flex;
 		justify-content: space-between;
 
@@ -48,6 +48,12 @@ header{
 				width: 75px;
 				-webkit-transition: $link;
 				transition: $link;
+
+				.header-brand-logo{
+					fill: $dark;
+					-webkit-transition: $link;
+					transition: $link;
+				}
 
 				&:hover{
 					.header-brand-logo{
@@ -67,12 +73,6 @@ header{
 					#eyelid-1, #eyelid-2{
 						fill: $light;
 					}
-				}
-
-				.header-brand-logo{
-					fill: $dark;
-					-webkit-transition: $link;
-					transition: $link;
 				}
 			}
 
@@ -117,7 +117,7 @@ header{
 	@media only screen and (max-width: $medium){
 		padding: 50px 50px 40px 50px;
 
-		.header{
+		.header-container{
 			display: inline-block;
 			margin-bottom: 0;
 
@@ -224,8 +224,6 @@ header{
 	.project-link{
 		float: left;
 		height: auto;
-		// max-width: 378px;
-		//width: 33.3%;
 
 		.project-container{
 			position: relative;
@@ -239,11 +237,17 @@ header{
 			}
 
 			.project-overlay {
-				h3, p{ color: $white; margin-bottom: 20px; }
-				h4{ color: $white; opacity: 0.7 }
 				opacity: 0;
 				-webkit-transition: $link;
 				transition: $link;
+
+				h3, p{
+					color: $white; margin-bottom: 20px;
+				}
+				
+				h4{
+					color: $white; opacity: 0.7
+				}
 
 				.project-overlay-details {
 					left: 25px;
@@ -271,14 +275,14 @@ header{
 				}
 
 				.view-project::after{
-					content: "";
 					background-image: url("../images/arrow-right-white.svg");
 					background-repeat: no-repeat;
-					position: absolute;
-					width: 35px;
+					content: "";
 					height: 20px;
 					left: 100px;
 					padding-top: 5px;
+					position: absolute;
+					width: 35px;
 					-webkit-transition: $project;
 					transition: $project;
 				}
@@ -286,13 +290,23 @@ header{
 		}
 
 		&:hover{
-			h3{ color: $midtone; }
-			h4{	color: $light; }
+			h3{
+				color: $midtone;
+			}
+			
+			h4{
+				color: $light;
+			}
 		}
 
 		&:active{
-			h3{ color: $light; }
-			h4{	color: $midtone-25; }
+			h3{
+				color: $light;
+			}
+			
+			h4{
+				color: $midtone-25;
+			}
 		}
 
 		.project-details{
@@ -302,20 +316,24 @@ header{
 
 	@media only screen and (min-width: $extra-large){
 		.project-link{
-			width: 32%;
 			margin-bottom: 2%;
+			width: 32%;
 		}
 
-		.project-gutter{ width: 2%}
+		.project-gutter{
+			width: 2%
+		}
 	}
 
 	@media only screen and (max-width: $extra-large){
 		.project-link{
-			width: 48.5%;
 			margin-bottom: 3%;
+			width: 48.5%;
 		}
 
-		.project-gutter{ width: 3%}
+		.project-gutter{
+			width: 3%
+		}
 	}
 
 	@media only screen and (max-width: $medium){
@@ -323,7 +341,9 @@ header{
 			.project-details{
 				display: inline;
 
-				h3{ margin-top: 5px;}
+				h3{
+					margin-top: 5px;
+				}
 			}
 		}
 	}
@@ -362,8 +382,8 @@ header{
 	.about{
 		@media only screen and (min-width: $large){
 			float: left;
-			width: 47%;
 			margin-right: 3%;
+			width: 47%;
 
 			h2{
 				margin-top: 25px;
@@ -375,8 +395,8 @@ header{
 		}
 
 		@media only screen and (max-width: $large){
-			width: 100%;
 			margin-bottom: 25px;
+			width: 100%;
 
 			h2{
 				margin-top: 15px;
@@ -389,7 +409,7 @@ header{
 
 		@media only screen and (max-width: $small){
 			.heading-small{
-				display:none;
+				display: none;
 			}
 		}
 	}
@@ -399,36 +419,26 @@ header{
 	display: block;
 
 	.portrait{
+		text-align: center;
+
+		img{
+			width: 100%;
+		}
+
 		@media only screen and (min-width: $large){
 			float: right;
-			width: 47%;
 			margin-left: 3%;
 			max-width: 495px;
-
-			img{
-				width: 100%;
-			}
+			width: 47%;
 		}
 
 		@media only screen and (max-width: $large){
-			text-align: center;
-
-			img{
-				width: 100%;
-			}
-		}
-
-		@media only screen and (max-width: $large){
-			text-align: center;
-
 			img{
 				max-width: 495px;
 			}
 		}
 
-		@media only screen and (max-width: $medium){
-			text-align: center;
-			
+		@media only screen and (max-width: $medium){			
 			img{
 				max-width: 450px;
 			}
@@ -439,58 +449,92 @@ header{
 /* ==================== CASE STUDY ==================== */
 
 .case-study-exit{
-	color: $white;
 	position: absolute;
-	text-align: center;
 	top: 25px;
 	transition: $project;
 	-webkit-transition: $project;
 	width: 50px;
 	z-index: 5;
 
+	span{
+		background-image: url("../images/arrow-left-white.svg");
+		background-repeat: no-repeat;
+		content: "";
+		position: absolute;
+		transition: $project;
+		-webkit-transition: $project;
+	}
+
 	@media only screen and (min-width: $large){
 		left: 100px;
 
-		img{
-			max-width: 50px;
+		a:hover{
+			span{
+				background-size: 25px 25px;
+			}
+		}
+
+		span{
+			background-size: 40px 25px;
+			padding-left: 45px;
 		}
 	}
 
 	@media only screen and (max-width: $large){
 		left: 50px;
 
-		img{
-			max-width: 35px;
+		span{
+			padding-left: 35px;
 		}
 	}
 
 	@media only screen and (max-width: $small){
 		left: 25px;
-
-		img{
-			max-width: 25px;
-		}
 	}
 }
 
-.case-study-about{
-	color: $white;
+.case-study-nav{
 	position: absolute;
 	top: 25px;
 	transition: $project;
 	-webkit-transition: $project;
+	width: 50%;
 	z-index: 5;
+
+	span{
+		float: right;
+	}
 
 	@media only screen and (min-width: $large){
 		right: 100px;
+
+		span{
+			margin-left: 25px;
+		}
 	}
 
 	@media only screen and (max-width: $large){
 		right: 50px;
+
+		span{
+			margin-left: 15px;
+		}
 	}
 
 	@media only screen and (max-width: $small){
-		right: 25px;
+		-moz-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		-o-transform: rotate(90deg);
+		-webkit-transform: rotate(90deg);
+		display: block;
+		right: -45px;
+		top: 90px;
+		width: auto;
+		z-index: 10;
+
+		span{
+			margin-left: 10px;
+		}
 	}
 }
 
@@ -507,8 +551,8 @@ header{
 		content: "";
 		display: block;
 		height: 2px;
-		margin: 10px 0;
 		width: 15px;
+		margin: 10px 0;
 	}
 
 	.case-study-intro-image{
@@ -516,14 +560,12 @@ header{
 		background-repeat: no-repeat;
 		background-size: cover;
 		display: block;
-		width: 100%;
-		-webkit-transition: $project;
 		transition: $project;
+		-webkit-transition: $project;
+		width: 100%;
 	}
 
 	.espia{ background-image: url("../images/espia-1.png"); }
-
-	.somnus{ background-image: url("../images/somnus-tile.png"); }
 
 	.case-study-intro-overlay{
 		background: linear-gradient(20deg, $midtone-75, $midtone-00);
@@ -539,14 +581,14 @@ header{
 	.case-study-intro-text{
 		bottom: 25px;
 		position: absolute;
-		z-index: 5;
-		-webkit-transition: $project;
 		transition: $project;
+		-webkit-transition: $project;
+		z-index: 5;
 	}
 
 	@media only screen and (min-width: $large){
 		.case-study-intro-image{
-			height: 400px;
+			height: 500px;
 		}
 
 		.case-study-intro-text{
@@ -569,7 +611,7 @@ header{
 
 	@media only screen and (max-width: $small){
 		.case-study-intro-image{
-			height: 250px;
+			height: 300px;
 		}
 
 		.case-study-intro-text{
@@ -727,42 +769,30 @@ header{
 	}
 
 	&:hover{
-		h3{ color: $midtone; }
-		h4{	color: $light; }
-		.arrow-left-container{
-			.arrow-left{
-				fill: $midtone;
-			}
+		h3{
+			color: $midtone;
 		}
-		.arrow-top-container{
-			.arrow-top{
-				fill: $midtone;
-			}
+		
+		h4{
+			color: $light;
 		}
-		.arrow-right-container{
-			.arrow-right{
-				fill: $midtone;
-			}
+		
+		.arrow-left-container .arrow-left, .arrow-top-container .arrow-top, .arrow-right-container .arrow-right{
+			fill: $midtone;
 		}
 	}
 
 	&:active{
-		h3{ color: $light; }
-		h4{	color: $midtone-25; }
-		.arrow-left-container{
-			.arrow-left{
-				fill: $light;
-			}
+		h3{
+			color: $light;
 		}
-		.arrow-top-container{
-			.arrow-top{
-				fill: $light;
-			}
+		
+		h4{
+			color: $midtone-25;
 		}
-		.arrow-right-container{
-			.arrow-right{
-				fill: $light;
-			}
+		
+		.arrow-left-container .arrow-left, .arrow-top-container .arrow-top,.arrow-right-container .arrow-right{
+			fill: $light;
 		}
 	}
 }
@@ -770,9 +800,9 @@ header{
 @media only screen and (min-width: $medium){
 	.case-study-arrows-container{
 		display: flex;
+		height: 52px;
 		justify-content: space-between;
 		margin-bottom: 50px;
-		height: 52px;
 	}
 
 	.case-study-arrow-1{
@@ -817,9 +847,9 @@ header{
 			width: 50px;
 
 			.arrow-right{
-				-webkit-transition: $link;
 				fill: $dark;
 				transition: $link;
+				-webkit-transition: $link;
 			}
 		}
 
@@ -851,9 +881,9 @@ header{
 			width: 50px;
 
 			.arrow-top{
-				-webkit-transition: $link;
 				fill: $dark;
 				transition: $link;
+				-webkit-transition: $link;
 			}
 
 		}
@@ -873,17 +903,17 @@ footer{
 		}
 
 		.footer-social{
-			-webkit-transition: $link;
 			transition: $link;
+			-webkit-transition: $link;
 
 			.footer-social-link{
 				display: inline-block;
 				height: 38px;
-				-webkit-transition: $link;
-				transition: $link;
 				width: 38px;
 				position: relative;
 				top: 0;
+				transition: $link;
+				-webkit-transition: $link;
 
 				&:hover{
 					top: -4px;
@@ -891,8 +921,8 @@ footer{
 
 				.footer-logo{
 					fill: $dark;
-					-webkit-transition: $link;
 					transition: $link;
+					-webkit-transition: $link;
 
 					&:hover{
 						fill: $midtone;
@@ -915,11 +945,7 @@ footer{
 	}
 
 	@media only screen and (min-width: $medium){
-		.footer-copyright{
-			width: 50%;
-		}
-
-		.footer-social{
+		.footer-social, .footer-copyright{
 			width: 50%;
 
 			.footer-social-link{

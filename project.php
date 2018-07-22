@@ -11,6 +11,7 @@
 	<meta name="robots" content="index, follow">
 	<meta name="description" content="James Hanks is an interaction designer and developer based in London.">
 	<meta name="keywords" content="designer, design, developer, digital, front-end, interaction, interface, javascript, software, UI, UX, web">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="distribution" content="Global">
 	<meta name="language" content="English">
 	<meta name="robot" content="index,follow">
@@ -48,22 +49,29 @@
 </head>
 <body>
 
-	<div class="case-study-intro" id="intro">
+	<!-- Case Study Header -->
+	<section class="case-study-intro" id="intro">
 		<div class="case-study-exit">
-			<a href="index.php"><img src="images/arrow-left-white.svg">Exit</a>
+			<a href="index.php"><span>Exit</span></a>
 		</div>
-		<div class="case-study-about">
-			<a href="about.php">Work - About</a>
-		</div>
+		<nav class="case-study-nav">
+			<span><a href="about.php">About</a></span>
+			<span> — </span>
+			<span><a href="index.php">Work</a></span>
+		</nav>
+
+		<!-- Case Study Intro -->
 		<div class="case-study-intro-image espia"></div>
 		<div class="case-study-intro-text">
 			<h1>Espia</h1>
 			<span class="divider"></span>
 			<h2>Ubiquitous Robot Concept</h2>
 		</div>
-		<div class="case-study-intro-overlay"></div>
-	</div>
 
+		<div class="case-study-intro-overlay"></div>
+	</section>
+
+	<!-- Case Study Content -->
 	<section class="content">
 		<div class="case-study-container">
 
@@ -112,21 +120,20 @@
 			<div class="case-study-image-wrap">
 
 				<div class="image-container">
-					<img src="images/espia-2.png">
+					<img src="images/espia-2.png" alt="Project Image">
 				</div>
 
 				<div class="image-container">
 					<div class="image-1">
-						<img src="images/espia-3.png">
+						<img src="images/espia-3.png" alt="Project Image">
 					</div>
 
 					<div class="image-2">
-						<img src="images/espia-4.png">
+						<img src="images/espia-4.png" alt="Project Image">
 					</div>
 				</div>
 
 			</div>
-
 		</div>
 	</section>
 
@@ -135,7 +142,7 @@
 
 	<footer>
 
-		<!-- Next, to-top and previous arrows -->
+		<!-- Next, To-Top and Previous arrows -->
 
 		<div class="case-study-arrows-container">
 
