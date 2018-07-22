@@ -104,43 +104,43 @@ nav{
 		
 		*/
 
-		} 
-	}
+	} 
+}
 
-	p{
-		color: $dark;
-		font-size: 17px;
-		line-height: 1.5;
-		transition: $link;
+p{
+	color: $dark;
+	font-size: 17px;
+	line-height: 1.5;
+	transition: $link;
+	-webkit-transition: $link;
+
+	a{
+		border-bottom: solid 1px $midtone-25;
+		font-weight: 700;
+		padding-bottom: 1px;
 		-webkit-transition: $link;
+		transition: $link;
 
-		a{
-			border-bottom: solid 1px $midtone-25;
-			font-weight: 700;
-			padding-bottom: 1px;
-			-webkit-transition: $link;
-			transition: $link;
-
-			&:hover{
-				border-bottom: solid 1px $midtone-50;
-				padding-bottom: 0;
-				color: $midtone;
-			}
-
-			&:active{
-				border-bottom: solid 1px $light;
-				padding-bottom: 0;
-				color: $light;
-			}
+		&:hover{
+			border-bottom: solid 1px $midtone-50;
+			padding-bottom: 0;
+			color: $midtone;
 		}
 
-		@media only screen and (max-width: $medium){
-			font-size: 16px;
+		&:active{
+			border-bottom: solid 1px $light;
+			padding-bottom: 0;
+			color: $light;
 		}
 	}
 
-	small{
-		color: $dark;
+	@media only screen and (max-width: $medium){
 		font-size: 16px;
-		font-weight: 200;
 	}
+}
+
+small{
+	color: $dark;
+	font-size: 16px;
+	font-weight: 200;
+}

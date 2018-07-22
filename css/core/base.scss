@@ -438,6 +438,148 @@ header{
 
 /* ==================== CASE STUDY ==================== */
 
+.case-study-exit{
+	color: $white;
+	position: absolute;
+	text-align: center;
+	top: 25px;
+	transition: $project;
+	-webkit-transition: $project;
+	width: 50px;
+	z-index: 5;
+
+	@media only screen and (min-width: $large){
+		left: 100px;
+
+		img{
+			max-width: 50px;
+		}
+	}
+
+	@media only screen and (max-width: $large){
+		left: 50px;
+
+		img{
+			max-width: 35px;
+		}
+	}
+
+	@media only screen and (max-width: $small){
+		left: 25px;
+
+		img{
+			max-width: 25px;
+		}
+	}
+}
+
+.case-study-about{
+	color: $white;
+	position: absolute;
+	top: 25px;
+	transition: $project;
+	-webkit-transition: $project;
+	z-index: 5;
+
+	@media only screen and (min-width: $large){
+		right: 100px;
+	}
+
+	@media only screen and (max-width: $large){
+		right: 50px;
+	}
+
+	@media only screen and (max-width: $small){
+		right: 25px;
+	}
+}
+
+.case-study-intro{
+	display: block;
+	position: relative;
+
+	h1, h2 {
+		color: $white;
+	}
+
+	.divider{
+		background-color: $white;
+		content: "";
+		display: block;
+		height: 2px;
+		margin: 10px 0;
+		width: 15px;
+	}
+
+	.case-study-intro-image{
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: block;
+		width: 100%;
+		-webkit-transition: $project;
+		transition: $project;
+	}
+
+	.espia{ background-image: url("../images/espia-1.png"); }
+
+	.somnus{ background-image: url("../images/somnus-tile.png"); }
+
+	.case-study-intro-overlay{
+		background: linear-gradient(20deg, $midtone-75, $midtone-00);
+		bottom: 0;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 100%;
+	}
+
+	.case-study-intro-text{
+		bottom: 25px;
+		position: absolute;
+		z-index: 5;
+		-webkit-transition: $project;
+		transition: $project;
+	}
+
+	@media only screen and (min-width: $large){
+		.case-study-intro-image{
+			height: 400px;
+		}
+
+		.case-study-intro-text{
+			bottom: 50px;
+			left: 100px;
+			max-width: 50%;
+		}
+	}
+
+	@media only screen and (max-width: $large){
+		.case-study-intro-image{
+			height: 300px;
+		}
+
+		.case-study-intro-text{
+			left: 50px;
+			max-width: 50%;
+		}
+	}
+
+	@media only screen and (max-width: $small){
+		.case-study-intro-image{
+			height: 250px;
+		}
+
+		.case-study-intro-text{
+			left: 25px;
+			max-width: 100%;
+		}
+	}
+
+}
+
 .case-study-container{
 	overflow: hidden;
 
@@ -451,16 +593,6 @@ header{
 		@media only screen and (min-width: $large){
 			margin-bottom: 10px;
 		}
-	}
-}
-
-.case-study-intro{
-	h1 {
-		margin-bottom: 10px;
-	}
-
-	h2{
-		margin-bottom: 20px;
 	}
 }
 
@@ -756,7 +888,7 @@ footer{
 				&:hover{
 					top: -4px;
 				}
-				
+
 				.footer-logo{
 					fill: $dark;
 					-webkit-transition: $link;
