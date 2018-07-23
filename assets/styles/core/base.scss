@@ -454,7 +454,6 @@ header{
 	transition: $project;
 	-webkit-transition: $project;
 	width: 50px;
-	z-index: 5;
 
 	span{
 		background-image: url("../images/arrow-left-white.svg");
@@ -466,6 +465,7 @@ header{
 	}
 
 	@media only screen and (min-width: $large){
+		top: 50px;
 		left: 100px;
 
 		a:hover{
@@ -499,13 +499,13 @@ header{
 	transition: $project;
 	-webkit-transition: $project;
 	width: 50%;
-	z-index: 5;
 
 	span{
 		float: right;
 	}
 
 	@media only screen and (min-width: $large){
+		top: 50px;
 		right: 100px;
 
 		span{
@@ -539,20 +539,48 @@ header{
 }
 
 .case-study-intro{
+	background: $midtone-05;
 	display: block;
 	position: relative;
 
-	h1, h2 {
-		color: $white;
+	.case-study-intro-text{
+		bottom: 25px;
+		position: absolute;
+		transition: $project;
+		-webkit-transition: $project;
+
+		h1, h2 {
+			color: $white;
+		}
+
+		.divider{
+			background-color: $white;
+			content: "";
+			display: block;
+			height: 2px;
+			width: 15px;
+			margin: 10px 0;
+		}
 	}
 
-	.divider{
-		background-color: $white;
-		content: "";
-		display: block;
-		height: 2px;
-		width: 15px;
-		margin: 10px 0;
+	.case-study-hero{
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: -99;
+		display: inline-block;
+	}
+
+	.case-study-intro-overlay{
+		background: linear-gradient(20deg, $midtone-75, $midtone-00);
+		bottom: 0;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 100%;
 	}
 
 	.case-study-intro-image{
@@ -566,27 +594,11 @@ header{
 	}
 
 	.espia{ background-image: url("../images/espia-1.png"); }
-
-	.case-study-intro-overlay{
-		background: linear-gradient(20deg, $midtone-75, $midtone-00);
-		bottom: 0;
-		height: 100%;
-		left: 0;
-		position: absolute;
-		right: 0;
-		top: 0;
-		width: 100%;
-	}
-
-	.case-study-intro-text{
-		bottom: 25px;
-		position: absolute;
-		transition: $project;
-		-webkit-transition: $project;
-		z-index: 5;
-	}
+	.somnus{ background-image: url("../images/somnus-tile.png"); }
 
 	@media only screen and (min-width: $large){
+		height: 500px;
+
 		.case-study-intro-image{
 			height: 500px;
 		}
@@ -599,8 +611,10 @@ header{
 	}
 
 	@media only screen and (max-width: $large){
+		height: 400px;
+
 		.case-study-intro-image{
-			height: 300px;
+			height: 400px;
 		}
 
 		.case-study-intro-text{
@@ -610,6 +624,8 @@ header{
 	}
 
 	@media only screen and (max-width: $small){
+		height: 300px;
+
 		.case-study-intro-image{
 			height: 300px;
 		}
@@ -622,18 +638,35 @@ header{
 
 }
 
-.case-study-container{
-	overflow: hidden;
+.case-study-shade{
+	background: $white;
 
-	.heading-small{
-		border-bottom: solid 1px;
-		border-color: $light;
-		display: block;
-		margin-bottom: 5px;
-		padding-bottom: 2px;
+	.case-study-container{
+		overflow: hidden;
+		background: $midtone-05;
 
 		@media only screen and (min-width: $large){
-			margin-bottom: 10px;
+			padding: 50px 100px;
+		}
+
+		@media only screen and (max-width: $large){
+			padding: 25px 50px 50px;
+		}
+
+		@media only screen and (max-width: $small){
+			padding: 25px;
+		}
+
+		.heading-small{
+			border-bottom: solid 1px;
+			border-color: $light;
+			display: block;
+			margin-bottom: 5px;
+			padding-bottom: 2px;
+
+			@media only screen and (min-width: $large){
+				margin-bottom: 10px;
+			}
 		}
 	}
 }
