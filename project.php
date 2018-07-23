@@ -1,7 +1,6 @@
 <?php $title = "Project Name"?>
 
 <?php include 'includes/header_1.php'; ?>
-
 	<!-- Case Study Header -->
 	<section class="case-study-intro" id="intro">
 
@@ -98,8 +97,8 @@
 
 	<?php include 'includes/footer_1.php'; ?>
 
-	<!-- Next, To-Top and Previous arrows -->
 
+	<!-- Next, To-Top and Previous arrows -->
 	<div class="case-study-arrows-container">
 
 		<a href="#">
@@ -148,5 +147,4 @@
 			</div>
 		</a>
 	</div>
-
 	<?php include 'includes/footer_2.php'; ?>

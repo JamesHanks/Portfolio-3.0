@@ -1,13 +1,12 @@
 <?php $title = "About | James Hanks"?>
 
 <?php include 'includes/header_1.php'; ?>
-
 <?php include 'includes/header_2.php'; ?>
 
 <?php include 'includes/header_3.php'; ?>
 
-<!-- About Me -->
 
+<!-- About Me -->
 <section class="content">
 	<div class="about-container">
 		<div class="about">
@@ -34,5 +33,4 @@
 </section>
 
 <?php include 'includes/footer_1.php'; ?>
-
 <?php include 'includes/footer_2.php'; ?>

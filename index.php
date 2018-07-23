@@ -1,7 +1,6 @@
 <?php $title = "James Hanks"?>
 
 <?php include 'includes/header_1.php'; ?>
-
 <?php include 'includes/header_2.php'; ?>
 
 	<!-- Introduction -->
@@ -10,6 +9,7 @@
 	</div>
 
 <?php include 'includes/header_3.php'; ?>
+
 
 <!-- Projects -->
 <section class="content" id="projects">
@@ -147,5 +147,4 @@
 </section>
 
 <?php include 'includes/footer_1.php'; ?>
-
 <?php include 'includes/footer_2.php'; ?>
