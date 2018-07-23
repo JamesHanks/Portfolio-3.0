@@ -7,7 +7,7 @@
 
 		<!-- Navigation -->
 		<div class="case-study-exit">
-			<a href="index.php"><span>Exit</span></a>
+			<a href="index.php"><span>Back</span></a>
 		</div>
 		<nav class="case-study-nav">
 			<span><a href="about.php">About</a></span>
