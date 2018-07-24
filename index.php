@@ -3,10 +3,10 @@
 <?php include 'includes/header_1.php'; ?>
 <?php include 'includes/header_2.php'; ?>
 
-	<!-- Introduction -->
-	<div class="introduction">
-		<p>Hello! I’m an interaction designer and developer based in London. I strive to build elegant, user-centred and meaningful digital experiences.<br><br>You can view some examples of my work <a href="#" onclick="scrollDown(document.getElementById('projects'))">below</a>.</p>
-	</div>
+<!-- Introduction -->
+<div class="introduction">
+	<p>Hello! I’m an interaction designer and developer based in London. I strive to build elegant, user-centred and meaningful digital experiences.<br><br>You can view some examples of my work <a href="#" onclick="scrollDown(document.getElementById('projects'))">below</a>.</p>
+</div>
 
 <?php include 'includes/header_3.php'; ?>
 
@@ -19,19 +19,19 @@
 
 		<a href="#" class="project-link grid-item">
 			<div class="project-container">
-				<img src="assets/images/somnus-tile.png" class="project-image" alt="Somnus">
+				<img src="assets/images/project-image-medium.jpg" class="project-image" alt="Hello Lamp Post">
 				<div class="project-overlay">
 					<div class="project-overlay-details">
-						<h3>Somnus</h3>
-						<p>The 'sleep-friendly' network, designed to tackle electronic insomnia.</p>
+						<h3>Hello Lamp Post</h3>
+						<p>Design and development for the playful, city-wide system that lets people speak to street furniture.</p>
 						<p class="view-project">View project</p>
 					</div>
 					<div class="project-overlay-colour"></div>
 				</div>
 			</div>
 			<span class="project-details">
-				<h3>Somnus</h3>
-				<h4>Product Design, UI/UX</h4>
+				<h3>Hello Lamp Post</h3>
+				<h4>Front-end Development, Graphic Design, Information Design</h4>
 			</span>
 		</a>
 
@@ -55,7 +55,25 @@
 
 		<a href="#" class="project-link grid-item">
 			<div class="project-container">
-				<img src="assets/images/apto-tile.jpg" class="project-image" alt="Apto Hotels">
+				<img src="assets/images/somnus-tile.png" class="project-image" alt="Somnus">
+				<div class="project-overlay">
+					<div class="project-overlay-details">
+						<h3>Somnus</h3>
+						<p>The 'sleep-friendly' network, designed to tackle electronic insomnia.</p>
+						<p class="view-project">View project</p>
+					</div>
+					<div class="project-overlay-colour"></div>
+				</div>
+			</div>
+			<span class="project-details">
+				<h3>Somnus</h3>
+				<h4>Product Design, UI/UX</h4>
+			</span>
+		</a>
+
+		<a href="#" class="project-link grid-item">
+			<div class="project-container">
+				<img src="assets/images/project-image-large.jpg" class="project-image" alt="Apto Hotels">
 				<div class="project-overlay">
 					<div class="project-overlay-details">
 						<h3>Apto Hotels</h3>
@@ -68,6 +86,24 @@
 			<span class="project-details">
 				<h3>Apto Hotels</h3>
 				<h4>Branding, Digital Strategy, UI/UX</h4>
+			</span>
+		</a>
+
+		<a href="#" class="project-link grid-item">
+			<div class="project-container">
+				<img src="assets/images/project-image-medium.jpg" class="project-image" alt="Sainsbury's Shuttle">
+				<div class="project-overlay">
+					<div class="project-overlay-details">
+						<h3>Shuttle</h3>
+						<p>Mobile application pitched to expand a randomly selected brand’s customer outreach.</p>
+						<p class="view-project">View project</p>
+					</div>
+					<div class="project-overlay-colour"></div>
+				</div>
+			</div>
+			<span class="project-details">
+				<h3>Shuttle</h3>
+				<h4>Digital Product Design, UI/UX</h4>
 			</span>
 		</a>
 
@@ -86,42 +122,6 @@
 			<span class="project-details">
 				<h3>Sketchbook</h3>
 				<h4>Process</h4>
-			</span>
-		</a>
-
-		<a href="#" class="project-link grid-item">
-			<div class="project-container">
-				<img src="assets/images/project-image-small.jpg" class="project-image" alt="Sainsbury's Shuttle">
-				<div class="project-overlay">
-					<div class="project-overlay-details">
-						<h3>Shuttle</h3>
-						<p>Mobile application pitched to expand a randomly selected brand’s customer outreach.</p>
-						<p class="view-project">View project</p>
-					</div>
-					<div class="project-overlay-colour"></div>
-				</div>
-			</div>
-			<span class="project-details">
-				<h3>Shuttle</h3>
-				<h4>Digital Product Design, UI/UX</h4>
-			</span>
-		</a>
-
-		<a href="#" class="project-link grid-item">
-			<div class="project-container">
-				<img src="assets/images/project-image-large.jpg" class="project-image" alt="Hello Lamp Post">
-				<div class="project-overlay">
-					<div class="project-overlay-details">
-						<h3>Hello Lamp Post</h3>
-						<p>Design and development for the playful, city-wide system that lets people speak to street furniture.</p>
-						<p class="view-project">View project</p>
-					</div>
-					<div class="project-overlay-colour"></div>
-				</div>
-			</div>
-			<span class="project-details">
-				<h3>Hello Lamp Post</h3>
-				<h4>Front-end Development, Graphic Design, Information Design</h4>
 			</span>
 		</a>
 
