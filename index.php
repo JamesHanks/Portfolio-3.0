@@ -143,6 +143,24 @@
 			</span>
 		</a>
 
+		<a href="#" class="project-link grid-item">
+			<div class="project-container">
+				<img src="assets/images/project-image-small.jpg" class="project-image" alt="What Are Mental Health Problems?">
+				<div class="project-overlay">
+					<div class="project-overlay-details">
+						<h3>Miscellanous</h3>
+						<p>Various pieces of work that don't quite fit into a particular category.</p>
+						<p class="view-project">View project</p>
+					</div>
+					<div class="project-overlay-colour"></div>
+				</div>
+			</div>
+			<span class="project-details">
+				<h3>Miscellanous</h3>
+				<h4>Graphic Design, Illustration</h4>
+			</span>
+		</a>
+
 	</div>
 </section>
 
