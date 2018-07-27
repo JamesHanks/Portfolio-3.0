@@ -448,100 +448,39 @@ header{
 
 /* ==================== CASE STUDY ==================== */
 
-.case-study-exit{
-	position: absolute;
-	top: 25px;
-	transition: $project;
-	-webkit-transition: $project;
-	width: 50px;
-
-	span{
-		background-image: url("../images/arrow-left-white.svg");
-		background-repeat: no-repeat;
-		content: "";
-		position: absolute;
-		transition: $project;
-		-webkit-transition: $project;
-	}
-
-	@media only screen and (min-width: $large){
-		top: 50px;
-		left: 100px;
-
-		a:hover{
-			span{
-				background-size: 25px 25px;
-			}
-		}
-
-		span{
-			background-size: 40px 25px;
-			padding-left: 40px;
-		}
-	}
-
-	@media only screen and (max-width: $large){
-		left: 50px;
-
-		span{
-			padding-left: 35px;
-		}
-	}
-
-	@media only screen and (max-width: $small){
-		left: 25px;
-	}
-}
-
-.case-study-nav{
-	position: absolute;
-	top: 25px;
-	transition: $project;
-	-webkit-transition: $project;
-	width: 50%;
-
-	span{
-		float: right;
-	}
-
-	@media only screen and (min-width: $large){
-		top: 50px;
-		right: 100px;
-
-		span{
-			margin-left: 25px;
-		}
-	}
-
-	@media only screen and (max-width: $large){
-		right: 50px;
-
-		span{
-			margin-left: 15px;
-		}
-	}
-
-	@media only screen and (max-width: $small){
-		-moz-transform: rotate(90deg);
-		-ms-transform: rotate(90deg);
-		-o-transform: rotate(90deg);
-		-webkit-transform: rotate(90deg);
-		display: block;
-		right: -45px;
-		top: 90px;
-		width: auto;
-		z-index: 10;
-
-		span{
-			margin-left: 10px;
-		}
-	}
-}
-
 .case-study-intro{
 	background: $midtone-05;
 	display: block;
 	position: relative;
+
+	.case-study-exit{
+		position: absolute;
+		top: 25px;
+		transition: $project;
+		-webkit-transition: $project;
+		width: 50px;
+
+		span{
+			background-image: url("../images/arrow-left-white.svg");
+			background-repeat: no-repeat;
+			content: "";
+			position: absolute;
+			transition: $project;
+			-webkit-transition: $project;
+		}
+	}
+
+	.case-study-nav{
+		position: absolute;
+		top: 25px;
+		transition: $project;
+		-webkit-transition: $project;
+		width: 50%;
+
+		span{
+			float: right;
+		}
+	}
 
 	.case-study-intro-text{
 		bottom: 25px;
@@ -593,11 +532,44 @@ header{
 		width: 100%;
 	}
 
-	.espia{ background-image: url("../images/espia-1.png"); }
-	.somnus{ background-image: url("../images/somnus-tile.png"); }
+	.hlp{ background-image: url("../images/hlp_1.jpg"); }
+	.espia{ background-image: url("../images/espia_1.jpg"); }
+	.somnus{ background-image: url("../images/somnus_1.jpg"); }
+	.apto{ background-image: url("../images/apto_1.jpg"); }
+	.shuttle{ background-image: url("../images/shuttle_1.jpg"); }
+	.sketchbook{ background-image: url("../images/sketchbook_1.jpg"); }
+	.wamhp{ background-image: url("../images/wamhp_1.jpg"); }
+	.misc{ background-image: url("../images/misc_1.jpg"); }
+
+	.test{ background-image: url("../images/somnus-tile.png"); }
 
 	@media only screen and (min-width: $large){
 		height: 500px;
+
+		.case-study-exit{
+			top: 50px;
+			left: 100px;
+
+			a:hover{
+				span{
+					background-size: 25px 25px;
+				}
+			}
+
+			span{
+				background-size: 40px 25px;
+				padding-left: 40px;
+			}
+		}
+
+		.case-study-nav{
+			top: 50px;
+			right: 100px;
+
+			span{
+				margin-left: 25px;
+			}
+		}
 
 		.case-study-intro-image{
 			height: 500px;
@@ -613,6 +585,22 @@ header{
 	@media only screen and (max-width: $large){
 		height: 400px;
 
+		.case-study-exit{
+			left: 50px;
+
+			span{
+				padding-left: 35px;
+			}
+		}
+
+		.case-study-nav{
+			right: 50px;
+
+			span{
+				margin-left: 15px;
+			}
+		}
+
 		.case-study-intro-image{
 			height: 400px;
 		}
@@ -625,6 +613,26 @@ header{
 
 	@media only screen and (max-width: $small){
 		height: 300px;
+
+		.case-study-exit{
+			left: 25px;
+		}
+
+		.case-study-nav{
+			-moz-transform: rotate(90deg);
+			-ms-transform: rotate(90deg);
+			-o-transform: rotate(90deg);
+			-webkit-transform: rotate(90deg);
+			display: block;
+			right: -45px;
+			top: 90px;
+			width: auto;
+			z-index: 10;
+
+			span{
+				margin-left: 10px;
+			}
+		}
 
 		.case-study-intro-image{
 			height: 300px;

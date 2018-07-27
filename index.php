@@ -1,4 +1,4 @@
-<?php $title = "James Hanks"?>
+<?php $title = ""?>
 
 <?php include 'includes/header_1.php'; ?>
 <?php include 'includes/header_2.php'; ?>
@@ -17,7 +17,7 @@
 
 		<div class="project-gutter"></div>
 
-		<a href="#" class="project-link grid-item">
+		<a href="project.php" class="project-link grid-item">
 			<div class="project-container">
 				<img src="assets/images/project-image-medium.jpg" class="project-image" alt="Hello Lamp Post">
 				<div class="project-overlay">
@@ -35,9 +35,9 @@
 			</span>
 		</a>
 
-		<a href="project.php" class="project-link grid-item">
+		<a href="espia.php" class="project-link grid-item">
 			<div class="project-container">
-				<img src="assets/images/espia-tile.jpg" class="project-image" alt="Espia">
+				<img src="assets/images/espia_tile.jpg" class="project-image" alt="Espia">
 				<div class="project-overlay">
 					<div class="project-overlay-details">
 						<h3>Espia</h3>
@@ -53,7 +53,7 @@
 			</span>
 		</a>
 
-		<a href="#" class="project-link grid-item">
+		<a href="project.php" class="project-link grid-item">
 			<div class="project-container">
 				<img src="assets/images/somnus-tile.png" class="project-image" alt="Somnus">
 				<div class="project-overlay">
@@ -71,7 +71,7 @@
 			</span>
 		</a>
 
-		<a href="#" class="project-link grid-item">
+		<a href="project.php" class="project-link grid-item">
 			<div class="project-container">
 				<img src="assets/images/project-image-large.jpg" class="project-image" alt="Apto Hotels">
 				<div class="project-overlay">
@@ -89,7 +89,7 @@
 			</span>
 		</a>
 
-		<a href="#" class="project-link grid-item">
+		<a href="project.php" class="project-link grid-item">
 			<div class="project-container">
 				<img src="assets/images/project-image-medium.jpg" class="project-image" alt="Sainsbury's Shuttle">
 				<div class="project-overlay">
@@ -107,7 +107,7 @@
 			</span>
 		</a>
 
-		<a href="#" class="project-link grid-item">
+		<a href="project.php" class="project-link grid-item">
 			<div class="project-container">
 				<img src="assets/images/project-image-large.jpg" class="project-image" alt="Sketchbook">
 				<div class="project-overlay">
@@ -125,7 +125,7 @@
 			</span>
 		</a>
 
-		<a href="#" class="project-link grid-item">
+		<a href="project.php" class="project-link grid-item">
 			<div class="project-container">
 				<img src="assets/images/project-image-small.jpg" class="project-image" alt="What Are Mental Health Problems?">
 				<div class="project-overlay">
@@ -143,7 +143,7 @@
 			</span>
 		</a>
 
-		<a href="#" class="project-link grid-item">
+		<a href="project.php" class="project-link grid-item">
 			<div class="project-container">
 				<img src="assets/images/project-image-small.jpg" class="project-image" alt="What Are Mental Health Problems?">
 				<div class="project-overlay">

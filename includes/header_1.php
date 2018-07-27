@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=yes">
 
 	<!-- Meta Info -->
-	<title><?php echo $title; ?></title>
+	<title><?php echo $title; ?>James Hanks</title>
 	<meta name="author" content="James Hanks">
 	<meta name="robots" content="index, follow">
 	<meta name="description" content="James Hanks is an interaction designer and developer based in London.">
