@@ -1,0 +1,21 @@
+{
+  "name": "James Hanks",
+  "short_name": "JamesHanks",
+  "start_url": "index.php",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "James Hanks is an interaction designer and developer based in London.",
+  "dir": "ltr",
+  "lang": "en-gb",
+  "orientation": "portrait-primary",
+  "theme_color": "#5452c1",
+  "icons": [{
+    "src": "assets/images/android-chrome-192x192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }, {
+    "src": "assets/images/android-chrome-256x256.png",
+    "sizes": "256x256",
+    "type": "image/png"
+  }]
+}
