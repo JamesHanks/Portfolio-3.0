@@ -176,7 +176,7 @@ p {
     -webkit-transition: all ease-in-out 0.2s;
     transition: all ease-in-out 0.2s; }
     p a:hover {
-      border-bottom: solid 1px rgba(84, 82, 193, 0.5);
+      border-bottom: solid 1px rgba(84, 82, 193, 0.25);
       color: #5452C1;
       padding-bottom: 0; }
     p a:active {
