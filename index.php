@@ -55,7 +55,7 @@
 
 		<a href="project.php" class="project-link grid-item">
 			<div class="project-container">
-				<img src="assets/images/somnus-tile.png" class="project-image" alt="Somnus">
+				<img src="assets/images/project-image-small.jpg" class="project-image" alt="Somnus">
 				<div class="project-overlay">
 					<div class="project-overlay-details">
 						<h3>Somnus</h3>
@@ -73,7 +73,7 @@
 
 		<a href="project.php" class="project-link grid-item">
 			<div class="project-container">
-				<img src="assets/images/project-image-large.jpg" class="project-image" alt="Apto Hotels">
+				<img src="assets/images/project-image-medium.jpg" class="project-image" alt="Apto Hotels">
 				<div class="project-overlay">
 					<div class="project-overlay-details">
 						<h3>Apto Hotels</h3>

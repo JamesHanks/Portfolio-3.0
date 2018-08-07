@@ -77,6 +77,9 @@ h2 {
   -webkit-transition: all ease-in-out 0.2s;
   transition: all ease-in-out 0.2s; }
 
+.about h2 {
+  font-size: 27px; }
+
 h3 {
   color: #191947;
   font-size: 22px;
@@ -623,7 +626,8 @@ header {
   background: #FFFFFF; }
   .case-study-shade .case-study-container {
     overflow: hidden;
-    background: rgba(84, 82, 193, 0.05); }
+    background: rgba(84, 82, 193, 0.05);
+    box-shadow: 0 -5px 25px rgba(255, 255, 255, 0.15); }
     @media only screen and (min-width: 940px) {
       .case-study-shade .case-study-container {
         padding: 50px 100px; } }

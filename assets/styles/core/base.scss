@@ -652,6 +652,7 @@ header{
 	.case-study-container{
 		overflow: hidden;
 		background: $midtone-05;
+		box-shadow: 0 -5px 25px rgba(255, 255, 255, 0.15);
 
 		@media only screen and (min-width: $large){
 			padding: 50px 100px;

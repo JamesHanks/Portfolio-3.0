@@ -17,6 +17,7 @@
 	<meta name="robot" content="index,follow">
 	<meta name="url" content="http://www.jameshanks.net">
 	<meta name="theme-color" content="#5452C1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
 
 	<!-- Sharing -->
 	<meta itemprop="name" content="James Hanks">
@@ -44,7 +45,7 @@
 	<link rel="shortcut icon" href="assets/images/favicon.ico">
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
-	<link rel="manifest" href="assets/images/site.webmanifest">
+	<link rel="manifest" href="site.webmanifest">
 	<link rel="mask-icon" href="assets/images/logo.svg" color="#5452c1">
 	<meta name="msapplication-TileColor" content="#5452c1">
 
