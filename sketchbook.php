@@ -1,4 +1,4 @@
-<?php $title = "Espia | "?>
+<?php $title = "Project Name | "?>
 
 <?php include 'includes/header_1.php'; ?>
 	<!-- Case Study Header -->
@@ -16,15 +16,15 @@
 
 		<!-- Intro -->
 		<div class="case-study-intro-text">
-			<h1>Espia</h1>
+			<h1>Sketchbook</h1>
 			<span class="divider"></span>
-			<h2>Ubiquitous robot concept - 2017</h2>
+			<h2>Selected sketchbook pages</h2>
 		</div>
 
 		<!-- Hero Image -->
 		<div class="case-study-hero">
 			<div class="case-study-intro-overlay"></div>
-			<div class="case-study-intro-image espia"></div>
+			<div class="case-study-intro-image sketchbook"></div>
 		</div>
 
 	</section>
@@ -33,64 +33,56 @@
 	<div class="case-study-shade">
 		<div class="case-study-container">
 
-			<div class="case-study-text-wrap">
-				<div class="case-study-brief">
-					<span class="heading-small">Brief</span>
-					<p>Research an emerging technology and design a new product exploiting it.</p>
-				</div>
-
-				<div class="case-study-details">
-					<div class="case-study-role">
-						<span class="heading-small">Role</span>
-						<p>Design - Research</p>
-					</div>
-					<div class="case-study-client">
-						<span class="heading-small">Client</span>
-						<p>N/A</p>
-					</div>
-					<div class="case-study-category">
-						<span class="heading-small">Category</span>
-						<p>Interaction Design, Robotics, UI/UX</p>
-					</div>
-				</div>	
-			</div>
-
-			<span class="heading-small">Explanation</span>
-
-			<div class="case-study-text-wrap">
-				<div class="column-1">
-					<p>The emerging technology that I chose to research was ubiquitous robotics. This is the concept of robotic systems that in future, will be ever-present and ever-accessible due to the advent of Internet of Things technology and connected embedded devices becoming commonplace.</p>
-
-					<p>During my research, I noticed that the main commercial uses for machine learning in virtual personal assistants involve heavy monitoring and interpretation of personal user data. I even found most physical robots’ ability to record information on the user impressive, but in an unsettling way.</p>
-
-					<p>Because of this, I felt that I should consider how the technology could be used to oppose certain sorts of potentially unfair surveillance, even if this would just involve a system that warns users of how they are being covertly monitored.</p>
-				</div>
-
-				<div class="column-2">
-					<p>The purpose of Espia is to protect everyday people in the fully connected age; assuming that the digital world has become far more implemented within the physical world than it is currently.</p>
-
-					<p>Complex technology has become so commonplace that the vast majority of consumers are not aware of how their devices truly function. As more objects become connected to the internet, it will become increasingly easy for individuals with a lack of advanced knowledge in computing to be exploited by hackers, greedy corporations and corrupt, controlling governments.</p>
-
-					<p>Espia is a conceptual solution to the problem and primarily designed only to highlight the need to make the current situation a lot fairer. A research document discussing the project in more detail can be found <a href="espia.pdf">here</a>.</p>
-				</div>
-			</div>
-
 			<div class="case-study-image-wrap">
 
 				<div class="image-container">
-					<img src="assets/images/espia_2.jpg" alt="Project Image">
+					<div class="image-1">
+						<img src="assets/images/sketchbook_2.png" alt="Project Image">
+					</div>
+
+					<div class="image-2">
+						<img src="assets/images/sketchbook_3.png" alt="Project Image">
+					</div>
 				</div>
 
 				<div class="image-container">
-					<img src="assets/images/espia_3.jpg" alt="Project Image">
+					<div class="image-1">
+						<img src="assets/images/sketchbook_4.png" alt="Project Image">
+					</div>
+
+					<div class="image-2">
+						<img src="assets/images/sketchbook_5.png" alt="Project Image">
+					</div>
 				</div>
 
 				<div class="image-container">
-					<img src="assets/images/espia_4.jpg" alt="Project Image">
+					<div class="image-1">
+						<img src="assets/images/sketchbook_6.png" alt="Project Image">
+					</div>
+
+					<div class="image-2">
+						<img src="assets/images/sketchbook_7.png" alt="Project Image">
+					</div>
 				</div>
 
 				<div class="image-container">
-					<img src="assets/images/espia_5.jpg" alt="Project Image">
+					<div class="image-1">
+						<img src="assets/images/sketchbook_8.png" alt="Project Image">
+					</div>
+
+					<div class="image-2">
+						<img src="assets/images/sketchbook_9.png" alt="Project Image">
+					</div>
+				</div>
+
+				<div class="image-container">
+					<div class="image-1">
+						<img src="assets/images/sketchbook_10.png" alt="Project Image">
+					</div>
+
+					<div class="image-2 hidden">
+						<img src="assets/images/sketchbook_10.png" alt="Project Image">
+					</div>
 				</div>
 
 			</div>
@@ -103,7 +95,7 @@
 	<!-- Next, To-Top and Previous arrows -->
 	<div class="case-study-arrows-container">
 
-		<a href="#">
+		<a href="shuttle.php">
 			<div class="case-study-arrow-1">
 				<span class="arrow-left-container">
 					<svg class="arrow-left"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
@@ -113,7 +105,7 @@
 					</svg>
 				</span>
 				<span class="arrow-left-text">
-					<h3>Hello Lamp Post</h3>
+					<h3>Shuttle</h3>
 					<h4>Previous Project</h4>
 				</span>
 			</div>
@@ -133,7 +125,7 @@
 			</div>
 		</a>
 
-		<a href="#">
+		<a href="wamhp.php">
 			<div class="case-study-arrow-2">
 				<span class="arrow-right-container">
 					<svg class="arrow-right" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
@@ -143,7 +135,7 @@
 					</svg>
 				</span>
 				<span class="arrow-right-text">
-					<h3>Somnus</h3>
+					<h3>What Are Mental Health Problems?</h3>
 					<h4>Next Project</h4>
 				</span>
 			</div>

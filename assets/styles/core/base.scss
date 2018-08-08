@@ -512,7 +512,7 @@ header{
 	}
 
 	.case-study-intro-overlay{
-		background: linear-gradient(20deg, $midtone-75, $midtone-00);
+		//background: linear-gradient(20deg, $midtone-75, $midtone-00);
 		bottom: 0;
 		height: 100%;
 		left: 0;
@@ -755,11 +755,20 @@ header{
 	margin-top: 20px;
 
 	.image-container{
+		display: inline-block;
+		margin-bottom: 15px;
+
 		img{
 			max-width: 100%;
 		}
 
-		margin-bottom: 20px;
+		.hidden{
+			visibility: hidden;
+
+			@media only screen and (max-width: $small){
+				display: none;
+			}
+		}
 
 		@media only screen and (min-width: $large){
 			.image-1{
@@ -800,6 +809,16 @@ header{
 				margin-bottom: 20px;
 				max-width: 100%;
 				padding: 0;
+			}
+		}
+
+		@media only screen and (max-width: $small){
+			.image-1{
+				margin-bottom: 0;
+			}
+
+			.image-2{
+				margin-bottom: 0;
 			}
 		}
 	}

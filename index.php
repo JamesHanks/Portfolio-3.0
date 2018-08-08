@@ -89,9 +89,9 @@
 			</span>
 		</a>
 
-		<a href="project.php" class="project-link grid-item">
+		<a href="shuttle.php" class="project-link grid-item">
 			<div class="project-container">
-				<img src="assets/images/project-image-medium.jpg" class="project-image" alt="Sainsbury's Shuttle">
+				<img src="assets/images/shuttle_tile.jpg" class="project-image" alt="Sainsbury's Shuttle">
 				<div class="project-overlay">
 					<div class="project-overlay-details">
 						<h3>Shuttle</h3>
@@ -107,13 +107,13 @@
 			</span>
 		</a>
 
-		<a href="project.php" class="project-link grid-item">
+		<a href="sketchbook.php" class="project-link grid-item">
 			<div class="project-container">
-				<img src="assets/images/project-image-large.jpg" class="project-image" alt="Sketchbook">
+				<img src="assets/images/sketchbook_tile.gif" class="project-image" alt="Sketchbook">
 				<div class="project-overlay">
 					<div class="project-overlay-details">
 						<h3>Sketchbook</h3>
-						<p>Selected pages from my sketchbooks.</p>
+						<p>Selected pages from small sketchbooks I carry around with me.</p>
 						<p class="view-project">View project</p>
 					</div>
 					<div class="project-overlay-colour"></div>
@@ -124,7 +124,7 @@
 				<h4>Process</h4>
 			</span>
 		</a>
-
+		<!--
 		<a href="project.php" class="project-link grid-item">
 			<div class="project-container">
 				<img src="assets/images/project-image-small.jpg" class="project-image" alt="What Are Mental Health Problems?">
@@ -145,7 +145,7 @@
 
 		<a href="project.php" class="project-link grid-item">
 			<div class="project-container">
-				<img src="assets/images/project-image-small.jpg" class="project-image" alt="What Are Mental Health Problems?">
+				<img src="assets/images/project-image-small.jpg" class="project-image" alt="Miscellanous">
 				<div class="project-overlay">
 					<div class="project-overlay-details">
 						<h3>Miscellanous</h3>
@@ -160,7 +160,7 @@
 				<h4>Graphic Design, Illustration</h4>
 			</span>
 		</a>
-
+		-->
 	</div>
 </section>
 
