@@ -73,7 +73,7 @@
 
 		<a href="project.php" class="project-link grid-item">
 			<div class="project-container">
-				<img src="assets/images/project-image-medium.jpg" class="project-image" alt="Apto Hotels">
+				<img src="assets/images/project-image-small.jpg" class="project-image" alt="Apto Hotels">
 				<div class="project-overlay">
 					<div class="project-overlay-details">
 						<h3>Apto Hotels</h3>
@@ -124,7 +124,7 @@
 				<h4>Process</h4>
 			</span>
 		</a>
-		<!--
+		
 		<a href="project.php" class="project-link grid-item">
 			<div class="project-container">
 				<img src="assets/images/project-image-small.jpg" class="project-image" alt="What Are Mental Health Problems?">
@@ -160,7 +160,7 @@
 				<h4>Graphic Design, Illustration</h4>
 			</span>
 		</a>
-		-->
+		
 	</div>
 </section>
 
