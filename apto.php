@@ -1,4 +1,4 @@
-<?php $title = "Project Name | "?>
+<?php $title = "Apto Hotels | "?>
 
 <?php include 'includes/header_1.php'; ?>
 	<!-- Case Study Header -->
@@ -16,15 +16,15 @@
 
 		<!-- Intro -->
 		<div class="case-study-intro-text">
-			<h1>Sketchbook</h1>
+			<h1>Apto Hotels</h1>
 			<span class="divider"></span>
-			<h2>Selected sketchbook page spreads.</h2>
+			<h2>Digital-first, experimental hotel brand.</h2>
 		</div>
 
 		<!-- Hero Image -->
 		<div class="case-study-hero">
 			<div class="case-study-intro-overlay"></div>
-			<div class="case-study-intro-image sketchbook"></div>
+			<div class="case-study-intro-image apto"></div>
 		</div>
 
 	</section>
@@ -33,56 +33,89 @@
 	<div class="case-study-shade">
 		<div class="case-study-container">
 
+			<div class="case-study-text-wrap">
+				<div class="case-study-brief">
+					<span class="heading-small">Brief</span>
+					<p>Develop a new economy hotel brand that uses digital technology to enhance the user experience and returns to more traditional hospitality values.</p>
+				</div>
+
+				<div class="case-study-details">
+					<div class="case-study-role">
+						<span class="heading-small">Role</span>
+						<p>Design - Strategy</p>
+					</div>
+					<div class="case-study-client">
+						<span class="heading-small">Client</span>
+						<p><a href="https://www.elselondon.com/" target="blank">Else London</a></p>
+					</div>
+					<div class="case-study-category">
+						<span class="heading-small">Category</span>
+						<p>Branding, Digital Strategy, UI/UX</p>
+					</div>
+				</div>	
+			</div>
+
+			<span class="heading-small">Explanation</span>
+
+			<div class="case-study-text-wrap">
+				<div class="column-1">
+					<p>This project was for a live brief set by experience design consultancy ELSE London and was one of two entries shortlisted and pitched to the agency.</p>
+
+					<p>The premise of the brief was that economy hotel chains (<a href="https://www.accorhotels.group/en/group/our-brands-and-services/ibis" target="blank">Ibis</a>, <a href="https://www.premierinn.com" target="blank">Premiere Inn</a>, <a href="https://www.travelodge.co.uk" target="blank">Travelodge</a>) are losing a significant amount of business to more alternative services like <a href="https://www.airbnb.co.uk" target="blank">Airbnb</a> and <a href="https://www.citizenm.com" target="blank">CitizenM</a>.</p>
+
+					<p>Our user research concluded that consumers would either want to pay a lot less for something independent or a lot more for something luxurious; excluding traditional economy hotels entirely.</p>
+
+					<p>Most importantly, we also found that consumers detested the way that economy hotels are identical in each location and have too much of a bold, domineering brand which often tainted the atmosphere of the travel destination.</p>
+
+				</div>
+
+				<div class="column-2">
+					<p>The solution we developed was to attempt to hide the fact that the brand was a chain hotel through developing an adaptable design language. This was able to dynamically reflect the identity of each hotel location and allow each Apto Hotel to sit comfortably within its destination and offer consumers a bespoke travel experience at the lowest of prices.</p>
+
+					<p>We also proposed an accompanying digital experience to re-connect customers with hotel staff and support them throughout the entire travel experience.</p>
+
+					<p>This was a group project where I took the role of Designer/Technologist. This involved developing the brand identity (name, logo, concept), UI/UX design and dynamic design system. I worked alongside <a href="http://lesliestowedesign.co.uk" target="blank">Leslie Stowe</a> and Rosanna Maddison.</p>
+				</div>
+			</div>
+
 			<div class="case-study-image-wrap">
 
 				<div class="image-container">
-					<div class="image-1">
-						<img src="assets/images/sketchbook_2.png" alt="Project Image">
-					</div>
+					<img src="assets/images/apto_2.jpg" alt="Project Image">
+				</div>
 
-					<div class="image-2">
-						<img src="assets/images/sketchbook_3.png" alt="Project Image">
-					</div>
+				<div class="image-container">
+					<img src="assets/images/apto_3.jpg" alt="Project Image">
 				</div>
 
 				<div class="image-container">
 					<div class="image-1">
-						<img src="assets/images/sketchbook_4.png" alt="Project Image">
+						<img src="assets/images/apto_4.jpg" alt="Project Image">
 					</div>
 
 					<div class="image-2">
-						<img src="assets/images/sketchbook_5.png" alt="Project Image">
+						<img src="assets/images/apto_5.jpg" alt="Project Image">
 					</div>
 				</div>
 
 				<div class="image-container">
-					<div class="image-1">
-						<img src="assets/images/sketchbook_6.png" alt="Project Image">
-					</div>
-
-					<div class="image-2">
-						<img src="assets/images/sketchbook_7.png" alt="Project Image">
-					</div>
+					<img src="assets/images/apto_6.jpg" alt="Project Image">
 				</div>
 
 				<div class="image-container">
-					<div class="image-1">
-						<img src="assets/images/sketchbook_8.png" alt="Project Image">
-					</div>
-
-					<div class="image-2">
-						<img src="assets/images/sketchbook_9.png" alt="Project Image">
-					</div>
+					<img src="assets/images/apto_7.jpg" alt="Project Image">
 				</div>
 
 				<div class="image-container">
-					<div class="image-1">
-						<img src="assets/images/sketchbook_10.png" alt="Project Image">
-					</div>
+					<img src="assets/images/apto_8.jpg" alt="Project Image">
+				</div>
 
-					<div class="image-2 hidden">
-						<img src="assets/images/sketchbook_10.png" alt="Project Image">
-					</div>
+				<div class="image-container">
+					<img src="assets/images/apto_9.jpg" alt="Project Image">
+				</div>
+
+				<div class="image-container">
+					<img src="assets/images/apto_10.jpg" alt="Project Image">
 				</div>
 
 			</div>
@@ -95,7 +128,7 @@
 	<!-- Next, To-Top and Previous arrows -->
 	<div class="case-study-arrows-container">
 
-		<a href="shuttle.php">
+		<a href="#">
 			<div class="case-study-arrow-1">
 				<span class="arrow-left-container">
 					<svg class="arrow-left"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
@@ -105,7 +138,7 @@
 					</svg>
 				</span>
 				<span class="arrow-left-text">
-					<h3>Shuttle</h3>
+					<h3>Hello Lamp Post</h3>
 					<h4>Previous Project</h4>
 				</span>
 			</div>
@@ -125,7 +158,7 @@
 			</div>
 		</a>
 
-		<a href="wamhp.php">
+		<a href="#">
 			<div class="case-study-arrow-2">
 				<span class="arrow-right-container">
 					<svg class="arrow-right" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
@@ -135,7 +168,7 @@
 					</svg>
 				</span>
 				<span class="arrow-right-text">
-					<h3>What Are Mental Health Problems?</h3>
+					<h3>Apto Hotels</h3>
 					<h4>Next Project</h4>
 				</span>
 			</div>

@@ -18,7 +18,7 @@
 		<div class="case-study-intro-text">
 			<h1>Espia</h1>
 			<span class="divider"></span>
-			<h2>Ubiquitous robot concept - 2017</h2>
+			<h2>Ubiquitous robot concept.</h2>
 		</div>
 
 		<!-- Hero Image -->

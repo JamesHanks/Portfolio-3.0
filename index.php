@@ -71,7 +71,7 @@
 			</span>
 		</a>
 
-		<a href="project.php" class="project-link grid-item">
+		<a href="apto.php" class="project-link grid-item">
 			<div class="project-container">
 				<img src="assets/images/project-image-small.jpg" class="project-image" alt="Apto Hotels">
 				<div class="project-overlay">

@@ -533,6 +533,8 @@ header {
     position: absolute;
     right: 0;
     top: 0;
+    transition: all ease-in-out 0.4s;
+    -webkit-transition: all ease-in-out 0.4s;
     width: 100%; }
   .case-study-intro .case-study-intro-image {
     background-position: center;
@@ -585,6 +587,8 @@ header {
   @media only screen and (max-width: 940px) {
     .case-study-intro {
       height: 400px; }
+      .case-study-intro .case-study-intro-overlay {
+        background: linear-gradient(20deg, rgba(84, 82, 193, 0.75), rgba(84, 82, 193, 0)); }
       .case-study-intro .case-study-exit {
         left: 50px; }
         .case-study-intro .case-study-exit span {
@@ -601,6 +605,8 @@ header {
   @media only screen and (max-width: 625px) {
     .case-study-intro {
       height: 300px; }
+      .case-study-intro .case-study-intro-overlay {
+        background: linear-gradient(20deg, rgba(84, 82, 193, 0.75), rgba(84, 82, 193, 0.25)); }
       .case-study-intro .case-study-exit {
         left: 25px; }
       .case-study-intro .case-study-nav {

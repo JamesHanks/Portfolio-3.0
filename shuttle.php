@@ -18,7 +18,7 @@
 	<div class="case-study-intro-text">
 		<h1>Shuttle
 		<span class="divider"></span>
-		<h2>Proximity-based mobile application - 2016</h2>
+		<h2>Proximity-based mobile application.</h2>
 	</div>
 
 	<!-- Hero Image -->
