@@ -128,7 +128,7 @@
 	<!-- Next, To-Top and Previous arrows -->
 	<div class="case-study-arrows-container">
 
-		<a href="#">
+		<a href="somnus.php">
 			<div class="case-study-arrow-1">
 				<span class="arrow-left-container">
 					<svg class="arrow-left"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
@@ -138,7 +138,7 @@
 					</svg>
 				</span>
 				<span class="arrow-left-text">
-					<h3>Hello Lamp Post</h3>
+					<h3>Somnus</h3>
 					<h4>Previous Project</h4>
 				</span>
 			</div>
@@ -158,7 +158,7 @@
 			</div>
 		</a>
 
-		<a href="#">
+		<a href="shuttle.php">
 			<div class="case-study-arrow-2">
 				<span class="arrow-right-container">
 					<svg class="arrow-right" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
@@ -168,7 +168,7 @@
 					</svg>
 				</span>
 				<span class="arrow-right-text">
-					<h3>Apto Hotels</h3>
+					<h3>Shuttle</h3>
 					<h4>Next Project</h4>
 				</span>
 			</div>
