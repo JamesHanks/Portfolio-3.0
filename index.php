@@ -55,7 +55,7 @@
 
 		<a href="somnus.php" class="project-link grid-item">
 			<div class="project-container">
-				<img src="assets/images/somnus_tile.jpg" class="project-image" alt="Somnus">
+				<img src="assets/images/somnus_tile.gif" class="project-image" alt="Somnus">
 				<div class="project-overlay">
 					<div class="project-overlay-details">
 						<h3>Somnus</h3>

@@ -18,7 +18,7 @@
 		<div class="case-study-intro-text">
 			<h1>Apto Hotels</h1>
 			<span class="divider"></span>
-			<h2>Digital-first, experimental hotel brand.</h2>
+			<h2>Digital-first hotel brand.</h2>
 		</div>
 
 		<!-- Hero Image -->
@@ -85,17 +85,17 @@
 				</div>
 
 				<div class="image-container">
-					<img src="assets/images/apto_3.jpg" alt="Project Image">
-				</div>
-
-				<div class="image-container">
 					<div class="image-1">
-						<img src="assets/images/apto_4.jpg" alt="Project Image">
+						<img src="assets/images/apto_3.jpg" alt="Project Image">
 					</div>
 
 					<div class="image-2">
-						<img src="assets/images/apto_5.jpg" alt="Project Image">
+						<img src="assets/images/apto_4.jpg" alt="Project Image">
 					</div>
+				</div>
+
+				<div class="image-container">
+					<img src="assets/images/apto_5.jpg" alt="Project Image">
 				</div>
 
 				<div class="image-container">
@@ -116,6 +116,14 @@
 
 				<div class="image-container">
 					<img src="assets/images/apto_10.jpg" alt="Project Image">
+				</div>
+
+				<div class="image-container">
+					<img src="assets/images/apto_11.jpg" alt="Project Image">
+				</div>
+
+				<div class="image-container">
+					<img src="assets/images/apto_12.jpg" alt="Project Image">
 				</div>
 
 			</div>

@@ -18,7 +18,7 @@
 		<div class="case-study-intro-text">
 			<h1>Somnus</h1>
 			<span class="divider"></span>
-			<h2>‘Sleep-friendly network.</h2>
+			<h2>Sleep-friendly network.</h2>
 		</div>
 
 		<!-- Hero Image -->
@@ -78,17 +78,17 @@
 			<div class="case-study-image-wrap">
 
 				<div class="image-container">
-					<div class="image-1">
-						<img src="assets/images/somnus_2.jpg" alt="Project Image">
-					</div>
-
-					<div class="image-2">
-						<img src="assets/images/somnus_3.jpg" alt="Project Image">
-					</div>
+					<img src="assets/images/somnus_2.jpg" alt="Project Image">
 				</div>
 
 				<div class="image-container">
-					<img src="assets/images/somnus_4.jpg" alt="Project Image">
+					<div class="image-1">
+						<img src="assets/images/somnus_3.jpg" alt="Project Image">
+					</div>
+
+					<div class="image-2">
+						<img src="assets/images/somnus_4.jpg" alt="Project Image">
+					</div>
 				</div>
 
 				<div class="image-container">
