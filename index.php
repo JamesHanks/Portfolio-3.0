@@ -16,7 +16,7 @@
 	<div class="grid">
 
 		<div class="project-gutter"></div>
-
+		
 		<a href="project.php" class="project-link grid-item">
 			<div class="project-container">
 				<img src="assets/images/project-image-medium.jpg" class="project-image" alt="Hello Lamp Post">
