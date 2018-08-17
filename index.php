@@ -17,9 +17,9 @@
 
 		<div class="project-gutter"></div>
 		
-		<a href="project.php" class="project-link grid-item">
+		<a href="hlp.php" class="project-link grid-item">
 			<div class="project-container">
-				<img src="assets/images/project-image-medium.jpg" class="project-image" alt="Hello Lamp Post">
+				<img src="assets/images/hlp_tile.jpg" class="project-image" alt="Hello Lamp Post">
 				<div class="project-overlay">
 					<div class="project-overlay-details">
 						<h3>Hello Lamp Post</h3>
@@ -125,6 +125,7 @@
 			</span>
 		</a>
 		
+		<!--
 		<a href="project.php" class="project-link grid-item">
 			<div class="project-container">
 				<img src="assets/images/project-image-small.jpg" class="project-image" alt="What Are Mental Health Problems?">
@@ -160,6 +161,7 @@
 				<h4>Graphic Design, Illustration</h4>
 			</span>
 		</a>
+		-->
 		
 	</div>
 </section>
