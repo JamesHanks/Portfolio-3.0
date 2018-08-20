@@ -1,4 +1,4 @@
-<?php $title = "Project Name | "?>
+<?php $title = "Hello Lamp Post | "?>
 
 <?php include 'includes/header_1.php'; ?>
 	<!-- Case Study Header -->
@@ -65,7 +65,7 @@
 				</div>
 
 				<div class="column-2">
-					<p>During my time at PAN, I was able to work on a variety of campaign and back-end system work for the platform. I applied skills in graphic design, web development, video and data visualisation as well as liaise and produce work for clients in Manchester, London, USA, Netherlands and India.</p>
+					<p>During my time at PAN, I was able to work on a variety of campaign and back-end system work for the platform. I applied skills in graphic design, web development, video and data visualisation as well as liaise and produce work for clients in the UK, USA, Netherlands and India.</p>
 
 					<p>Hello Lamp Post has been nominated for the prestigious <a href=“https://designmuseum.org/” target=“blank”>Design Museum’s</a> Design of the Year Award and won <a href=“https://www.watershed.co.uk/” target=“blank”>Watershed’s</a> first <a href=“https://www.playablecity.com/projects/hello-lamp-post/” target=“blank”>Playable City Award</a>.</p>
 				</div>
@@ -74,18 +74,30 @@
 			<div class="case-study-image-wrap">
 
 				<div class="image-container">
-					<img src="assets/images/large.png" alt="Project Image">
+					<img src="assets/images/hlp_2.jpg" alt="Project Image">
 				</div>
 
 				<div class="image-container">
-					<div class="image-1">
-						<img src="assets/images/small.png" alt="Project Image">
-					</div>
-
-					<div class="image-2">
-						<img src="assets/images/small.png" alt="Project Image">
-					</div>
+					<img src="assets/images/hlp_3.jpg" alt="Project Image">
 				</div>
+
+				<div class="image-container">
+					<img src="assets/images/hlp_4.jpg" alt="Project Image">
+				</div>
+
+				<div class="image-container">
+					<img src="assets/images/hlp_5.jpg" alt="Project Image">
+				</div>
+
+				<div class="image-container">
+					<img src="assets/images/hlp_6.jpg" alt="Project Image">
+				</div>
+				
+				<!-- 
+				<div class="image-container">
+					<iframe src="https://player.vimeo.com/video/283897384?color=ffd100&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</div>
+				-->
 
 			</div>
 		</div>
@@ -97,6 +109,7 @@
 	<!-- Next, To-Top and Previous arrows -->
 	<div class="case-study-arrows-container">
 
+		<!-- 
 		<a href="#">
 			<div class="case-study-arrow-1">
 				<span class="arrow-left-container">
@@ -112,6 +125,7 @@
 				</span>
 			</div>
 		</a>
+		-->
 
 		<a href="#" onclick="scrollDown(document.getElementById('intro'))">
 			<div class="case-study-arrow-top">
@@ -127,7 +141,7 @@
 			</div>
 		</a>
 
-		<a href="#">
+		<a href="espia.php">
 			<div class="case-study-arrow-2">
 				<span class="arrow-right-container">
 					<svg class="arrow-right" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
@@ -137,7 +151,7 @@
 					</svg>
 				</span>
 				<span class="arrow-right-text">
-					<h3>Apto Hotels</h3>
+					<h3>Espia</h3>
 					<h4>Next Project</h4>
 				</span>
 			</div>
