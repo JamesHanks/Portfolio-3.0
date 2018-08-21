@@ -1,12 +1,14 @@
 // Masonry Initialisation
-var grid = document.querySelector('.grid');
+docReady( function() {
+	var grid = document.querySelector('.grid');
 
-var msnry = new Masonry( grid, {
-	itemSelector: '.grid-item',
+	var msnry = new Masonry( grid, {
+		itemSelector: '.grid-item',
 	// Responsive column and gutter
 	columnWidth: '.project-link',
 	gutter: '.project-gutter',
 	percentPosition: true
+});
 });
 
 // Activate below button
