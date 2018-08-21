@@ -89,9 +89,24 @@
 					<img src="assets/images/hlp_5.jpg" alt="Project Image">
 				</div>
 
+
 				<div class="image-container">
 					<img src="assets/images/hlp_6.jpg" alt="Project Image">
 				</div>
+
+				<div class="image-container">
+					<img src="assets/images/hlp_7.jpg" alt="Project Image">
+				</div>
+
+				<div class="image-container">
+					<img src="assets/images/hlp_8.jpg" alt="Project Image">
+				</div>
+				
+				<!-- 
+				<div class="image-container">
+					<img src="assets/images/hlp_9.jpg" alt="Project Image">
+				</div>
+				-->
 				
 				<!-- 
 				<div class="image-container">
