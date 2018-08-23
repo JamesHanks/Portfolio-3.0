@@ -560,8 +560,6 @@ header {
     background-image: url("../images/wamhp_1.jpg"); }
   .case-study-intro .misc {
     background-image: url("../images/misc_1.jpg"); }
-  .case-study-intro .test {
-    background-image: url("../images/somnus-tile.png"); }
   @media only screen and (min-width: 940px) {
     .case-study-intro {
       height: 500px; }
@@ -816,59 +814,61 @@ header {
         transition: all ease-in-out 0.2s;
         -webkit-transition: all ease-in-out 0.2s; } }
 /* ==================== FOOTER ==================== */
-footer .footer-content {
-  align-items: center;
-  display: flex; }
-  footer .footer-content .footer-copyright {
-    cursor: default; }
-  footer .footer-content .footer-social {
-    transition: all ease-in-out 0.2s;
-    -webkit-transition: all ease-in-out 0.2s; }
-    footer .footer-content .footer-social .footer-social-link {
-      display: inline-block;
-      height: 38px;
-      width: 38px;
-      position: relative;
-      top: 0;
+footer {
+  background: #FFFFFF; }
+  footer .footer-content {
+    align-items: center;
+    display: flex; }
+    footer .footer-content .footer-copyright {
+      cursor: default; }
+    footer .footer-content .footer-social {
       transition: all ease-in-out 0.2s;
       -webkit-transition: all ease-in-out 0.2s; }
-      footer .footer-content .footer-social .footer-social-link:hover {
-        top: -4px; }
-      footer .footer-content .footer-social .footer-social-link .footer-logo {
-        fill: #191947;
+      footer .footer-content .footer-social .footer-social-link {
+        display: inline-block;
+        height: 38px;
+        width: 38px;
+        position: relative;
+        top: 0;
         transition: all ease-in-out 0.2s;
         -webkit-transition: all ease-in-out 0.2s; }
-        footer .footer-content .footer-social .footer-social-link .footer-logo:hover {
-          fill: #5452C1; }
-        footer .footer-content .footer-social .footer-social-link .footer-logo:active {
-          fill: #B8B6FF; }
-@media only screen and (min-width: 940px) {
-  footer {
-    padding: 50px 100px; } }
-@media only screen and (max-width: 940px) {
-  footer {
-    padding: 25px 50px; } }
-@media only screen and (min-width: 781px) {
-  footer .footer-social, footer .footer-copyright {
-    width: 50%; }
-    footer .footer-social .footer-social-link, footer .footer-copyright .footer-social-link {
-      float: right;
-      margin-left: 20px; } }
-@media only screen and (max-width: 781px) {
-  footer .footer-content {
-    display: inline-block; }
-    footer .footer-content .footer-copyright {
-      margin-bottom: 15px; }
-    footer .footer-content .footer-social .footer-social-link {
-      float: left;
-      margin-right: 20px; } }
-@media only screen and (max-width: 625px) {
-  footer {
-    padding: 25px; }
-    footer .footer-content .footer-copyright {
-      margin-bottom: 20; }
-    footer .footer-content .footer-social .footer-social-link {
-      height: 30px;
-      width: 30px; } }
+        footer .footer-content .footer-social .footer-social-link:hover {
+          top: -4px; }
+        footer .footer-content .footer-social .footer-social-link .footer-logo {
+          fill: #191947;
+          transition: all ease-in-out 0.2s;
+          -webkit-transition: all ease-in-out 0.2s; }
+          footer .footer-content .footer-social .footer-social-link .footer-logo:hover {
+            fill: #5452C1; }
+          footer .footer-content .footer-social .footer-social-link .footer-logo:active {
+            fill: #B8B6FF; }
+  @media only screen and (min-width: 940px) {
+    footer {
+      padding: 50px 100px; } }
+  @media only screen and (max-width: 940px) {
+    footer {
+      padding: 25px 50px; } }
+  @media only screen and (min-width: 781px) {
+    footer .footer-social, footer .footer-copyright {
+      width: 50%; }
+      footer .footer-social .footer-social-link, footer .footer-copyright .footer-social-link {
+        float: right;
+        margin-left: 20px; } }
+  @media only screen and (max-width: 781px) {
+    footer .footer-content {
+      display: inline-block; }
+      footer .footer-content .footer-copyright {
+        margin-bottom: 15px; }
+      footer .footer-content .footer-social .footer-social-link {
+        float: left;
+        margin-right: 20px; } }
+  @media only screen and (max-width: 625px) {
+    footer {
+      padding: 25px; }
+      footer .footer-content .footer-copyright {
+        margin-bottom: 20; }
+      footer .footer-content .footer-social .footer-social-link {
+        height: 30px;
+        width: 30px; } }
 
 /*# sourceMappingURL=style.css.map */

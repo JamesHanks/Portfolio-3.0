@@ -12,7 +12,7 @@
 		<div class="about">
 			<span class="heading-small">About</span>
 
-			<h2>Hello! My name is James and I’m a London-based designer and developer.</h2>
+			<h2>Hello! My name is James and I’m a designer and developer based in London.</h2>
 
 			<p>I’m a final year BSc Digital Design student at <a href="https://www.brunel.ac.uk/" target="blank">Brunel University London</a>, having just completed my placement year working at <a href="http://panstudio.co.uk/" target="blank">PAN Studio</a>.</p>
 

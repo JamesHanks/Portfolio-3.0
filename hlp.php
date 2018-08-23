@@ -123,24 +123,10 @@
 
 	<!-- Next, To-Top and Previous arrows -->
 	<div class="case-study-arrows-container">
-
-		<!-- 
+ 
 		<a href="#">
-			<div class="case-study-arrow-1">
-				<span class="arrow-left-container">
-					<svg class="arrow-left"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-						<path d="M50,2.9c26-0.1,47.2,20.9,47.3,47c0.1,12.6-5,24.7-13.9,33.6c-18.5,18.5-48.4,18.5-66.9,0s-18.5-48.4,0-66.9C25.5,7.8,37.5,2.9,50,2.9M50,0L50,0C22.4,0,0,22.4,0,50l0,0c0,27.6,22.4,50,50,50l0,0c27.6,0,50-22.4,50-50l0,0C100,22.4,77.6,0,50,0z"/>
-						<path d="M81.1,52.9H21.7c-1.6,0-2.9-1.3-2.9-2.9c0-1.6,1.3-2.9,2.9-2.9h59.4c1.6,0,2.9,1.3,2.9,2.9C84,51.6,82.7,52.9,81.1,52.9z"/>
-						<path d="M41.7,74.3c-0.7,0-1.5-0.3-2-0.9L16.9,52c-1.1-1.1-1.1-2.9,0-4l22.9-21.4c0.9-1.3,2.7-1.5,4-0.6c1.3,0.9,1.5,2.7,0.6,4c-0.2,0.2-0.4,0.4-0.6,0.6L23.1,50l20.6,19.4c1.1,1.1,1.1,2.9,0,4C43.2,74,42.5,74.3,41.7,74.3z"/>
-					</svg>
-				</span>
-				<span class="arrow-left-text">
-					<h3>Hello Lamp Post</h3>
-					<h4>Previous Project</h4>
-				</span>
-			</div>
+			<div class="case-study-arrow-1"></div>
 		</a>
-		-->
 
 		<a href="#" onclick="scrollDown(document.getElementById('intro'))">
 			<div class="case-study-arrow-top">

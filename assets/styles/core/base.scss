@@ -1,5 +1,4 @@
 /* ==================== GENERAL ==================== */
-html { overflow-y: scroll; }
 
 body{
 	background: $white;
@@ -544,8 +543,6 @@ header{
 	.wamhp{ background-image: url("../images/wamhp_1.jpg"); }
 	.misc{ background-image: url("../images/misc_1.jpg"); }
 
-	.test{ background-image: url("../images/somnus-tile.png"); }
-
 	@media only screen and (min-width: $large){
 		height: 500px;
 
@@ -966,6 +963,8 @@ header{
 /* ==================== FOOTER ==================== */
 
 footer{
+	background: $white;
+	
 	.footer-content{
 		align-items: center;
 		display: flex;
