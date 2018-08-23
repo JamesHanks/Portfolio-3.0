@@ -89,6 +89,7 @@ h4{
 
 		
 		&:before{
+			/*
 			background-color: $light;
 			bottom: -2px;
 			content: "";
@@ -98,14 +99,29 @@ h4{
 			transition: $link;
 			-webkit-transition: $link;
 			width: 100%;
+			*/
+			content: "";
+			width: 0;
+			height: 6px;
+			position: absolute;
+			bottom: 3px;
+			right: 0;
+			background: $light-50;
+			transition: 0.3s;
+			z-index: -1;
 		}
 
 		&:hover:before {
+			/* 
 			transform: scaleX(1);
 			visibility: visible;
+			*/
+			width: 100%;
+			left: 0;
+			background: $light-50;
 		}
 
-	} 
+	}
 }
 
 .case-study-nav{
@@ -122,6 +138,7 @@ h4{
 		text-transform: uppercase;
 
 		&:before{
+			/*
 			background-color: $white;
 			bottom: -2px;
 			content: "";
@@ -131,11 +148,26 @@ h4{
 			transition: $link;
 			-webkit-transition: $link;
 			width: 100%;
+			*/
+			content: "";
+			width: 0;
+			height: 6px;
+			position: absolute;
+			bottom: 3px;
+			right: 0;
+			background: $white-25;
+			transition: 0.3s;
+			z-index: -1;
 		}
 
 		&:hover:before {
+			/*
 			transform: scaleX(1);
 			visibility: visible;
+			*/
+			width: 100%;
+			left: 0;
+			background: $white-25;
 		}
 	}
 }
