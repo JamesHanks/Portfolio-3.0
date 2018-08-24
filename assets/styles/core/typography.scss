@@ -89,17 +89,6 @@ h4{
 
 		
 		&:before{
-			/*
-			background-color: $light;
-			bottom: -2px;
-			content: "";
-			height: 2px;
-			position: absolute;
-			transform: scaleX(0);
-			transition: $link;
-			-webkit-transition: $link;
-			width: 100%;
-			*/
 			content: "";
 			width: 0;
 			height: 6px;
@@ -112,10 +101,6 @@ h4{
 		}
 
 		&:hover:before {
-			/* 
-			transform: scaleX(1);
-			visibility: visible;
-			*/
 			width: 100%;
 			left: 0;
 			background: $light-50;
@@ -138,17 +123,6 @@ h4{
 		text-transform: uppercase;
 
 		&:before{
-			/*
-			background-color: $white;
-			bottom: -2px;
-			content: "";
-			height: 2px;
-			position: absolute;
-			transform: scaleX(0);
-			transition: $link;
-			-webkit-transition: $link;
-			width: 100%;
-			*/
 			content: "";
 			width: 0;
 			height: 6px;
@@ -161,10 +135,6 @@ h4{
 		}
 
 		&:hover:before {
-			/*
-			transform: scaleX(1);
-			visibility: visible;
-			*/
 			width: 100%;
 			left: 0;
 			background: $white-25;
