@@ -27,7 +27,7 @@
 	</div>
 	<div class="portrait-container">
 		<div class="portrait">
-			<img src="assets/images/about.png" alt="Portrait">
+			<img src="assets/images/about.jpg" alt="Portrait">
 		</div>
 	</div>
 </section>

@@ -1,5 +1,5 @@
 // Masonry Initialisation
-$(document).ready(function(){
+jQuery(window).on('load', function(){ var $ = jQuery;
 	var grid = document.querySelector('.grid');
 	var msnry = new Masonry( grid, {
 		itemSelector: '.grid-item',
