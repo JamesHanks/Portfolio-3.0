@@ -101,18 +101,6 @@
 				<div class="image-container">
 					<img src="assets/images/hlp_8.jpg" alt="Project Image">
 				</div>
-				
-				<!-- 
-				<div class="image-container">
-					<img src="assets/images/hlp_9.jpg" alt="Project Image">
-				</div>
-				-->
-				
-				<!-- 
-				<div class="image-container">
-					<iframe src="https://player.vimeo.com/video/283897384?color=ffd100&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-				</div>
-				-->
 
 			</div>
 		</div>
