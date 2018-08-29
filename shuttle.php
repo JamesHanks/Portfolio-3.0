@@ -1,4 +1,4 @@
-<?php $title = "Project Name | "?>
+<?php $title = "Shuttle | "?>
 
 <?php include 'includes/header_1.php'; ?>
 <!-- Case Study Header -->
