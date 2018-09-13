@@ -110,9 +110,11 @@
 					<img src="assets/images/apto_8.jpg" alt="Project Image">
 				</div>
 
+				<!-- 
 				<div class="image-container">
 					<img src="assets/images/apto_9.jpg" alt="Project Image">
 				</div>
+				-->
 
 				<div class="image-container">
 					<img src="assets/images/apto_10.jpg" alt="Project Image">

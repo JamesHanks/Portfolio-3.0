@@ -127,6 +127,7 @@
 
 		<a href="wamhp.php">
 			<div class="case-study-arrow-2">
+				<!--
 				<span class="arrow-right-container">
 					<svg class="arrow-right" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
 						<path d="M50,2.9c26-0.1,47.2,20.9,47.3,47c0.1,12.6-5,24.7-13.9,33.6C64.9,102,35,102,16.5,83.5s-18.5-48.4,0-66.9C25.5,7.8,37.5,2.9,50,2.9M50,0L50,0C22.4,0,0,22.4,0,50l0,0c0,27.6,22.4,50,50,50l0,0c27.6,0,50-22.4,50-50l0,0C100,22.4,77.6,0,50,0z"/>
@@ -138,6 +139,7 @@
 					<h3>What Are Mental Health Problems?</h3>
 					<h4>Next Project</h4>
 				</span>
+				-->
 			</div>
 		</a>
 	</div>
