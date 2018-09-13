@@ -24,7 +24,7 @@
 					<div class="project-overlay-details">
 						<h3>Hello Lamp Post</h3>
 						<p>Design and development for the playful, city-wide system that lets people speak to street furniture.</p>
-						<p class="view-project">View project</p>
+						<p class="view-project">View Project</p>
 					</div>
 					<div class="project-overlay-colour"></div>
 				</div>
@@ -42,7 +42,7 @@
 					<div class="project-overlay-details">
 						<h3>Espia</h3>
 						<p>A ubiquitous robot proposed to keep its user safe in a future connected environment.</p>
-						<p class="view-project">View project</p>
+						<p class="view-project">View Project</p>
 					</div>
 					<div class="project-overlay-colour"></div>
 				</div>
@@ -60,7 +60,7 @@
 					<div class="project-overlay-details">
 						<h3>Somnus</h3>
 						<p>The 'sleep-friendly' network, designed to tackle electronic insomnia.</p>
-						<p class="view-project">View project</p>
+						<p class="view-project">View Project</p>
 					</div>
 					<div class="project-overlay-colour"></div>
 				</div>
@@ -78,7 +78,7 @@
 					<div class="project-overlay-details">
 						<h3>Apto Hotels</h3>
 						<p>New brand responding to the growing dissatisfaction with economy hotel chains.</p>
-						<p class="view-project">View project</p>
+						<p class="view-project">View Project</p>
 					</div>
 					<div class="project-overlay-colour"></div>
 				</div>
@@ -96,7 +96,7 @@
 					<div class="project-overlay-details">
 						<h3>Shuttle</h3>
 						<p>Mobile application pitched to expand a randomly selected brand’s customer outreach.</p>
-						<p class="view-project">View project</p>
+						<p class="view-project">View Project</p>
 					</div>
 					<div class="project-overlay-colour"></div>
 				</div>
@@ -114,7 +114,7 @@
 					<div class="project-overlay-details">
 						<h3>Sketchbook</h3>
 						<p>Selected pages from small sketchbooks I carry around with me.</p>
-						<p class="view-project">View project</p>
+						<p class="view-project">View Project</p>
 					</div>
 					<div class="project-overlay-colour"></div>
 				</div>
@@ -133,7 +133,7 @@
 					<div class="project-overlay-details">
 						<h3>What Are Mental Health Problems?</h3>
 						<p>Informational animation made for a mental health charity.</p>
-						<p class="view-project">View project</p>
+						<p class="view-project">View Project</p>
 					</div>
 					<div class="project-overlay-colour"></div>
 				</div>
@@ -151,7 +151,7 @@
 					<div class="project-overlay-details">
 						<h3>Miscellanous</h3>
 						<p>Various pieces of work that don't quite fit into a particular category.</p>
-						<p class="view-project">View project</p>
+						<p class="view-project">View Project</p>
 					</div>
 					<div class="project-overlay-colour"></div>
 				</div>
