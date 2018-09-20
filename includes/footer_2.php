@@ -56,6 +56,13 @@
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 <script src="assets/scripts/main.js"></script>
+<script src="assets/scripts/animsition.js"></script>
+
+  <script>
+  $(document).ready(function() {
+    $('.animsition').animsition();
+  });
+  </script>
 
 </body>
 </html>

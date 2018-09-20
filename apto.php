@@ -6,12 +6,12 @@
 
 		<!-- Navigation -->
 		<div class="case-study-exit">
-			<a href="index.php"><span>Back</span></a>
+			<a href="index.php" class="animsition-link"><span>Back</span></a>
 		</div>
 		<nav class="case-study-nav">
-			<span><a href="about.php">About</a></span>
+			<span><a href="about.php" class="animsition-link">About</a></span>
 			<span> — </span>
-			<span><a href="index.php">Work</a></span>
+			<span><a href="index.php" class="animsition-link">Work</a></span>
 		</nav>
 
 		<!-- Intro -->
@@ -138,7 +138,7 @@
 	<!-- Next, To-Top and Previous arrows -->
 	<div class="case-study-arrows-container">
 
-		<a href="somnus.php">
+		<a href="somnus.php" class="animsition-link">
 			<div class="case-study-arrow-1">
 				<span class="arrow-left-container">
 					<svg class="arrow-left"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
@@ -168,7 +168,7 @@
 			</div>
 		</a>
 
-		<a href="shuttle.php">
+		<a href="shuttle.php" class="animsition-link">
 			<div class="case-study-arrow-2">
 				<span class="arrow-right-container">
 					<svg class="arrow-right" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">

@@ -51,7 +51,8 @@
 
 	<!-- Styles -->
 	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+	<link rel="stylesheet" href="assets/styles/animsition.css">
 	<link rel="stylesheet" href="assets/styles/style.css">
-</head>
-<body>
 
+</head>
+<body class="animsition">

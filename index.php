@@ -8,6 +8,8 @@
 	<p>Hello! I’m an interaction designer and developer based in London. I strive to build elegant, user-centred and meaningful digital experiences.<br><br>You can view some examples of my work <a href="#" onclick="scrollDown(document.getElementById('projects'))">below</a>.</p>
 </div>
 
+<div class="animsition-loading"></div>
+
 <?php include 'includes/header_3.php'; ?>
 
 
@@ -17,7 +19,7 @@
 
 		<div class="project-gutter"></div>
 		
-		<a href="hlp.php" class="project-link grid-item">
+		<a href="hlp.php" class="project-link grid-item animsition-link">
 			<div class="project-container">
 				<img src="assets/images/hlp_tile.jpg" class="project-image" alt="Hello Lamp Post">
 				<div class="project-overlay">
@@ -35,7 +37,7 @@
 			</span>
 		</a>
 
-		<a href="espia.php" class="project-link grid-item">
+		<a href="espia.php" class="project-link grid-item animsition-link">
 			<div class="project-container">
 				<img src="assets/images/espia_tile.jpg" class="project-image" alt="Espia">
 				<div class="project-overlay">
@@ -53,7 +55,7 @@
 			</span>
 		</a>
 
-		<a href="somnus.php" class="project-link grid-item">
+		<a href="somnus.php" class="project-link grid-item animsition-link">
 			<div class="project-container">
 				<img src="assets/images/somnus_tile.gif" class="project-image" alt="Somnus">
 				<div class="project-overlay">
@@ -71,7 +73,7 @@
 			</span>
 		</a>
 
-		<a href="apto.php" class="project-link grid-item">
+		<a href="apto.php" class="project-link grid-item animsition-link">
 			<div class="project-container">
 				<img src="assets/images/apto_tile.jpg" class="project-image" alt="Apto Hotels">
 				<div class="project-overlay">
@@ -89,7 +91,7 @@
 			</span>
 		</a>
 
-		<a href="shuttle.php" class="project-link grid-item">
+		<a href="shuttle.php" class="project-link grid-item animsition-link">
 			<div class="project-container">
 				<img src="assets/images/shuttle_tile.jpg" class="project-image" alt="Sainsbury's Shuttle">
 				<div class="project-overlay">
@@ -107,7 +109,7 @@
 			</span>
 		</a>
 
-		<a href="sketchbook.php" class="project-link grid-item">
+		<a href="sketchbook.php" class="project-link grid-item animsition-link">
 			<div class="project-container">
 				<img src="assets/images/sketchbook_tile.gif" class="project-image" alt="Sketchbook">
 				<div class="project-overlay">
@@ -126,7 +128,7 @@
 		</a>
 		
 		<!--
-		<a href="project.php" class="project-link grid-item">
+		<a href="project.php" class="project-link grid-item animsition-link">
 			<div class="project-container">
 				<img src="assets/images/project-image-small.jpg" class="project-image" alt="What Are Mental Health Problems?">
 				<div class="project-overlay">
@@ -144,7 +146,7 @@
 			</span>
 		</a>
 
-		<a href="project.php" class="project-link grid-item">
+		<a href="project.php" class="project-link grid-item animsition-link">
 			<div class="project-container">
 				<img src="assets/images/project-image-small.jpg" class="project-image" alt="Miscellanous">
 				<div class="project-overlay">

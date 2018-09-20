@@ -21,8 +21,8 @@
 			</span>
 		</div>
 		<nav class="header-nav">
-			<span><a href="about.php">About</a></span>
+			<span><a href="about.php" class="animsition-link">About</a></span>
 			<span>—</span>
-			<span><a href="index.php">Work</a></span>
+			<span><a href="index.php" class="animsition-link">Work</a></span>
 		</nav>
 	</div>

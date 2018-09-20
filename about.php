@@ -7,7 +7,7 @@
 
 
 <!-- About Me -->
-<section class="content">
+<section class="content animsition">
 	<div class="about-container">
 		<div class="about">
 			<span class="heading-small">About</span>
