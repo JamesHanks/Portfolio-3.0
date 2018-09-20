@@ -55,4 +55,6 @@
 	<link rel="stylesheet" href="assets/styles/style.css">
 
 </head>
-<body class="animsition">
+<body>
+
+	<div class="animsition">
