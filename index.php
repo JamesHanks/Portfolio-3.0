@@ -8,8 +8,6 @@
 	<p>Hello! I’m an interaction designer and developer based in London. I strive to build elegant, user-centred and meaningful digital experiences.<br><br>You can view some examples of my work <a href="#" onclick="scrollDown(document.getElementById('projects'))">below</a>.</p>
 </div>
 
-<div class="animsition-loading"></div>
-
 <?php include 'includes/header_3.php'; ?>
 
 
