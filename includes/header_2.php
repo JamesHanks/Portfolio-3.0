@@ -2,7 +2,7 @@
 	<header>
 		<div class="header-container">
 			<div class="header-brand">
-				<a class="header-brand-logo-container" href="index.php">
+				<a class="header-brand-logo-container animsition-link" href="index.php">
 					<svg class="header-brand-logo"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
 						<style>
 						#eyelid-1{animation: blink 5s infinite;} #eyelid-2{animation: blink 5s infinite;}

@@ -46,7 +46,7 @@
 					</div>
 					<div class="case-study-client">
 						<span class="heading-small">Client</span>
-						<p><a href="https://www.elselondon.com/" target="blank">Else London</a></p>
+						<p><a href="https://www.elselondon.com/" target="blank">ELSE London</a></p>
 					</div>
 					<div class="case-study-category">
 						<span class="heading-small">Category</span>

@@ -71,7 +71,7 @@
 
 				<p>The application is certainly not without its disadvantages; an example being assuring safety for passengers and transporters. With more time I am sure that this sort of issue could be resolved.</p>
 
-				<p>The initial idea for this project was developed with support from <a href="https://www.linkedin.com/in/annie-maxted-32211195/" target="blank">Annie Maxted</a> for Made in Brunel’s <a href="https://www.brunel.ac.uk/design/24-hour-design-challenge" target="blank">24 Hour Design Challenge</a>.</p>
+				<p>The initial idea for this project was developed with support from <a href="https://www.linkedin.com/in/annie-maxted-32211195/" target="blank">Annie Maxted</a> for <a href="http://madeinbrunel.com/" target="blank">Made in Brunel’s</a> <a href="https://www.brunel.ac.uk/design/24-hour-design-challenge" target="blank">24 Hour Design Challenge</a>.</p>
 
 				<p>An interactive demo can be played with <a href="https://xd.adobe.com/view/ca8475e7-4be5-4333-9ba6-7b10bdf00f56/" target="blank">here</a>.</p>
 			</div>
