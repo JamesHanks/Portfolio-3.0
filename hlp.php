@@ -59,15 +59,15 @@
 
 			<div class="case-study-text-wrap">
 				<div class="column-1">
-					<p><a href=“http://www.hellolamppost.co.uk” target=“blank”>Hello Lamp Post</a> is a public engagement platform built in Ruby that allows people to have conversations with street furniture using text messages, Facebook Messenger or a web application.</p>
+					<p><a href="http://www.hellolamppost.co.uk" target="blank">Hello Lamp Post</a> is a public engagement platform built in Ruby that allows people to have conversations with street furniture using text messages, Facebook Messenger or a web application.</p>
 
-					<p>Originally built and maintained by <a href=“http://www.panstudio.co.uk” target=“blank”>PAN Studio</a>, it has recently become an independent company and has travelled to 10+ cities around the world and played by thousands of people.</p>
+					<p>Originally built and maintained by <a href="http://www.panstudio.co.uk" target="blank">PAN Studio</a>, it has recently become an independent company and has travelled to 10+ cities around the world and played by thousands of people.</p>
 				</div>
 
 				<div class="column-2">
 					<p>During my time at PAN, I was able to work on a variety of campaign and back-end system work for the platform. I applied skills in graphic design, web development, video and data visualisation as well as liaise and produce work for clients in the UK, USA, Netherlands and India.</p>
 
-					<p>Hello Lamp Post has been nominated for the prestigious <a href=“https://designmuseum.org/” target=“blank”>Design Museum’s</a> Design of the Year Award and won <a href=“https://www.watershed.co.uk/” target=“blank”>Watershed’s</a> first <a href=“https://www.playablecity.com/projects/hello-lamp-post/” target=“blank”>Playable City Award</a>.</p>
+					<p>Hello Lamp Post has been nominated for the prestigious <a href="https://designmuseum.org/" target="blank">Design Museum’s</a> <a href="https://www.dezeen.com/2014/02/10/designs-of-the-year-2014-shortlist-announced/" target="blank">Design of the Year Award</a> and won <a href="https://www.watershed.co.uk/" target="blank">Watershed’s</a> first <a href="https://www.playablecity.com/projects/hello-lamp-post/" target="blank">Playable City Award</a>.</p>
 				</div>
 			</div>
 
