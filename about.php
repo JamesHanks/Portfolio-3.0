@@ -22,7 +22,7 @@
 
 			<p>I can also be found on: <a href="https://www.twitter.com/jameshanks_" target="blank">Twitter</a> - <a href="https://www.instagram.com/jameshanks_" target="blank">Instagram</a> - <a href="https://www.linkedin.com/in/jameshanks" target="blank">LinkedIn</a></p>
 
-			<p>You can download my CV <a href="james-hanks-cv_2018">here</a>.</p>
+			<p>You can download my CV <a href="James_Hanks_CV.pdf">here</a>.</p>
 		</div>
 	</div>
 	<div class="portrait-container">

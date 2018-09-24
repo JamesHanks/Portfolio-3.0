@@ -74,7 +74,7 @@
 
 					<p>We also proposed an accompanying digital experience to re-connect customers with hotel staff and support them throughout the entire travel experience.</p>
 
-					<p>This was a group project where I took the role of Designer/Technologist. This involved developing the brand identity (name, logo, concept), UI/UX design and dynamic design system. I worked alongside <a href="http://lesliestowedesign.co.uk" target="blank">Leslie Stowe</a> and Rosanna Maddison.</p>
+					<p>This was a group project where I took the role of Designer/Technologist. This involved developing the brand identity (name, logo, concept), UI/UX design and dynamic design system. I worked alongside <a href="http://lesliestowedesign.co.uk" target="blank">Leslie Stowe</a> and <a href="https://rosiemaddesignblog.wordpress.com/" target="blank">Rosanna Maddison</a>.</p>
 				</div>
 			</div>
 
