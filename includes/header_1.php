@@ -21,20 +21,20 @@
 
 	<!-- Sharing -->
 	<meta itemprop="name" content="James Hanks">
-	<meta itemprop="description" content="James Hanks is an interaction designer and developer based in London">
-	<meta itemprop="image" content="assets/images/thumbnail.png">
+	<meta itemprop="description" content="James Hanks is an interaction designer and developer based in London.">
+	<meta itemprop="image" content="http://www.jameshanks.net/assets/images/thumbnail.png">
 
 	<!-- Twitter -->
 	<meta name="twitter:title" content="James Hanks">
-	<meta name="twitter:description" content="James Hanks is an interaction designer and developer based in London">
+	<meta name="twitter:description" content="James Hanks is an interaction designer and developer based in London.">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@jameshanks_">
 	<meta name="twitter:creator" content="@jameshanks_">
-	<meta name="twitter:image" content="assets/images/thumbnail.png">
+	<meta name="twitter:image" content="http://www.jameshanks.net/assets/images/thumbnail.png">
 
 	<!-- Open Graph -->
 	<meta property="og:title" content="James Hanks" />
-	<meta property="og:description" content="James Hanks is an interaction designer and developer based in London" />
+	<meta property="og:description" content="James Hanks is an interaction designer and developer based in London." />
 	<meta property="og:url" content="http://www.jameshanks.net/index.php" />
 	<meta property="og:image" content="http://www.jameshanks.net/assets/images/thumbnail.png" />
 	<meta property="og:type" content="website" />

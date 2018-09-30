@@ -67,7 +67,7 @@
 				<div class="column-2">
 					<p>During my time at PAN, I was able to work on a variety of campaign and back-end system work for the platform. I applied skills in graphic design, web development, video and data visualisation as well as liaise and produce work for clients in the UK, USA, Netherlands and India.</p>
 
-					<p>Hello Lamp Post has been nominated for the prestigious <a href="https://designmuseum.org/" target="blank">Design Museum’s</a> <a href="https://www.dezeen.com/2014/02/10/designs-of-the-year-2014-shortlist-announced/" target="blank">Design of the Year Award</a> and won <a href="https://www.watershed.co.uk/" target="blank">Watershed’s</a> first <a href="https://www.playablecity.com/projects/hello-lamp-post/" target="blank">Playable City Award</a>.</p>
+					<p>Hello Lamp Post has been nominated for the <a href="https://designmuseum.org/" target="blank">Design Museum’s</a> <a href="https://www.dezeen.com/2014/02/10/designs-of-the-year-2014-shortlist-announced/" target="blank">Digital Design of the Year Award</a> and won <a href="https://www.watershed.co.uk/" target="blank">Watershed’s</a> first <a href="https://www.playablecity.com/projects/hello-lamp-post/" target="blank">Playable City Award</a>.</p>
 				</div>
 			</div>
 
