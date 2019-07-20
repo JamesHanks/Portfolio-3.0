@@ -3,7 +3,7 @@
 body{
 	background: $white;
 	margin: 0 auto;
-	max-width: 2048px;
+	max-width: 2160px;
 
 	/*
 	@media only screen and (min-width: $large){
@@ -814,6 +814,7 @@ header{
 .case-study-image-wrap{
 	display: block;
 	margin-top: 20px;
+	text-align: center;
 
 	.image-container{
 		display: inline-block;

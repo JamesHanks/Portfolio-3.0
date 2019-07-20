@@ -40,6 +40,9 @@
 	<meta property="og:type" content="website" />
 	<meta property="fb:app_id" content="" />
 
+	<!-- Misc -->
+	<meta name="p:domain_verify" content="4bed5b1c56362e3b8b1258b5a164b94d"/>
+
 	<!-- Icons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
 	<link rel="shortcut icon" href="assets/images/favicon.ico">

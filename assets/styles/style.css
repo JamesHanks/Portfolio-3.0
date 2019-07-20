@@ -198,7 +198,7 @@ small {
 body {
   background: #FFFFFF;
   margin: 0 auto;
-  max-width: 2048px;
+  max-width: 2160px;
   	/*
   	@media only screen and (min-width: $large){
   		background: red;
@@ -710,7 +710,8 @@ header {
 
 .case-study-image-wrap {
   display: block;
-  margin-top: 20px; }
+  margin-top: 20px;
+  text-align: center; }
   .case-study-image-wrap .image-container {
     display: inline-block;
     margin-bottom: 15px; }
