@@ -486,14 +486,14 @@ header {
       .portrait-container .portrait {
         float: right;
         margin-left: 3%;
-        max-width: 495px;
+        max-width: 400px;
         width: 47%; } }
     @media only screen and (max-width: 940px) {
       .portrait-container .portrait img {
-        max-width: 495px; } }
+        max-width: 360px; } }
     @media only screen and (max-width: 781px) {
       .portrait-container .portrait img {
-        max-width: 450px; } }
+        max-width: 360px; } }
 
 /* ==================== CASE STUDY ==================== */
 .case-study-intro {
