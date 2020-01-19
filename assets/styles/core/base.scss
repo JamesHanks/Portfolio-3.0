@@ -13,7 +13,7 @@ body{
 	@media only screen and (max-width: $large){
 		background: orange;
 	}
-	
+
 	@media only screen and (max-width: $medium){
 		background: white;
 	}
@@ -21,7 +21,7 @@ body{
 	@media only screen and (max-width: $small){
 		background: green;
 	}
-	
+
 	@media only screen and (max-width: $extra-small){
 		background: blue;
 	}
@@ -269,7 +269,7 @@ header{
 				h3, p{
 					color: $white; margin-bottom: 20px;
 				}
-				
+
 				h4{
 					color: $white; opacity: 0.7
 				}
@@ -318,7 +318,7 @@ header{
 			h3{
 				color: $midtone;
 			}
-			
+
 			h4{
 				color: $light;
 			}
@@ -328,7 +328,7 @@ header{
 			h3{
 				color: $light;
 			}
-			
+
 			h4{
 				color: $midtone-25;
 			}
@@ -483,7 +483,7 @@ header{
 			}
 		}
 
-		@media only screen and (max-width: $medium){			
+		@media only screen and (max-width: $medium){
 			img{
 				max-width: 360px;
 			}
@@ -585,8 +585,7 @@ header{
 	.apto{ background-image: url("../images/apto_1.jpg"); }
 	.shuttle{ background-image: url("../images/shuttle_1.jpg"); }
 	.sketchbook{ background-image: url("../images/sketchbook_1.jpg"); }
-	.wamhp{ background-image: url("../images/wamhp_1.jpg"); }
-	.misc{ background-image: url("../images/misc_1.jpg"); }
+	.summit{ background-image: url("../images/summit_1.png"); }
 
 	@media only screen and (min-width: $large){
 		height: 500px;
@@ -895,11 +894,11 @@ header{
 		h3{
 			color: $midtone;
 		}
-		
+
 		h4{
 			color: $light;
 		}
-		
+
 		.arrow-left-container .arrow-left, .arrow-top-container .arrow-top, .arrow-right-container .arrow-right{
 			fill: $midtone;
 		}
@@ -909,11 +908,11 @@ header{
 		h3{
 			color: $light;
 		}
-		
+
 		h4{
 			color: $midtone-25;
 		}
-		
+
 		.arrow-left-container .arrow-left, .arrow-top-container .arrow-top,.arrow-right-container .arrow-right{
 			fill: $light;
 		}
@@ -1018,7 +1017,7 @@ header{
 
 footer{
 	background: $white;
-	
+
 	.footer-content{
 		align-items: center;
 		display: flex;
@@ -1041,7 +1040,7 @@ footer{
 				-webkit-transition: $link;
 
 				&:hover{
-					top: -4px;
+					// top: -4px;
 				}
 
 				.footer-logo{

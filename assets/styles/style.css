@@ -194,6 +194,9 @@ small {
   font-size: 16px;
   font-weight: 200; }
 
+.italic {
+  font-style: oblique; }
+
 /* ==================== GENERAL ==================== */
 body {
   background: #FFFFFF;
@@ -207,7 +210,7 @@ body {
   	@media only screen and (max-width: $large){
   		background: orange;
   	}
-  	
+  
   	@media only screen and (max-width: $medium){
   		background: white;
   	}
@@ -215,7 +218,7 @@ body {
   	@media only screen and (max-width: $small){
   		background: green;
   	}
-  	
+  
   	@media only screen and (max-width: $extra-small){
   		background: blue;
   	}
@@ -572,10 +575,8 @@ header {
     background-image: url("../images/shuttle_1.jpg"); }
   .case-study-intro .sketchbook {
     background-image: url("../images/sketchbook_1.jpg"); }
-  .case-study-intro .wamhp {
-    background-image: url("../images/wamhp_1.jpg"); }
-  .case-study-intro .misc {
-    background-image: url("../images/misc_1.jpg"); }
+  .case-study-intro .summit {
+    background-image: url("../images/summit_1.png"); }
   @media only screen and (min-width: 940px) {
     .case-study-intro {
       height: 500px; }
@@ -853,8 +854,6 @@ footer {
         top: 0;
         transition: all ease-in-out 0.2s;
         -webkit-transition: all ease-in-out 0.2s; }
-        footer .footer-content .footer-social .footer-social-link:hover {
-          top: -4px; }
         footer .footer-content .footer-social .footer-social-link .footer-logo {
           fill: #191947;
           transition: all ease-in-out 0.2s;

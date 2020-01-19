@@ -5,6 +5,14 @@
 		</div>
 
 		<div class="footer-social">
+			<span class="footer-social-link"> <a href="https://medium.com/@JamesHanks" target="blank">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve" class="footer-logo">
+					<title>Medium</title>
+					<path d="M50,0a50,50,0,1,0,50,50A50,50,0,0,0,50,0ZM83.3,83.2A45.9,45.9,0,0,1,50,97.1,47.1,47.1,0,0,1,16.6,16.7a47.3,47.3,0,0,1,66.7-.1A47.3,47.3,0,0,1,83.3,83.2Z"/>
+					<path d="M71.3,33.9l3.8-4.4H61.6L51.5,54.9,39.9,29.7H26.1l3.9,5a3.9,3.9,0,0,1,.9,2.9V59.1a6.8,6.8,0,0,1-.5,3.7l-5.5,7.1H39.2l-5.3-7a7.3,7.3,0,0,1-.8-3.8V39.6l.6,1.3L47.2,70.5h.2L60.3,38.3a21.1,21.1,0,0,0-.2,3.5V65a1.5,1.5,0,0,1-.4,1.4l-3.8,3.5H75.1l-3.8-3.5a1.3,1.3,0,0,1-.6-1.4V35.2h0A.9.9,0,0,1,71.3,33.9Z"/>
+				</svg>
+			</a></span>
+
 			<span class="footer-social-link"> <a href="https://www.linkedin.com/in/jameshanks" target="blank">
 				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve" class="footer-logo">
 					<title>LinkedIn</title>

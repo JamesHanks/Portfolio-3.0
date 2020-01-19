@@ -5,7 +5,7 @@
 
 <!-- Introduction -->
 <div class="introduction">
-	<p>Hello! I’m an interaction designer and developer based in London. I strive to build elegant, user-centred and meaningful digital experiences.<br><br>You can view some examples of my work <a href="#" onclick="scrollDown(document.getElementById('projects'))">below</a>.</p>
+	<p>Hello! I’m a product designer and developer based in London. I strive to build elegant, user-centred and meaningful digital experiences.<br><br>You can view some examples of my work <a href="#" onclick="scrollDown(document.getElementById('projects'))">below</a>.</p>
 </div>
 
 <?php include 'includes/header_3.php'; ?>
@@ -16,7 +16,43 @@
 	<div class="grid">
 
 		<div class="project-gutter"></div>
-		
+
+		<!-- <a href="#" class="project-link grid-item animsition-link">
+			<div class="project-container">
+				<img src="assets/images/project-image-medium.jpg" class="project-image" alt="Durex Booth">
+				<div class="project-overlay">
+					<div class="project-overlay-details">
+						<h3>Durex Booth</h3>
+						<p>Lorem ipsum dolor.</p>
+						<p class="view-project">View Project</p>
+					</div>
+					<div class="project-overlay-colour"></div>
+				</div>
+			</div>
+			<span class="project-details">
+				<h3>Durex Booth</h3>
+				<h4>User Experience</h4>
+			</span>
+		</a> -->
+
+		<a href="summit.php" class="project-link grid-item animsition-link">
+			<div class="project-container">
+				<img src="assets/images/summit_tile.png" class="project-image" alt="Summit">
+				<div class="project-overlay">
+					<div class="project-overlay-details">
+						<h3>Summit</h3>
+						<p>The design and full-stack development of an ethical discussion widget designed to facilitate positive online discourse.</p>
+						<p class="view-project">View Project</p>
+					</div>
+					<div class="project-overlay-colour"></div>
+				</div>
+			</div>
+			<span class="project-details">
+				<h3>Summit</h3>
+				<h4>Full-stack Development, Product Design, User Experience</h4>
+			</span>
+		</a>
+
 		<a href="hlp.php" class="project-link grid-item animsition-link">
 			<div class="project-container">
 				<img src="assets/images/hlp_tile.jpg" class="project-image" alt="Hello Lamp Post">
@@ -89,6 +125,24 @@
 			</span>
 		</a>
 
+		<a href="sketchbook.php" class="project-link grid-item animsition-link">
+			<div class="project-container">
+				<img src="assets/images/sketchbook_tile.gif" class="project-image" alt="Sketchbook">
+				<div class="project-overlay">
+					<div class="project-overlay-details">
+						<h3>Sketchbook</h3>
+						<p>Selected pages from small sketchbooks I carry around with me.</p>
+						<p class="view-project">View Project</p>
+					</div>
+					<div class="project-overlay-colour"></div>
+				</div>
+			</div>
+			<span class="project-details">
+				<h3>Sketchbook</h3>
+				<h4>Process</h4>
+			</span>
+		</a>
+
 		<a href="shuttle.php" class="project-link grid-item animsition-link">
 			<div class="project-container">
 				<img src="assets/images/shuttle_tile.jpg" class="project-image" alt="Sainsbury's Shuttle">
@@ -107,24 +161,6 @@
 			</span>
 		</a>
 
-		<a href="sketchbook.php" class="project-link grid-item animsition-link">
-			<div class="project-container">
-				<img src="assets/images/sketchbook_tile.gif" class="project-image" alt="Sketchbook">
-				<div class="project-overlay">
-					<div class="project-overlay-details">
-						<h3>Sketchbook</h3>
-						<p>Selected pages from small sketchbooks I carry around with me.</p>
-						<p class="view-project">View Project</p>
-					</div>
-					<div class="project-overlay-colour"></div>
-				</div>
-			</div>
-			<span class="project-details">
-				<h3>Sketchbook</h3>
-				<h4>Process</h4>
-			</span>
-		</a>
-		
 		<!--
 		<a href="project.php" class="project-link grid-item animsition-link">
 			<div class="project-container">
@@ -162,7 +198,7 @@
 			</span>
 		</a>
 		-->
-		
+
 	</div>
 </section>
 
